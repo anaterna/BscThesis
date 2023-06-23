@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "jhotdraw-xml",
+    "name": "jhotdraw/jhotdraw-xml",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "50",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "576"
+      },
+      {
+        "metric": "classes",
+        "value": "13"
+      },
+      {
+        "metric": "complexity",
+        "value": "258"
+      },
+      {
+        "metric": "critical_violations",
+        "value": "14",
+        "bestValue": false
+      },
+      {
+        "metric": "development_cost",
+        "value": "32670",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "0.0",
+        "bestValue": true
+      },
+      {
+        "metric": "bugs",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "1998"
+      }
+    ]
+  }
+}

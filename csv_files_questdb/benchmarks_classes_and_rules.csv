@@ -1,0 +1,104 @@
+Class,RuleId,RuleName,Severity,Line,Message
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMain.java",S1481,"Unused local variables should be removed",MINOR,56
+"benchmarks:src/main/java/org/questdb/CountIntBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,40
+"benchmarks:src/main/java/org/questdb/CountIntBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,40
+"benchmarks:src/main/java/org/questdb/CountIntBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,41
+"benchmarks:src/main/java/org/questdb/CountIntBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,41
+"benchmarks:src/main/java/org/questdb/CountLongBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,40
+"benchmarks:src/main/java/org/questdb/CountLongBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,40
+"benchmarks:src/main/java/org/questdb/CountLongBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,41
+"benchmarks:src/main/java/org/questdb/CountLongBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,41
+"benchmarks:src/main/java/org/questdb/FastMapReadRandomKeyBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,49
+"benchmarks:src/main/java/org/questdb/FastMapReadRandomKeyBenchmark.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,73
+"benchmarks:src/main/java/org/questdb/FastMapReadSequentialKeyBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,50
+"benchmarks:src/main/java/org/questdb/FastMapReadSequentialKeyBenchmark.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,75
+"benchmarks:src/main/java/org/questdb/FastMapWriteBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,49
+"benchmarks:src/main/java/org/questdb/FastMapWriteBenchmark.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,73
+"benchmarks:src/main/java/org/questdb/FastMapWriteLongBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,50
+"benchmarks:src/main/java/org/questdb/FastMapWriteLongBenchmark.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,73
+"benchmarks:src/main/java/org/questdb/MemEqBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,43
+"benchmarks:src/main/java/org/questdb/MemEqBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,43
+"benchmarks:src/main/java/org/questdb/MemEqBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,44
+"benchmarks:src/main/java/org/questdb/MemEqBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,45
+"benchmarks:src/main/java/org/questdb/TableReaderReloadBenchmark.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,88
+"benchmarks:src/main/java/org/questdb/TableReaderReloadBenchmark.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,102
+"benchmarks:src/main/java/org/questdb/TableWriterBenchmark.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,84
+"benchmarks:src/main/java/org/questdb/TableWriterBenchmark.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,85
+"benchmarks:src/main/java/org/questdb/TableWriterBenchmark.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,86
+"benchmarks:src/main/java/org/questdb/LogBenchmark.java",S1192,"String literals should not be duplicated",CRITICAL,81
+"benchmarks:src/main/java/org/questdb/LogBenchmark.java",S1192,"String literals should not be duplicated",CRITICAL,81
+"benchmarks:src/main/java/org/questdb/CutlassLexerTest.java",S1124,"Modifiers should be declared in the correct order",MINOR,47
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMainFileLimitSimulation.java",S1068,"Unused "private" fields should be removed",MAJOR,81
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMainFileLimitSimulation.java",S1144,"Unused "private" methods should be removed",MAJOR,117
+"benchmarks:src/main/java/org/questdb/Log4jBenchmark.java",S1186,"Methods should not be empty",CRITICAL,64
+"benchmarks:src/main/java/org/questdb/LogBenchmark.java",S1186,"Methods should not be empty",CRITICAL,76
+"benchmarks:src/main/java/org/questdb/MemCopyBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,46
+"benchmarks:src/main/java/org/questdb/MemCopyBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,47
+"benchmarks:src/main/java/org/questdb/OooCppBenchmarkSetMemoryVanilla.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,48
+"benchmarks:src/main/java/org/questdb/OooCppBenchmarkSetMemoryVanilla.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,93
+"benchmarks:src/main/java/org/questdb/ParseDoubleCharSequenceBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,44
+"benchmarks:src/main/java/org/questdb/ParseFloatCharSequenceBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,46
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientBenchmark.java",S1192,"String literals should not be duplicated",CRITICAL,44
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientScrapeBenchmark.java",S1186,"Methods should not be empty",CRITICAL,107
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientScrapeBenchmark.java",S1186,"Methods should not be empty",CRITICAL,111
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientScrapeBenchmark.java",S1186,"Methods should not be empty",CRITICAL,123
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientScrapeBenchmark.java",S1186,"Methods should not be empty",CRITICAL,127
+"benchmarks:src/main/java/org/questdb/SinkDoubleBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,43
+"benchmarks:src/main/java/org/questdb/SinkDoubleBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,43
+"benchmarks:src/main/java/org/questdb/SqlKeywordsBenchmark.java",S1192,"String literals should not be duplicated",CRITICAL,55
+"benchmarks:src/main/java/org/questdb/ArrayFillBenchmark.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,56
+"benchmarks:src/main/java/org/questdb/CsvLexerBenchmark.java",S1075,"URIs should not be hardcoded",MINOR,44
+"benchmarks:src/main/java/org/questdb/CsvLexerBenchmark.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,70
+"benchmarks:src/main/java/org/questdb/PingMain.java",S135,"Loops should not contain more than a single "break" or "continue" statement",MINOR,68
+"benchmarks:src/main/java/org/questdb/PongMain.java",S1124,"Modifiers should be declared in the correct order",MINOR,60
+"benchmarks:src/main/java/org/questdb/PongMain.java",S1124,"Modifiers should be declared in the correct order",MINOR,61
+"benchmarks:src/main/java/org/questdb/PongMain.java",S1170,"Public constants and fields initialized at declaration should be "static final" rather than merely "final"",MINOR,62
+"benchmarks:src/main/java/org/questdb/SinkDoubleBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,41
+"benchmarks:src/main/java/org/questdb/SinkDoubleBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,41
+"benchmarks:src/main/java/org/questdb/SinkDoubleBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,42
+"benchmarks:src/main/java/org/questdb/SinkDoubleBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,42
+"benchmarks:src/main/java/org/questdb/SinkDoubleBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,44
+"benchmarks:src/main/java/org/questdb/SumDoubleBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,40
+"benchmarks:src/main/java/org/questdb/SumDoubleBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,40
+"benchmarks:src/main/java/org/questdb/SumDoubleBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,41
+"benchmarks:src/main/java/org/questdb/SumDoubleBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,41
+"benchmarks:src/main/java/org/questdb/SOCountDownLatchBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,42
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMainFileLimitSimulation.java",S125,"Sections of code should not be commented out",MAJOR,67
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMainFileLimitSimulation.java",S125,"Sections of code should not be commented out",MAJOR,101
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMain.java",S1172,"Unused method parameters should be removed",MAJOR,45
+"benchmarks:src/main/java/org/questdb/SqlJitCompilerBenchmark.java",S1481,"Unused local variables should be removed",MINOR,137
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMainDupCols.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,53
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMainDupTimestamp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,53
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMain.java",S1481,"Unused local variables should be removed",MINOR,46
+"benchmarks:src/main/java/org/questdb/StrLoopBenchmark.java",S3008,"Static non-final field names should comply with a naming convention",MINOR,41
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMainVarLenStrings.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,86
+"benchmarks:src/main/java/org/questdb/RawTCPILPSenderMain.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,46
+"benchmarks:src/main/java/org/questdb/RawTCPILPSenderMain.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,51
+"benchmarks:src/main/java/org/questdb/RawTCPILPSenderMain.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,54
+"benchmarks:src/main/java/org/questdb/CutlassLexerTest.java",S115,"Constant names should comply with a naming convention",CRITICAL,48
+"benchmarks:src/main/java/org/questdb/OooCppBenchmarkSetMemoryShuffle.java",S3457,"Printf-style format strings should be used correctly",MAJOR,78
+"benchmarks:src/main/java/org/questdb/OooCppBenchmarkSetMemoryShuffle.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,78
+"benchmarks:src/main/java/org/questdb/GeoHashesAppendCharBenchmark.java",S100,"Method names should comply with a naming convention",MINOR,136
+"benchmarks:src/main/java/org/questdb/GeoHashesSwitchOnIntVsCharBenchmark.java",S100,"Method names should comply with a naming convention",MINOR,94
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientBenchmark.java",S1192,"String literals should not be duplicated",CRITICAL,45
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientScrapeBenchmark.java",S1186,"Methods should not be empty",CRITICAL,115
+"benchmarks:src/main/java/org/questdb/PrometheusSimpleClientScrapeBenchmark.java",S1186,"Methods should not be empty",CRITICAL,119
+"benchmarks:src/main/java/org/questdb/MemCopyBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,43
+"benchmarks:src/main/java/org/questdb/MemCopyBenchmark.java",S1124,"Modifiers should be declared in the correct order",MINOR,43
+"benchmarks:src/main/java/org/questdb/OooCppBenchmarkSetMemoryShuffle.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,36
+"benchmarks:src/main/java/org/questdb/OooCppBenchmarkSetMemoryShuffle.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,94
+"benchmarks:src/main/java/org/questdb/OooCppBenchmarkSetMemoryVanilla.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,39
+"benchmarks:src/main/java/org/questdb/TableReaderReloadBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,52
+"benchmarks:src/main/java/org/questdb/TableReaderReloadBenchmark.java",S1068,"Unused "private" fields should be removed",MAJOR,54
+"benchmarks:src/main/java/org/questdb/TableReaderReloadBenchmark.java",S6213,"Restricted Identifiers should not be used as Identifiers",MAJOR,106
+"benchmarks:src/main/java/org/questdb/TableReaderReloadBenchmark.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,108
+"benchmarks:src/main/java/org/questdb/TableReaderReloadBenchmark.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,114
+"benchmarks:src/main/java/org/questdb/CoalesceBenchmark.java",S3010,"Static fields should not be updated in constructors",MAJOR,51
+"benchmarks:src/main/java/org/questdb/CoalesceBenchmark.java",S3010,"Static fields should not be updated in constructors",MAJOR,64
+"benchmarks:src/main/java/org/questdb/CoalesceBenchmark.java",S3010,"Static fields should not be updated in constructors",MAJOR,67
+"benchmarks:src/main/java/org/questdb/LineTCPSenderMain.java",S1481,"Unused local variables should be removed",MINOR,52
+"benchmarks:src/main/java/org/questdb/DoubleBenchmark.java",S115,"Constant names should comply with a naming convention",CRITICAL,41
+"benchmarks:src/main/java/org/questdb/LineUDPSenderMain.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,48
+"benchmarks:src/main/java/org/questdb/CutlassLexerTest.java",S1186,"Methods should not be empty",CRITICAL,81
+"benchmarks:src/main/java/org/questdb/CutlassLexerTest.java",S1186,"Methods should not be empty",CRITICAL,86
+"benchmarks:src/main/java/org/questdb/CutlassLexerTest.java",S1186,"Methods should not be empty",CRITICAL,91

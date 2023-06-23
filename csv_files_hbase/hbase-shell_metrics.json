@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-shell",
+    "name": "hbase/hbase-shell",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "statements",
+        "value": "6462"
+      },
+      {
+        "metric": "classes",
+        "value": "249"
+      },
+      {
+        "metric": "critical_violations",
+        "value": "68",
+        "bestValue": false
+      },
+      {
+        "metric": "development_cost",
+        "value": "442890",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "code_smells",
+        "value": "194",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "1.6",
+        "bestValue": false
+      },
+      {
+        "metric": "bugs",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "lines",
+        "value": "22587"
+      },
+      {
+        "metric": "complexity",
+        "value": "1810"
+      }
+    ]
+  }
+}

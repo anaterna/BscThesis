@@ -1,0 +1,95 @@
+Class,RuleId,RuleName,Severity,Line,Message
+"utils:src/test/java/io/questdb/cliutil/Table2IlpTest.java",S1066,"Collapsible "if" statements should be merged",MAJOR,414
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,33
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,33
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,71
+"utils:src/main/java/io/questdb/cliutil/TxSerializer.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,84
+"utils:src/main/java/io/questdb/cliutil/TxSerializer.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,163
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,53
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,70
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S1659,"Multiple variables should not be declared on the same line",MINOR,76
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S127,""for" loop stop conditions should be invariant",MAJOR,82
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S127,""for" loop stop conditions should be invariant",MAJOR,85
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S127,""for" loop stop conditions should be invariant",MAJOR,88
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S127,""for" loop stop conditions should be invariant",MAJOR,91
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S127,""for" loop stop conditions should be invariant",MAJOR,94
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S127,""for" loop stop conditions should be invariant",MAJOR,97
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S127,""for" loop stop conditions should be invariant",MAJOR,103
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,106
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,112
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,117
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,125
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,133
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,137
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,142
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,151
+"utils:src/main/java/io/questdb/cliutil/Table2Ilp.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,164
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S1141,"Try-catch blocks should not be nested",MAJOR,66
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,74
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S1141,"Try-catch blocks should not be nested",MAJOR,79
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,82
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,92
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,94
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S112,"Generic exceptions should never be thrown",MAJOR,142
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S107,"Methods should not have too many parameters",MAJOR,163
+"utils:src/main/java/io/questdb/cliutil/Table2IlpCopier.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,163
+"utils:src/main/java/io/questdb/cliutil/TxSerializer.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,233
+"utils:src/test/java/io/questdb/cliutil/Table2IlpTest.java",S1444,""public static" fields should be constant",MINOR,60
+"utils:src/test/java/io/questdb/cliutil/Table2IlpTest.java",S1192,"String literals should not be duplicated",CRITICAL,194
+"utils:src/test/java/io/questdb/cliutil/Table2IlpTest.java",S1192,"String literals should not be duplicated",CRITICAL,195
+"utils:src/test/java/io/questdb/cliutil/Table2IlpTest.java",S1192,"String literals should not be duplicated",CRITICAL,264
+"utils:src/test/java/io/questdb/cliutil/TestUtils.java",S1118,"Utility classes should not have public constructors",MAJOR,38
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,42
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,42
+"utils:src/main/java/io/questdb/cliutil/RebuildColumnCommandArgs.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,35
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,32
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,32
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,32
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,34
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,34
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,34
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,36
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,36
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,38
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,38
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,40
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,40
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,43
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,43
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,44
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,44
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,46
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,46
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,72
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,73
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,74
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,45
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,45
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,120
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,121
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,122
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,123
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,125
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,126
+"utils:src/main/java/io/questdb/cliutil/CmdUtils.java",S1118,"Utility classes should not have public constructors",MAJOR,43
+"utils:src/main/java/io/questdb/cliutil/RebuildColumnCommandArgs.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,38
+"utils:src/main/java/io/questdb/cliutil/RebuildColumnCommandArgs.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,52
+"utils:src/main/java/io/questdb/cliutil/RebuildColumnCommandArgs.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,62
+"utils:src/test/java/io/questdb/cliutil/IndexBuilderTest.java",S1192,"String literals should not be duplicated",CRITICAL,36
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,35
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,35
+"utils:src/main/java/io/questdb/cliutil/CmdUtils.java",S1075,"URIs should not be hardcoded",MINOR,56
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,37
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,37
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,39
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,39
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S1104,"Class variable fields should not have public accessibility",MINOR,41
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,41
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,70
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,89
+"utils:src/main/java/io/questdb/cliutil/TxFileStruct.java",S116,"Field names should comply with a naming convention",MINOR,90
+"utils:src/main/java/io/questdb/cliutil/TxSerializer.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,79
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1444,""public static" fields should be constant",MINOR,45
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,203
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,204
+"utils:src/test/java/io/questdb/cliutil/TxSerializerTest.java",S1192,"String literals should not be duplicated",CRITICAL,205

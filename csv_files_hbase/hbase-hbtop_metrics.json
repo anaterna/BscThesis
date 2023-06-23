@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-hbtop",
+    "name": "hbase/hbase-hbtop",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "critical_violations",
+        "value": "60",
+        "bestValue": false
+      },
+      {
+        "metric": "development_cost",
+        "value": "213450",
+        "bestValue": false
+      },
+      {
+        "metric": "bugs",
+        "value": "7",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "2.5",
+        "bestValue": false
+      },
+      {
+        "metric": "classes",
+        "value": "86"
+      },
+      {
+        "metric": "complexity",
+        "value": "1259"
+      },
+      {
+        "metric": "statements",
+        "value": "3072"
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "code_smells",
+        "value": "140",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "10392"
+      }
+    ]
+  }
+}

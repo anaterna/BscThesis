@@ -1,0 +1,11 @@
+Class,RuleId,RuleName,Severity,Line,Message
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/AbstractClipboard.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,25
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/AbstractTransferable.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,25
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/AbstractTransferable.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,32
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/ClipboardUtil.java",S1118,"Utility classes should not have public constructors",MAJOR,20
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/ClipboardUtil.java",S125,"Sections of code should not be commented out",MAJOR,41
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/CompositeTransferable.java",S1186,"Methods should not be empty",CRITICAL,27
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/CompositeTransferable.java",S1186,"Methods should not be empty",CRITICAL,85
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/ImageTransferable.java",S125,"Sections of code should not be commented out",MAJOR,52
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/OSXClipboard.java",S1874,""@Deprecated" code should not be used",MINOR,36
+"jhotdraw-datatransfer:src/main/java/org/jhotdraw/datatransfer/OSXClipboard.java",S1181,"Throwable and Error should not be caught",MAJOR,39

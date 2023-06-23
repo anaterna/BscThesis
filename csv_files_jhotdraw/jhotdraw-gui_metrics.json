@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "jhotdraw-gui",
+    "name": "jhotdraw/jhotdraw-gui",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "statements",
+        "value": "8494"
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "13.2",
+        "bestValue": false
+      },
+      {
+        "metric": "critical_violations",
+        "value": "272",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "25795"
+      },
+      {
+        "metric": "bugs",
+        "value": "46",
+        "bestValue": false
+      },
+      {
+        "metric": "development_cost",
+        "value": "516150",
+        "bestValue": false
+      },
+      {
+        "metric": "classes",
+        "value": "166"
+      },
+      {
+        "metric": "code_smells",
+        "value": "950",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "3362"
+      }
+    ]
+  }
+}

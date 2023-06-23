@@ -1,0 +1,100 @@
+"project","path","file","comment","type"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Disposable.java","org.jhotdraw.api.app.Disposable.java","
+ * @(#)Disposable.java
+ *
+ * Copyright (c) 2009-2010 The authors and contributors of JHotDraw.
+ *
+ * You may not use, copy or modify this file, except in compliance with the
+ * accompanying license terms.
+ ","non-SATD"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Disposable.java","org.jhotdraw.api.app.Disposable.java","*
+ * Interface for objects which explicitly must be disposed to free resources.
+ *
+ * @author Werner Randelshofer
+ * @version $Id$
+ ","non-SATD"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Disposable.java","org.jhotdraw.api.app.Disposable.java","* Disposes of all resources held by this object so that they can be garbage collected. ","non-SATD"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Application.java","org.jhotdraw.api.app.Application.java","
+ * @(#)Application.java
+ *
+ * Copyright (c) 1996-2011 The authors and contributors of JHotDraw.
+ * You may not use, copy or modify this file, except in compliance with the
+ * accompanying license terms.
+ ","non-SATD"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Application.java","org.jhotdraw.api.app.Application.java","*
+ * An <em>application</em> handles the lifecycle of {@link View} objects and provides windows to
+ * present them on screen.
+ *
+ * <p>An application owns a {@link ApplicationModel} which provides meta-data about the application,
+ * actions and factory methods for creating the views.
+ *
+ * <p>Depending on the document interface style used by the application, an application can handle
+ * multiple views at the same time, or only one.
+ *
+ * <p>Typical document interface styles are the Single Document Interface (SDI), the Multiple
+ * Document Interface (MDI) and the Mac OS X Application Interface (OSX). Typically, for each of
+ * these styles an implementation of {@code Application} exists.
+ *
+ * <p>Some applications have to decorate all opened windows and dialogs with user interface elements
+ * and special behaviors. To make this work, it is essential that all code which opens JFrame's,
+ * JDialog's or JWindow's calls the addWindow/Palette and removeWindow/Palette methods on the
+ * application object.
+ *
+ * <p>Unless stated otherwise all methods must be called from the AWT Event Dispatcher Thread.
+ *
+ * <p>Typical usage of this class:
+ *
+ * <pre>
+ * public class MyMainClass {
+ *     public static void main(String[] args) {
+ *         Application app = new SDIApplication(); // or OSXApplication(), MDIApplication().
+ *         DefaultApplicationModel model = new DefaultApplicationModel();
+ *         model.setName(""MyApplication"");
+ *         model.setVersion(""1.0"");
+ *         model.setCopyright(""Copyright 2006 (c) Werner Randelshofer. All Rights Reserved."");
+ *         model.setViewClassName(""org.jhotdraw.myapplication.MyView"");
+ *         app.setModel(model);
+ *         app.launch(args);
+ *     }
+ * </pre>
+ *
+ * <hr> <b>Features</b>
+ *
+ * <p><em>Open last URI on launch</em><br>
+ * When the application is launched, it opens the last opened URI in a view.<br>
+ * {@code Application} also provides an API for data suppliers in {@link #addRecentURI}, {@link
+ * #getRecentURIs}, {@link #clearRecentURIs}.<br>
+ * See {@link org.jhotdraw.api.app} for a description of the feature. <hr> <b>Design Patterns</b>
+ *
+ * <p><em>Framework</em><br>
+ * The interfaces and classes listed below together with the {@code Action} classes in the
+ * org.jhotddraw.app.action package define the contracts of a framework for document oriented
+ * applications:<br>
+ * Contract: {@link Application}, {@link ApplicationModel}, {@link View}.
+ *
+ * <p><em>Abstract Factory</em><br>
+ * {@code MenuBuilder} is used by {@code Application} for creating menu items. The {@code
+ * MenuBuilder} is provided by {@code ApplicationModel}.<br>
+ * Abstract Factory: {@link MenuBuilder}<br>
+ * Client: {@link Application}. <hr>
+ *
+ * @author Werner Randelshofer
+ * @version $Id$
+ ","code|design-debt"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Application.java","org.jhotdraw.api.app.Application.java","* The property name of the activeView property. ","non-SATD"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Application.java","org.jhotdraw.api.app.Application.java","* The property name of the recentURIs property. ","non-SATD"
+"jhotdraw","jhotdraw/jhotdraw-api/src/main/java/org/jhotdraw/api/app/Application.java","org.jhotdraw.api.app.Application.java","*
+   * Launches the application from the main method.
+   *
+   * <p>This method must be called from the main thread of the application.
+   *
+   * <p>Implementations of this method must invoke {@code configure()} on the current thread and
+   * then {@code init(); applicationModel.initApplication(this); start();} on the AWT Event
+   * Dispatcher Thread.
+   *
+   * <p>The launch method determines which URI's it wants to supply to the start() method.
+   * Typically, if URI's have been passed in the {@code args} parameter, they are passed on to the
+   * start() method. Otherwise, if the property {@code openLastURIOnLaunch} of the application model
+   * is true, the last opened URI is passed to the start method.
+   *
+   * <p>This method implements behavior for the following features: <em>Launch application</em>,... (3 MB left)

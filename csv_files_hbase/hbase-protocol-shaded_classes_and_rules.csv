@@ -1,0 +1,4 @@
+Class,RuleId,RuleName,Severity,Line
+"hbase-protocol-shaded:src/main/java/org/apache/hadoop/hbase/util/ForeignExceptionUtil.java",S1181,MAJOR,54
+"hbase-protocol-shaded:src/main/java/org/apache/hadoop/hbase/util/ForeignExceptionUtil.java",S3011,MAJOR,67
+"hbase-protocol-shaded:src/main/java/org/apache/hadoop/hbase/util/ForeignExceptionUtil.java",S1181,MAJOR,44

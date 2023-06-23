@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "jhotdraw-datatransfer",
+    "name": "jhotdraw/jhotdraw-datatransfer",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "duplicated_lines_density",
+        "value": "0.0",
+        "bestValue": true
+      },
+      {
+        "metric": "critical_violations",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "classes",
+        "value": "9"
+      },
+      {
+        "metric": "complexity",
+        "value": "41"
+      },
+      {
+        "metric": "development_cost",
+        "value": "7830",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "79"
+      },
+      {
+        "metric": "code_smells",
+        "value": "10",
+        "bestValue": false
+      },
+      {
+        "metric": "bugs",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "603"
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      }
+    ]
+  }
+}

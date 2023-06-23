@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-balancer",
+    "name": "hbase/hbase-balancer",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "bugs",
+        "value": "9",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "development_cost",
+        "value": "304290",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "5125"
+      },
+      {
+        "metric": "code_smells",
+        "value": "199",
+        "bestValue": false
+      },
+      {
+        "metric": "classes",
+        "value": "102"
+      },
+      {
+        "metric": "lines",
+        "value": "15308"
+      },
+      {
+        "metric": "critical_violations",
+        "value": "43",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "2.7",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "1743"
+      }
+    ]
+  }
+}

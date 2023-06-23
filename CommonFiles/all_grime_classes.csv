@@ -1,0 +1,1453 @@
+Class,cg-na,cg-npm,Pattern,count
+org.jhotdraw.api.app.ApplicationModel,0,51,Factory Method;Bridge;(Object)Adapter,3
+org.jhotdraw.api.gui.URIChooser,50,85,Factory Method;Bridge;(Object)Adapter,3
+org.jhotdraw.samples.svg.io.SVGFigureFactory,0,14,Factory Method;State,2
+org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory,0,13,Factory Method,1
+org.jhotdraw.draw.figure.Figure,132,1351,Composite;State;Bridge;Factory Method;Decorator;(Object)Adapter;Prototype,25
+org.jhotdraw.draw.figure.CompositeFigure,5,100,Factory Method;State;Prototype,5
+org.jhotdraw.samples.svg.Gradient,0,10,Factory Method,1
+org.jhotdraw.samples.odg.figures.ODGFigure,0,1,Factory Method,1
+org.jhotdraw.samples.svg.figures.SVGFigure,0,1,Factory Method,1
+org.jhotdraw.draw.connector.Connector,0,70,Factory Method;State;Prototype;(Object)Adapter,6
+org.jhotdraw.draw.figure.TextHolderFigure,0,139,Factory Method;State;Prototype;(Object)Adapter,10
+org.jhotdraw.samples.svg.figures.SVGTextAreaFigure,70,280,Composite;Factory Method;Prototype;Decorator,10
+org.jhotdraw.samples.svg.figures.SVGTextFigure,70,320,Composite;Factory Method;Prototype;Decorator,10
+org.jhotdraw.geom.Insets2D,6,10,Template Method;Factory Method,2
+org.jhotdraw.samples.odg.figures.ODGPathFigure,18,189,Template Method;Composite;Prototype;Decorator,9
+org.jhotdraw.samples.odg.figures.ODGGroupFigure,16,48,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.odg.figures.ODGRectFigure,32,176,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.odg.figures.ODGEllipseFigure,24,136,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.odg.figures.ODGAttributedFigure,9,27,Template Method;Composite;Prototype;Decorator,9
+org.jhotdraw.samples.svg.figures.SVGEllipseFigure,32,120,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.svg.figures.SVGGroupFigure,16,48,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.svg.figures.SVGRectFigure,56,160,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.svg.figures.SVGImageFigure,54,216,Composite;Prototype;Decorator,9
+org.jhotdraw.samples.svg.figures.SVGPathFigure,27,162,Template Method;Composite;Prototype;Decorator,9
+org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure,6,14,Template Method;Prototype;Decorator,3
+org.jhotdraw.draw.tool.CreationTool,16,15,State;Prototype,2
+org.jhotdraw.samples.svg.SVGCreateFromFileTool,6,2,Prototype,1
+org.jhotdraw.draw.tool.ConnectionTool,44,35,State;Prototype,4
+org.jhotdraw.draw.figure.ConnectionFigure,0,84,State;Prototype,4
+org.jhotdraw.draw.figure.LineConnectionFigure,36,152,State;Prototype;(Object)Adapter,6
+org.jhotdraw.draw.handle.ConnectorHandle,24,32,State;Prototype,4
+org.jhotdraw.draw.action.GroupAction,4,2,Prototype,1
+org.jhotdraw.samples.svg.action.CombineAction,10,8,State;Prototype,2
+org.jhotdraw.draw.Drawing,0,400,State;Bridge;Prototype;(Object)Adapter,8
+org.jhotdraw.draw.liner.Liner,0,9,State;Prototype;(Object)Adapter,3
+org.jhotdraw.draw.figure.ImageHolderFigure,0,18,State;Prototype;(Object)Adapter,3
+org.jhotdraw.gui.ActivityManager,3,6,Singleton,1
+org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel,3,19,Singleton,1
+org.jhotdraw.gui.plaf.palette.PaletteButtonUI,1,2,Singleton,1
+org.jhotdraw.gui.plaf.palette.PaletteLabelUI,5,3,Singleton,1
+org.jhotdraw.gui.JActivityWindow,19,9,Singleton,1
+org.jhotdraw.color.HSVPhysiologicColorSpace,2,9,Singleton,1
+org.jhotdraw.color.HSVColorSpace,2,9,Singleton,1
+org.jhotdraw.color.HSBColorSpace,2,9,Singleton,1
+org.jhotdraw.color.CMYKGenericColorSpace,2,1,Singleton,1
+org.jhotdraw.color.HSLColorSpace,2,9,Singleton,1
+org.jhotdraw.color.CMYKNominalColorSpace,2,9,Singleton,1
+org.jhotdraw.color.HSLPhysiologicColorSpace,2,9,Singleton,1
+org.jhotdraw.draw.handle.AbstractHandle,24,96,Template Method;Bridge;(Object)Adapter,4
+org.jhotdraw.draw.tool.Tool,0,36,State;Decorator;(Object)Adapter,3
+org.jhotdraw.draw.DrawingView,110,605,State;Bridge;(Object)Adapter,11
+org.jhotdraw.samples.svg.SVGDrawingPanel,46,30,State;(Object)Adapter,2
+org.jhotdraw.draw.DefaultDrawingView,180,334,State;(Object)Adapter,6
+org.jhotdraw.samples.odg.io.ODGStylesReader,4,3,(Object)Adapter,1
+org.jhotdraw.samples.odg.io.ODGInputFormat,4,5,(Object)Adapter,1
+org.jhotdraw.xml.css.StyleManager,1,3,(Object)Adapter,1
+org.jhotdraw.samples.svg.io.SVGInputFormat,24,16,State;(Object)Adapter,2
+org.jhotdraw.app.AbstractApplication,96,180,Template Method;Bridge;(Object)Adapter,6
+org.jhotdraw.draw.handle.Handle,0,95,State;Bridge;(Object)Adapter,5
+org.jhotdraw.draw.AbstractDrawingView,132,319,Template Method;Bridge;(Object)Adapter,6
+org.jhotdraw.api.app.View,42,198,State;Bridge;(Object)Adapter,6
+org.jhotdraw.app.OSXApplication,4,9,State;(Object)Adapter,2
+org.jhotdraw.draw.DrawingEditor,140,644,State;Bridge;Decorator;(Object)Adapter,28
+org.jhotdraw.draw.tool.AbstractTool,18,54,Bridge;(Object)Adapter,2
+org.jhotdraw.draw.event.DrawingComponentRepainter,4,4,State;(Object)Adapter,2
+org.jhotdraw.draw.event.SelectionComponentRepainter,4,6,State;(Object)Adapter,2
+org.jhotdraw.xml.DOMFactory,0,24,State;(Object)Adapter,6
+org.jhotdraw.xml.JavaxDOMOutput,12,34,State;(Object)Adapter,2
+org.jhotdraw.xml.JavaxDOMInput,10,28,State;(Object)Adapter,2
+org.jhotdraw.color.ColorSliderModel,0,126,State;(Object)Adapter,9
+org.jhotdraw.color.DefaultHarmonicColorModel,24,56,State;(Object)Adapter;Observer,3
+org.jhotdraw.draw.QuadTreeDrawing,3,22,Composite,1
+org.jhotdraw.draw.figure.LabeledLineConnectionFigure,5,24,Composite,1
+org.jhotdraw.draw.figure.QuadTreeCompositeFigure,5,20,Composite,1
+org.jhotdraw.draw.decoration.LineDecoration,0,3,Composite,1
+org.jhotdraw.draw.decoration.CompositeLineDecoration,2,1,Composite,1
+org.jhotdraw.draw.DrawingEditorProxy,3,7,Decorator,1
+org.jhotdraw.draw.tool.SelectionTool,27,54,State;Decorator,3
+org.jhotdraw.api.gui.ActivityModel,14,40,State;Observer,2
+org.jhotdraw.gui.JActivityIndicator,7,7,Observer,1
+org.jhotdraw.color.HarmonicRule,0,6,Observer,1
+org.jhotdraw.draw.tool.DefaultDragTracker,9,4,State,1
+org.jhotdraw.draw.tool.DefaultHandleTracker,14,26,State,2
+org.jhotdraw.draw.tool.DefaultSelectAreaTracker,6,8,State,1
+org.jhotdraw.draw.tool.DnDTracker,8,4,State,1
+org.jhotdraw.draw.event.AttributeChangeEdit,5,1,State,1
+org.jhotdraw.draw.event.TransformRestoreEdit,4,1,State,1
+org.jhotdraw.draw.handle.BezierControlPointHandle,5,8,State,1
+org.jhotdraw.draw.handle.BezierNodeHandle,4,10,State,1
+org.jhotdraw.action.window.FocusWindowAction,4,2,State,1
+org.jhotdraw.gui.action.EditCanvasPanel,13,3,State,1
+org.jhotdraw.draw.text.FloatingTextArea,10,10,State,2
+org.jhotdraw.draw.text.FloatingTextField,8,13,State,2
+org.jhotdraw.draw.tool.BezierTool,11,6,State,1
+org.jhotdraw.api.app.Application,6,129,State;Bridge,3
+org.jhotdraw.samples.teddy.FindDialog,21,0,State,1
+org.jhotdraw.samples.svg.gui.ViewToolBar,2,0,State,1
+org.jhotdraw.app.AppletApplication,3,9,State,1
+org.jhotdraw.draw.tool.TextAreaCreationTool,4,5,State,1
+org.jhotdraw.draw.tool.TextAreaEditingTool,3,5,State,1
+org.jhotdraw.draw.tool.TextCreationTool,3,8,State,1
+org.jhotdraw.draw.tool.TextEditingTool,3,8,State,1
+org.jhotdraw.draw.action.AttributeToggler,6,2,State,1
+org.jhotdraw.draw.action.DrawingColorIcon,4,0,State,1
+org.jhotdraw.draw.action.SelectionColorIcon,4,0,State,1
+org.jhotdraw.samples.svg.gui.DrawingOpacityIcon,7,0,State,1
+org.jhotdraw.samples.svg.gui.SelectionOpacityIcon,7,0,State,1
+org.jhotdraw.gui.action.ButtonFactory,2,0,State,1
+org.jhotdraw.samples.net.NetApplicationModel,2,0,State,1
+org.jhotdraw.samples.pert.PertApplicationModel,2,0,State,1
+org.jhotdraw.samples.svg.gui.ToolsToolBar,2,1,State,1
+org.jhotdraw.color.ColorTrackImageProducer,8,9,State,1
+org.jhotdraw.color.ColorWheelChooser,5,4,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.ColorSliderTextFieldHandler,3,3,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser,25,4,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser,20,4,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser,14,4,State,1
+org.jhotdraw.app.action.app.ExitAction,4,0,State,1
+org.jhotdraw.gui.JActivityView,13,1,State,1
+org.jhotdraw.draw.locator.Locator,0,4,State;Bridge,2
+org.jhotdraw.draw.connector.LocatorConnector,3,3,State,1
+org.jhotdraw.draw.event.SelectionComponentDisplayer,10,8,State,2
+org.jhotdraw.color.JColorWheel,28,27,State,2
+org.jhotdraw.color.AbstractColorWheelImageProducer,20,19,Template Method;State,2
+org.jhotdraw.samples.draw.DrawView,6,6,State,1
+org.jhotdraw.samples.net.NetView,7,10,State,1
+org.jhotdraw.samples.odg.ODGView,10,14,State,1
+org.jhotdraw.samples.pert.PertView,6,10,State,1
+org.jhotdraw.color.JHarmonicColorWheel,8,5,State,1
+org.jhotdraw.color.HarmonicColorModel,1,17,State,1
+org.jhotdraw.action.window.ArrangeWindowsAction,6,0,State,1
+org.jhotdraw.api.gui.Arrangeable,0,4,State,1
+org.jhotdraw.draw.tool.DragTracker,0,1,State,1
+org.jhotdraw.draw.tool.HandleTracker,0,1,State,1
+org.jhotdraw.draw.event.CompositeFigureEdit,2,0,State,1
+org.jhotdraw.draw.handle.AbstractConnectionHandle,8,12,Template Method;Bridge,2
+org.jhotdraw.draw.action.AbstractDrawingViewAction,10,6,Bridge,2
+org.jhotdraw.draw.action.AbstractSelectedAction,8,10,Bridge,2
+org.jhotdraw.draw.event.AbstractAttributeEditorHandler,44,42,Template Method;Bridge,4
+org.jhotdraw.action.AbstractApplicationAction,4,2,Bridge,1
+org.jhotdraw.api.gui.AttributeEditor,2,8,Bridge,1
+org.jhotdraw.action.AbstractViewAction,10,3,Bridge,1
+org.jhotdraw.draw.handle.LocatorHandle,1,1,Bridge,1
+org.jhotdraw.draw.layouter.Layouter,0,2,Bridge,1
+org.jhotdraw.draw.action.AbstractDrawingEditorAction,3,4,Bridge,1
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction,2,0,Template Method,1
+org.jhotdraw.gui.plaf.palette.MultiIcon,4,2,Template Method,1
+org.jhotdraw.draw.decoration.AbstractLineDecoration,4,8,Template Method,1
+org.jhotdraw.draw.handle.AbstractRotateHandle,6,5,Template Method,1
+org.jhotdraw.samples.svg.figures.SVGPathOutlineHandle,1,6,Template Method,1
+org.jhotdraw.samples.svg.figures.LinkHandle,0,6,Template Method,1
+org.jhotdraw.samples.svg.figures.SVGRectRadiusHandle,3,6,Template Method,1
+org.jhotdraw.samples.svg.figures.ConvexHullOutlineHandle,9,6,Template Method,1
+org.jhotdraw.samples.odg.figures.ODGPathOutlineHandle,2,6,Template Method,1
+org.jhotdraw.samples.odg.figures.ODGRectRadiusHandle,4,5,Template Method,1
+org.jhotdraw.draw.action.AlignAction,2,1,Template Method,1
+org.jhotdraw.draw.figure.AbstractAttributedCompositeFigure,7,50,Template Method,1
+org.jhotdraw.draw.figure.AbstractAttributedFigure,10,45,Template Method,1
+org.jhotdraw.samples.mini.StraightLineFigure,2,7,Template Method,1
+org.jhotdraw.samples.svg.figures.SVGAttributedFigure,1,3,Template Method,1
+org.jhotdraw.samples.mini.MovableChildFiguresSampleWithAbstractDrawingView,1,23,Template Method,1
+io.questdb.FactoryProviderFactory,0,1,Factory Method;State,2
+io.questdb.FactoryProviderFactoryImpl,1,1,Factory Method,1
+io.questdb.FactoryProvider,0,5,Factory Method,1
+io.questdb.std.LongVec,0,4,Factory Method,1
+io.questdb.std.LongList,55,506,Factory Method;(Object)Adapter,11
+io.questdb.std.IOURingFacade,0,20,Factory Method;State;(Object)Adapter,3
+io.questdb.std.IOURingFacadeImpl,4,16,Factory Method;Singleton,2
+io.questdb.std.IOURing,0,8,Factory Method,1
+io.questdb.cutlass.auth.AuthenticatorFactory,0,0,Factory Method,1
+io.questdb.cutlass.auth.DefaultAuthenticatorFactory,1,1,Factory Method,1
+io.questdb.cutlass.auth.EllipticCurveAuthenticatorFactory,2,1,Factory Method,1
+io.questdb.cutlass.auth.Authenticator,10,16,Factory Method;State,2
+io.questdb.cutlass.http.HttpRequestProcessorFactory,0,1,Factory Method,1
+io.questdb.cutlass.http.HttpServer,4,14,Factory Method;(Object)Adapter,3
+io.questdb.cutlass.Services,0,4,Factory Method,1
+io.questdb.cutlass.http.HttpRequestProcessor,0,21,Factory Method,2
+io.questdb.cutlass.http.HttpRequestProcessorSelector,0,1,Factory Method,1
+io.questdb.cutlass.http.HttpServerConfiguration,2,13,Factory Method;State,2
+io.questdb.cutlass.http.DefaultHttpServerConfiguration,5,11,Factory Method,1
+io.questdb.PropServerConfiguration,783,222,Decorator;Factory Method;State,4
+io.questdb.cutlass.http.WaitProcessorConfiguration,0,5,Factory Method,1
+io.questdb.cairo.sql.RecordCursor,0,307,Proxy;State;Factory Method;Decorator;Bridge,28
+io.questdb.griffin.engine.table.DataFrameRecordCursor,0,52,(Object)Adapter;State;Factory Method;Decorator;Bridge,13
+io.questdb.griffin.engine.table.FilteredRecordCursor,48,137,Decorator;Factory Method;State;(Object)Adapter,16
+io.questdb.griffin.engine.table.StringLongTuplesRecordCursor,56,112,Decorator;Factory Method,14
+io.questdb.cairo.TableReaderRecordCursor,160,171,Decorator;Factory Method;(Object)Adapter,16
+io.questdb.griffin.engine.union.AbstractSetRecordCursor,12,4,Decorator;Factory Method,4
+io.questdb.griffin.engine.LimitRecordCursorFactory,178,158,Decorator;Factory Method;State;(Object)Adapter,17
+io.questdb.griffin.engine.table.TableListRecordCursorFactory,75,104,Decorator;Factory Method;(Object)Adapter,15
+io.questdb.griffin.engine.table.FilterOnSubQueryRecordCursorFactory,88,199,(Object)Adapter;State;Factory Method;Template Method;Decorator,18
+io.questdb.griffin.engine.table.ReaderPoolRecordCursorFactory,126,112,Decorator;Factory Method,14
+io.questdb.griffin.engine.table.LatestByLightRecordCursorFactory,159,185,Decorator;Factory Method;State;(Object)Adapter,20
+io.questdb.cairo.sql.DelegatingRecordCursor,0,2,Factory Method;State,2
+io.questdb.griffin.engine.table.AsyncFilteredNegativeLimitRecordCursor,209,184,Decorator;Factory Method;State;(Object)Adapter,19
+io.questdb.griffin.engine.groupby.DistinctTimeSeriesRecordCursorFactory,285,183,Decorator;Factory Method;State;(Object)Adapter,19
+io.questdb.cairo.map.CompactMapCursor,64,111,Decorator;Factory Method;(Object)Adapter,16
+io.questdb.griffin.engine.analytic.CachedAnalyticRecordCursorFactory,144,151,(Object)Adapter;Proxy;State;Factory Method;Decorator,18
+io.questdb.griffin.engine.table.ShowColumnsRecordCursorFactory,45,103,Decorator;Factory Method;(Object)Adapter,15
+io.questdb.griffin.engine.functions.catalogue.PgDatabaseFunctionFactory,34,110,Decorator;Factory Method,17
+io.questdb.griffin.engine.ExplainPlanFactory,61,120,Decorator;Factory Method;State,16
+io.questdb.griffin.engine.functions.catalogue.WalTableListFunctionFactory,89,124,Decorator;Factory Method;(Object)Adapter,19
+io.questdb.griffin.engine.groupby.vect.GroupByRecordCursorFactory,315,221,(Object)Adapter;Proxy;State;Factory Method;Decorator,21
+io.questdb.cairo.wal.WalDataCursor,48,157,Decorator;Factory Method;(Object)Adapter,16
+io.questdb.griffin.engine.EmptyTableRandomRecordCursor,45,120,Decorator;Factory Method;Singleton,15
+io.questdb.griffin.engine.groupby.DistinctSymbolRecordCursorFactory,91,157,Decorator;Factory Method;(Object)Adapter,15
+io.questdb.griffin.engine.SingleValueRecordCursor,28,98,Decorator;Factory Method,14
+io.questdb.griffin.engine.table.SelectedRecordCursor,56,121,Decorator;Factory Method,14
+io.questdb.griffin.engine.table.AsyncFilteredRecordCursor,340,193,Decorator;Factory Method;State;(Object)Adapter,20
+io.questdb.cairo.sql.NoRandomAccessRecordCursor,0,24,Decorator;Factory Method,12
+io.questdb.griffin.engine.groupby.DistinctRecordCursorFactory,123,193,Decorator;Factory Method;State;(Object)Adapter,21
+io.questdb.griffin.engine.functions.rnd.LongSequenceFunctionFactory,49,111,Decorator;Factory Method;(Object)Adapter,18
+io.questdb.cairo.RecordChain,230,651,(Object)Adapter;Proxy;State;Factory Method;Decorator,19
+io.questdb.griffin.engine.orderby.RecordTreeChain,70,132,Decorator;Factory Method;State;Proxy,16
+io.questdb.cairo.map.FastMapCursor,144,109,Decorator;Factory Method;(Object)Adapter,16
+io.questdb.cairo.TableReaderSelectedColumnRecordCursor,176,172,Decorator;Factory Method;(Object)Adapter,16
+io.questdb.griffin.engine.AbstractVirtualFunctionRecordCursor,70,136,Decorator;Factory Method,14
+io.questdb.griffin.engine.functions.catalogue.TableListFunctionFactory,95,120,Decorator;Factory Method;(Object)Adapter,18
+io.questdb.cairo.sql.Record,6,92,Factory Method;State;(Object)Adapter,5
+io.questdb.cairo.sql.AnalyticSPI,0,1,Factory Method,1
+io.questdb.cairo.sql.SymbolTableSource,0,7,Factory Method;State,4
+io.questdb.cairo.sql.PageFrameCursor,0,25,Decorator;Factory Method;State,5
+io.questdb.cairo.sql.DataFrameCursor,0,70,Factory Method;State;Bridge;(Object)Adapter,7
+io.questdb.cairo.TableReader,444,526,Factory Method;State;(Object)Adapter,12
+io.questdb.cairo.sql.SymbolTable,6,6,Decorator;Factory Method,3
+io.questdb.cairo.SymbolMapReader,0,4,Factory Method,1
+io.questdb.cairo.EmptySymbolMapReader,4,40,Decorator;Factory Method;Singleton,4
+io.questdb.cairo.SymbolMapReaderImpl,147,124,Decorator;Factory Method;State;(Object)Adapter,10
+io.questdb.cairo.sql.StaticSymbolTable,0,2,Factory Method,1
+io.questdb.cairo.wal.MetadataService,0,16,Factory Method,1
+io.questdb.cairo.TableWriter,3525,2360,Factory Method;State;(Object)Adapter,26
+io.questdb.cairo.wal.seq.MetadataServiceStub,0,12,Factory Method,1
+io.questdb.cairo.UpdateOperator,0,1,Factory Method,1
+io.questdb.griffin.model.RuntimeIntrinsicIntervalModel,0,3,Factory Method;Bridge,2
+io.questdb.griffin.model.RuntimeIntervalModel,16,13,Factory Method;State;(Object)Adapter,4
+io.questdb.griffin.engine.table.AbstractDeferredValueRecordCursorFactory,30,6,Factory Method;Template Method;Bridge;(Object)Adapter,6
+io.questdb.griffin.engine.table.LatestByValueDeferredIndexedFilteredRecordCursorFactory,0,4,Factory Method;Template Method,2
+io.questdb.griffin.engine.table.LatestByValueDeferredFilteredRecordCursorFactory,0,4,Factory Method;Template Method,2
+io.questdb.griffin.engine.functions.cast.AbstractCastToSymbolFunction,20,31,Decorator;Factory Method;Template Method,3
+io.questdb.griffin.engine.functions.cast.CastCharToSymbolFunctionFactory,0,10,Decorator;Factory Method;Template Method,5
+io.questdb.griffin.engine.functions.cast.CastShortToSymbolFunctionFactory,0,10,Decorator;Factory Method;Template Method,5
+io.questdb.griffin.engine.functions.cast.CastByteToSymbolFunctionFactory,0,10,Decorator;Factory Method;Template Method,5
+io.questdb.griffin.engine.functions.cast.CastFloatToSymbolFunctionFactory,0,10,Decorator;Factory Method;Template Method,5
+io.questdb.griffin.engine.functions.cast.CastIntToSymbolFunctionFactory,0,10,Decorator;Factory Method;Template Method,5
+io.questdb.griffin.FunctionFactory,0,27,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.regex.AbstractLikeStrFunctionFactory,5,11,Decorator;Factory Method;State;Template Method,5
+io.questdb.griffin.engine.functions.cast.CastFloatToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.PgTypeFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToStrArrayFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToSymbolFunctionFactory,10,24,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.groupby.LastTimestampGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDoubleToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastCharToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.SimulateCrashFunctionFactory,15,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.LastShortGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastIntToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.SumFloatGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastShortToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqLongFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDoubleToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.SplitPartFunctionFactory,13,21,Decorator;Factory Method;Template Method;Bridge,5
+io.questdb.griffin.engine.functions.date.TimestampFloorFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDateToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqStrUuidFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastSymbolToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastShortToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.TimestampSequenceFunctionFactory,6,18,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastSymbolToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.BitwiseXorLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.CurrentSchemasFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.NegShortFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.TimestampShuffleFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndStrFunctionFactory,3,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.cast.CastDateToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqUuidStrFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastShortToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDoubleToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.SysdateFunctionFactory,5,10,Decorator;Factory Method;State;(Object)Adapter,5
+io.questdb.griffin.engine.functions.date.TimestampCeilFunctionFactory,4,18,Decorator;Factory Method;Template Method;Bridge,5
+io.questdb.griffin.engine.functions.groupby.AvgDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.FloorFloatFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndStringRndListFunctionFactory,8,12,Decorator;Factory Method;(Object)Adapter,5
+io.questdb.griffin.engine.functions.cast.CastShortToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastCharToStrFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndDateCCCFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.SumLongGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastByteToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.CurrentDatabaseFunctionFactory,3,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.bool.AndFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.SubDoubleFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastShortToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.MulIntFunctionFactory,2,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.LengthSymbolFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastSymbolToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastCharToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.ToUTCTimestampFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastCharToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.MinuteOfHourFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.PIDoubleFunctionFactory,3,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.SessionUserFunctionFactory,3,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.RemDoubleFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.ToTimestampVCFunctionFactory,9,10,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastIntToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastTimestampToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.regex.MatchStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastIntToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastIntToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.AbsDoubleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastCharToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.test.TestSumTDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToRegProcedureFunctionFactory,3,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.CotDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.FormatTypeFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDateToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.LeftFunctionFactory,8,13,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.groupby.MaxDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountIntGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.conditional.CaseFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.TrimFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.TimestampAddFunctionFactory,27,23,Decorator;Factory Method;State;(Object)Adapter,9
+io.questdb.griffin.engine.functions.cast.CastBooleanToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.table.AllTablesFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.LogDoubleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastByteToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndFloatCFunctionFactory,2,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.date.ExtractFromTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastIntToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.AvgBooleanGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.DivIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.CurrentSchemaFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndTimestampFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.catalogue.PgGetSIExprFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.CountLongGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.ToDateFunctionFactory,11,10,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.catalogue.UserByIdCatalogueFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.AbsIntFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDoubleToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastNullTypeFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountLong256GroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.PgClassFunctionFactory,51,12,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.MulFloatFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.SumDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastByteToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqIntStrCFunctionFactory,2,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.RemIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.SubIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndLong256NFunctionFactory,4,10,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.eq.EqGeoHashGeoHashFunctionFactory,5,14,Decorator;Factory Method;Template Method,4
+io.questdb.griffin.engine.functions.lt.LtCharFunctionFactory,5,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.AddLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.LengthBinFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.table.TableWriterMetricsFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastShortToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastLongToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.NegIntFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.PgAttributeFunctionFactory,18,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MaxFloatGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.RemLongFunctionFactory,2,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.PgNamespaceFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.MulDoubleFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.PgGetKeywordsFunctionFactory,3,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.PgIsInRecoveryFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.bool.InSymbolCursorFunctionFactory,36,51,Decorator;Factory Method;State,9
+io.questdb.griffin.engine.functions.math.BitwiseOrLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.DaysPerMonthFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.SubStringFunctionFactory,6,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.AbstractEmptyCatalogueFunctionFactory,6,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.LastLongGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.HourOfDayFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.SizePrettyFunctionFactory,9,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.NegByteFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.PrefixedAgeFunctionFactory,3,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndBinFunctionFactory,5,13,Decorator;Factory Method;(Object)Adapter,5
+io.questdb.griffin.engine.functions.cast.CastLongToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.MillisOfSecondFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.DumpMemoryUsageFunctionFactory,6,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDateToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.SwappingArgsFunctionFactory,6,5,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastBooleanToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqBooleanCharFunctionFactory,2,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.CosDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.ToTimestampFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqDoubleFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndFloatFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.cast.CastStrToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.analytic.RowNumberFunctionFactory,10,19,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.cast.CastTimestampToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqSymStrFunctionFactory,1,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.BitwiseXorIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqShortFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.StrPosCharFunctionFactory,4,11,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastBooleanToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctUuidGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastTimestampToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastIntToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MaxLongGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.analytic.RankFunctionFactory,37,59,Decorator;Factory Method;State;(Object)Adapter,8
+io.questdb.griffin.engine.functions.date.PgPostmasterStartTimeFunctionFactory,6,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.conditional.NullIfCharFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqStrCharFunctionFactory,4,13,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.test.TestSumStringGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MaxBooleanGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.conditional.SwitchFunctionFactory,27,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastSymbolToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.StrPosFunctionFactory,4,11,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.rnd.RndGeoHashFunctionFactory,8,18,Decorator;Factory Method;(Object)Adapter,7
+io.questdb.griffin.engine.functions.groupby.MinIntGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastCharToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.conditional.NullIfIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndByteCCFunctionFactory,3,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.bool.InTimestampStrFunctionFactory,5,11,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.date.ToStrDateFunctionFactory,18,15,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastIntToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.table.TablePartitionsFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.SumIntGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDoubleToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.ToCharBinFunctionFactory,3,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqLong256StrFunctionFactory,9,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstShortGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.SubLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.test.TestLatchedCounterFunctionFactory,9,12,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.LPadFunctionFactory,8,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.PgAttrDefFunctionFactory,21,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastStrToRegClassFunctionFactory,7,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.RTrimFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.bool.OrFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastTimestampToSymbolFunctionFactory,10,24,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastDoubleToSymbolFunctionFactory,12,24,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastStrToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.regex.NotMatchStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.VersionFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.CountDistinctLong256GroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.FlushQueryCacheFunctionFactory,7,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.lt.LtDoubleVVFunctionFactory,2,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastIntToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.lt.LtLong256FunctionFactory,2,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqCharCharFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.geohash.GeoHashFromCoordinatesFunctionFactory,9,13,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqUuidFunctionFactory,3,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastSymbolToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.LnDoubleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.lock.AdvisoryUnlockAll,0,18,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.SqrtDoubleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastLongToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDateToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastIntToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.DumpThreadStacksFunctionFactory,8,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.LastDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.StartsWithStrFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.MinTimestampGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastTimestampToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.IsTableVisibleCatalogueFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.LastIntGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.CountFloatGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.bool.InStrFunctionFactory,2,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastCharToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.AbsLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.lt.LtIntFunctionFactory,2,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.MaxStrGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDoubleToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.ToTimezoneTimestampFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.HaversineDistDegreeGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastGeoHashToGeoHashFunctionFactory,24,32,Decorator;Factory Method;State;Template Method,14
+io.questdb.griffin.engine.functions.cast.CastDoubleToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.DayOfMonthFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.SystimestampFunctionFactory,5,10,Decorator;Factory Method;State;(Object)Adapter,5
+io.questdb.griffin.engine.functions.groupby.FirstSymbolGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.RemFloatFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqBooleanFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndCharFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.lt.LtLongFunctionFactory,2,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.ToUppercaseFunctionFactory,3,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountStrGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndByteFunctionFactory,6,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.str.ConcatFunctionFactory,3,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MinDateGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.FirstByteGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.regex.RegexpReplaceStrFunctionFactory,14,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstLongGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.DateTruncFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastBooleanToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastSymbolToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.MaxDateGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToSymbolFunctionFactory,8,23,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.rnd.ListFunctionFactory,6,21,Decorator;Factory Method;(Object)Adapter,5
+io.questdb.griffin.engine.functions.rnd.RndIntCCFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.table.TouchTableFunctionFactory,16,18,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.str.RPadFunctionFactory,8,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndUuidFunctionFactory,1,8,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.cast.CastDateToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastSymbolToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.ToStrTimestampFunctionFactory,16,15,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.math.SubTimestampFunctionFactory,2,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.eq.EqBinaryFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.test.TestMatchFunctionFactory,12,15,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDateToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctLongGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqIntFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.FirstDateGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.LastCharGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.CountDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastByteToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.SumLong256GroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.bool.BetweenTimestampFunctionFactory,6,12,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastDoubleToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastShortToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.AbsShortFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.LastDateGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.Atan2DoubleFunctionFactory,5,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.bool.InSymbolFunctionFactory,8,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.LastSymbolGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDateToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.RPadStrFunctionFactory,9,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.KSumDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndDateFunctionFactory,3,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.eq.EqSymCharFunctionFactory,2,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.VarcharCastHelperFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.NegLongFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstGeoHashGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.table.ReaderPoolFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.CountDistinctSymbolGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.ReplaceStrFunctionFactory,9,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.NowFunctionFactory,5,16,Decorator;Factory Method;State;(Object)Adapter,5
+io.questdb.griffin.engine.functions.cast.CastStrToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndIntFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.regex.MatchCharFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MaxIntGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastByteToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.RoundDownDoubleFunctionFactory,6,13,Decorator;Factory Method;State,6
+io.questdb.griffin.engine.functions.str.LTrimFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndDoubleCCFunctionFactory,2,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.eq.EqLong128FunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastSymbolToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDateToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.MaxTimestampGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.NegDoubleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndLongFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToSymbolFunctionFactory,2,21,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.math.SinDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.bool.InUuidFunctionFactory,2,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.LastByteGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.DivLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstFloatGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MinBooleanGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastByteToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToGeoHashFunctionFactory,3,15,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.ToLowercaseFunctionFactory,3,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.YearFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.TypeOfFunctionFactory,10,8,Decorator;Factory Method;State;(Object)Adapter,5
+io.questdb.griffin.engine.functions.math.AcosDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.PgGetPartKeyDefFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MinDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDoubleToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.conditional.NullIfStrFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastByteToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDateToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.RoundHalfEvenDoubleFunctionFactory,12,13,Decorator;Factory Method;State,6
+io.questdb.griffin.engine.functions.str.LengthStrFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.NegFloatFunctionFactory,1,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndLogFunctionFactory,3,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToUuidFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndShortCCFunctionFactory,3,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.math.MulLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.BitwiseNotIntFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastShortToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqByteFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.catalogue.CurrentUserFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.table.TableColumnsFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.SecondOfMinuteFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndSymbolFunctionFactory,8,23,Decorator;Factory Method;(Object)Adapter,5
+io.questdb.griffin.engine.functions.math.RadiansDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountGeoHashGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLong256ToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.test.TestDataUnavailableFunctionFactory,10,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDoubleToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.AddFloatFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstCharGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastSymbolToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.FirstIntGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.AddLongToTimestampFunctionFactory,2,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.bool.AllNotEqStrFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastCharToShortFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.LPadStrFunctionFactory,9,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.FloorDoubleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.DivFloatFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.DivDoubleFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastUuidToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastByteToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastShortToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.str.SplitPartCharFunctionFactory,16,21,Decorator;Factory Method;Template Method;Bridge,5
+io.questdb.griffin.engine.functions.groupby.CountSymbolGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.bin.Base64FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.BitwiseOrIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.lt.LtTimestampFunctionFactory,2,12,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndBooleanFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.cast.CastShortToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MinStrGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.long128.LongsToLong128FunctionFactory,2,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.LastGeoHashGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.NSumDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.PowDoubleFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.array.IntArrayDereferenceHackFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastIntToCharFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.IsLeapYearFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastByteToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastByteToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastCharToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastSymbolToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastTimestampToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastSymbolToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDateToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.RoundUpDoubleFunctionFactory,12,13,Decorator;Factory Method;State,6
+io.questdb.griffin.engine.functions.cast.CastTimestampToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastFloatToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.PgGetSITExprFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.BitwiseAndIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.DegreesDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.AsinDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.StdDevSampleDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastCharToByteFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.CeilFloatFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastShortToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastTimestampToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstUuidGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqTimestampFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToFloatFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndDoubleFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.rnd.RndShortFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.NegatingFunctionFactory,6,5,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastIntToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.bool.InCharFunctionFactory,2,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.IsLongOrderedGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.MonthOfYearFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.CeilDoubleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.TxIDCurrentFunctionFactory,6,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.AddIntFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.eq.EqStrFunctionFactory,3,13,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.groupby.LastFloatGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.TimestampDiffFunctionFactory,27,23,Decorator;Factory Method;State;(Object)Adapter,9
+io.questdb.griffin.engine.functions.date.DayOfWeekSundayFirstFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.FirstTimestampGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastDoubleToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastTimestampToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.RoundDoubleZeroScaleFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastDateToSymbolFunctionFactory,10,24,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.CastStrToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastStrToBinaryFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.CountDistinctStringGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.groupby.MaxCharGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.array.StrArrayDereferenceFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastLong256ToStrFunctionFactory,3,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.test.TestNPEFactory,4,9,Decorator;Factory Method;Singleton,4
+io.questdb.griffin.engine.functions.date.WeekOfYearFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.StringAggGroupByFunctionFactory,15,35,Decorator;Factory Method;State;(Object)Adapter,6
+io.questdb.griffin.engine.functions.cast.CastTimestampToIntFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.ToPgDateFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.table.MemoryMetricsFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.conditional.CoalesceFunctionFactory,24,28,Decorator;Factory Method;State,14
+io.questdb.griffin.engine.functions.groupby.MinLongGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.date.DayOfWeekFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.MinFloatGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.AtanDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastTimestampToBooleanFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.AddLong256FunctionFactory,4,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.date.MicrosOfSecondFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.MinCharGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.test.TestSumXDoubleGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastCharToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToDateFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.rnd.RndLong256FunctionFactory,6,10,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.rnd.RndStringListFunctionFactory,6,12,Decorator;Factory Method;(Object)Adapter,5
+io.questdb.griffin.engine.functions.cast.CastTimestampToLongFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndSymbolListFunctionFactory,6,21,Decorator;Factory Method;(Object)Adapter,5
+io.questdb.griffin.engine.functions.cast.CastByteToDoubleFunctionFactory,1,7,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.str.RightFunctionFactory,8,13,Decorator;Factory Method;State,5
+io.questdb.griffin.engine.functions.cast.AbstractEntityCastFunctionFactory,0,3,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.bool.NotFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.metadata.BuildFunctionFactory,3,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastLongToGeoHashFunctionFactory,4,14,Decorator;Factory Method;State,7
+io.questdb.griffin.engine.functions.math.BitwiseAndLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.math.AddDoubleFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastBooleanToTimestampFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.conditional.NullIfLongFunctionFactory,2,9,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.cast.CastFloatToLong256FunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.cast.CastFloatToStrFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.regex.NotMatchCharFunctionFactory,0,6,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.BitwiseNotLongFunctionFactory,1,8,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.catalogue.CursorDereferenceFunctionFactory,3,10,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.bool.InTimestampTimestampFunctionFactory,2,11,Decorator;Factory Method;State,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctIntGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.rnd.RndBinCCCFunctionFactory,12,17,Decorator;Factory Method;(Object)Adapter,6
+io.questdb.griffin.engine.functions.groupby.LastUuidGroupByFunctionFactory,0,9,Decorator;Factory Method,3
+io.questdb.griffin.engine.functions.math.RoundDoubleFunctionFactory,6,13,Decorator;Factory Method;State,6
+io.questdb.griffin.engine.functions.rnd.RndLongCCFunctionFactory,4,9,Decorator;Factory Method;(Object)Adapter,4
+io.questdb.griffin.engine.functions.math.TanDoubleFunctionFactory,4,8,Decorator;Factory Method;State,4
+io.questdb.cairo.sql.Function,0,20961,Factory Method;State;Bridge;(Object)Adapter,411
+io.questdb.metrics.MetricsRegistry,0,33,Decorator;Factory Method;(Object)Adapter;Proxy2,5
+io.questdb.metrics.NullMetricsRegistry,0,27,Decorator;Factory Method;Proxy2,3
+io.questdb.metrics.MetricsRegistryImpl,3,19,Decorator;Factory Method;(Object)Adapter,3
+io.questdb.metrics.Counter,0,18,Factory Method;State;(Object)Adapter,6
+io.questdb.metrics.CounterWithOneLabel,0,2,Factory Method;State,2
+io.questdb.metrics.CounterWithTwoLabels,0,2,Factory Method;State,2
+io.questdb.metrics.DoubleGauge,2,2,Factory Method;Singleton,2
+io.questdb.metrics.LongGauge,0,35,Factory Method;State;(Object)Adapter,5
+io.questdb.network.PeerDisconnectedException,1,0,Singleton,1
+io.questdb.network.PeerIsSlowToWriteException,1,0,Singleton,1
+io.questdb.network.NoSpaceLeftInResponseBufferException,1,0,Singleton,1
+io.questdb.network.EpollFacadeImpl,1,8,Singleton,1
+io.questdb.network.ServerDisconnectException,1,0,Singleton,1
+io.questdb.network.PeerIsSlowToReadException,1,0,Singleton,1
+io.questdb.NullIndexFrameCursor,1,1,Singleton,1
+io.questdb.std.NumericException,1,0,Singleton,1
+io.questdb.std.StationaryMillisClock,1,1,Singleton,1
+io.questdb.std.str.StdoutSink,6,4,Singleton,1
+io.questdb.std.datetime.TimeZoneRuleFactory,5,2,Singleton,1
+io.questdb.std.datetime.DateLocaleFactory,5,2,Singleton,1
+io.questdb.std.ex.BytecodeException,1,0,Singleton,1
+io.questdb.std.ex.ZLibException,1,0,Singleton,1
+io.questdb.cutlass.line.LineProtoMicroTimestampAdapter,1,2,Singleton,1
+io.questdb.cutlass.line.LineProtoHourTimestampAdapter,1,2,Singleton,1
+io.questdb.cutlass.line.LineProtoNanoTimestampAdapter,1,2,Singleton,1
+io.questdb.cutlass.line.LineProtoException,1,0,Singleton,1
+io.questdb.cutlass.line.LineProtoSecondTimestampAdapter,1,2,Singleton,1
+io.questdb.cutlass.line.udp.Utf8RepairContinue,1,0,Singleton,1
+io.questdb.cutlass.line.udp.LineUdpParserSupport,2,0,State;Singleton,2
+io.questdb.cutlass.line.LineProtoMinuteTimestampAdapter,1,2,Singleton,1
+io.questdb.cutlass.line.LineProtoMilliTimestampAdapter,1,2,Singleton,1
+io.questdb.cutlass.auth.AnonymousAuthenticator,1,6,Singleton,1
+io.questdb.cutlass.auth.AuthenticatorException,1,0,Singleton,1
+io.questdb.cutlass.text.Utf8Exception,1,0,Singleton,1
+io.questdb.cutlass.text.AbstractTextLexer,79,35,Template Method;Singleton;Bridge,4
+io.questdb.cutlass.text.types.IntAdapter,1,4,Singleton,1
+io.questdb.cutlass.text.types.BooleanAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.ShortAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.DoubleAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.FloatAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.BadDateAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.ByteAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.UuidAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.BadTimestampAdapter,1,4,Singleton,1
+io.questdb.cutlass.text.types.CharAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.LongAdapter,1,5,Singleton,1
+io.questdb.cutlass.text.types.Long256Adapter,2,3,Singleton,1
+io.questdb.cutlass.http.ex.TooFewBytesReceivedException,1,0,Singleton,1
+io.questdb.cutlass.http.ex.BufferOverflowException,1,0,Singleton,1
+io.questdb.cutlass.http.ex.RetryFailedOperationException,1,0,Singleton,1
+io.questdb.cutlass.http.ex.RetryOperationException,1,0,Singleton,1
+io.questdb.cutlass.pgwire.AuthenticationException,1,0,Singleton,1
+io.questdb.cutlass.pgwire.BadProtocolException,1,0,Singleton,1
+io.questdb.mp.OpenBarrier,2,16,Decorator;Singleton,2
+io.questdb.mp.AlertedException,1,0,Singleton,1
+io.questdb.mp.NullWaitStrategy,1,4,Singleton,1
+io.questdb.mp.TimeoutException,1,0,Singleton,1
+io.questdb.BuildInformationHolder,6,7,Singleton,1
+io.questdb.DefaultFactoryProvider,1,5,Singleton,1
+io.questdb.cairo.sql.WriterOutOfDateException,1,0,Singleton,1
+io.questdb.cairo.sql.InvalidColumnException,1,0,Singleton,1
+io.questdb.cairo.sql.SqlExecutionCircuitBreaker,68,374,State;Singleton;Bridge;(Object)Adapter,34
+io.questdb.cairo.pool.ex.PoolClosedException,1,0,Singleton,1
+io.questdb.cairo.SymbolValueCountCollector,3,3,State;Singleton;(Object)Adapter,3
+io.questdb.cairo.security.AllowAllSecurityContextFactory,1,1,Singleton,1
+io.questdb.cairo.security.AllowAllSecurityContext,1,0,Singleton,1
+io.questdb.cairo.security.ReadOnlySecurityContext,1,33,Singleton,1
+io.questdb.cairo.security.DenyAllSecurityContext,1,2,Singleton,1
+io.questdb.cairo.DefaultLifecycleManager,1,1,Singleton,1
+io.questdb.cairo.vm.NullMemoryMR,1,33,Singleton,1
+io.questdb.cairo.vm.api.NullMemory,1,68,Singleton,1
+io.questdb.cairo.IndexFrame,6,4,Singleton;(Object)Adapter,2
+io.questdb.cairo.AlterTableContextException,1,0,Singleton,1
+io.questdb.cairo.wal.BasicWalInitializerFactory,1,1,Singleton,1
+io.questdb.cairo.wal.BasicWalInitializer,1,1,Singleton,1
+io.questdb.log.LogFactory,31,24,Decorator;Singleton,2
+io.questdb.log.NullLogRecord,1,23,Singleton,1
+io.questdb.griffin.EmptyRecordMetadata,1,1,Singleton,1
+io.questdb.griffin.AnyRecordMetadata,1,2,Singleton,1
+io.questdb.griffin.QueryFutureUpdateListener,2,6,State;Singleton,2
+io.questdb.griffin.engine.EmptyTableRecordCursor,2,7,Singleton,1
+io.questdb.griffin.engine.EmptyTableNoSizeRecordCursor,2,6,Singleton,1
+io.questdb.griffin.engine.table.NoMoreFramesException,1,0,Singleton,1
+io.questdb.griffin.engine.functions.constants.LongTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.DoubleTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.Long128Constant,3,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.ByteConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.GeoLongConstant,2,2,Singleton,1
+io.questdb.griffin.engine.functions.constants.CharTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.FloatTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.ShortTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.GeoShortConstant,2,2,Singleton,1
+io.questdb.griffin.engine.functions.constants.IntConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.GeoIntConstant,2,2,Singleton,1
+io.questdb.griffin.engine.functions.constants.ShortConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.TimestampTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.ByteTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.RegProcedureTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.DateTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.Long256NullConstant,1,2,Singleton,1
+io.questdb.griffin.engine.functions.constants.StringArrayTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.BooleanTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.StrTypeConstant,1,4,Singleton,1
+io.questdb.griffin.engine.functions.constants.IntTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.Long256TypeConstant,1,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.TimestampConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.SymbolTypeConstant,2,12,Decorator;Singleton,2
+io.questdb.griffin.engine.functions.constants.NullConstant,2,39,Singleton,1
+io.questdb.griffin.engine.functions.constants.DoubleConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.FloatConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.DateConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.CharConstant,2,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.RegClassTypeConstant,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.UuidConstant,3,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.UuidTypeConstant,1,2,Singleton,1
+io.questdb.griffin.engine.functions.constants.NullBinConstant,1,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.GeoByteConstant,2,2,Singleton,1
+io.questdb.griffin.engine.functions.constants.BinTypeConstant,1,2,Singleton,1
+io.questdb.griffin.SqlOptimiser,13,0,Singleton;(Object)Adapter,5
+io.questdb.metrics.NullCounter,1,6,Singleton,1
+io.questdb.metrics.NullLongGauge,1,6,Singleton,1
+io.questdb.std.LongLongHashSet,20,14,Strategy;(Object)Adapter,2
+io.questdb.cutlass.http.HttpHeaderParser,32,19,(Object)Adapter,1
+io.questdb.std.Uuid,7,16,(Object)Adapter,1
+io.questdb.griffin.engine.functions.bind.UuidBindVariable,1,2,(Object)Adapter,1
+io.questdb.std.Long256Impl,18,39,(Object)Adapter;Proxy,3
+io.questdb.griffin.engine.functions.bind.Long256BindVariable,1,7,(Object)Adapter,1
+io.questdb.griffin.engine.functions.groupby.AvgDoubleGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.CountDistinctIntGroupByFunction,16,46,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctLong256GroupByFunction,16,46,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctLongGroupByFunction,16,46,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctStringGroupByFunction,16,46,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctSymbolGroupByFunction,16,46,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.CountDistinctUuidGroupByFunction,16,38,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.FirstByteGroupByFunction,6,22,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstCharGroupByFunction,6,22,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstDateGroupByFunction,6,19,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstDoubleGroupByFunction,6,22,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstFloatGroupByFunction,6,22,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstGeoHashGroupByFunctionByte,6,31,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstGeoHashGroupByFunctionInt,6,31,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstGeoHashGroupByFunctionLong,6,31,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstGeoHashGroupByFunctionShort,6,31,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstIntGroupByFunction,6,25,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstLongGroupByFunction,6,22,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstShortGroupByFunction,6,22,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstTimestampGroupByFunction,6,19,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.FirstUuidGroupByFunction,6,22,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.HaversineDistDegreeGroupByFunction,15,35,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.IsLongOrderedGroupByFunction,9,17,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.KSumDoubleGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MaxCharGroupByFunction,6,17,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MaxDateGroupByFunction,6,17,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MaxDoubleGroupByFunction,6,20,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MaxFloatGroupByFunction,6,20,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MaxIntGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MaxLongGroupByFunction,6,20,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MaxStrGroupByFunction,16,47,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.MaxTimestampGroupByFunction,6,17,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MinCharGroupByFunction,6,17,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MinDateGroupByFunction,6,17,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MinDoubleGroupByFunction,6,20,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MinFloatGroupByFunction,6,20,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MinIntGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MinLongGroupByFunction,6,20,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.MinStrGroupByFunction,16,47,Decorator;State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.groupby.MinTimestampGroupByFunction,6,17,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.NSumDoubleGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.StdDevSampleDoubleGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.SumDoubleGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.SumFloatGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.SumIntGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.SumLong256GroupByFunction,6,26,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.groupby.SumLongGroupByFunction,6,23,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.test.TestSumDoubleGroupByFunction,6,20,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.test.TestSumStringGroupByFunction,9,26,Decorator;State;(Object)Adapter,3
+io.questdb.griffin.engine.functions.test.TestSumTDoubleGroupByFunction,9,23,Decorator;State;(Object)Adapter,3
+io.questdb.std.ObjList,117,1209,(Object)Adapter;Proxy,39
+io.questdb.mp.RingQueue,10,6,(Object)Adapter,2
+io.questdb.cutlass.text.CopyRequestJob,162,9,Template Method;State;(Object)Adapter,9
+io.questdb.network.AbstractIODispatcher,440,69,Template Method;Bridge;(Object)Adapter,10
+io.questdb.griffin.engine.groupby.vect.SumLong256VectorAggregateFunction,45,56,State;(Object)Adapter,5
+io.questdb.griffin.engine.groupby.vect.DistinctFunc,0,42,State;(Object)Adapter,42
+io.questdb.griffin.engine.groupby.vect.KeyValueFunc,0,42,State;(Object)Adapter,42
+io.questdb.griffin.engine.groupby.vect.AvgDoubleVectorAggregateFunction,32,44,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.AvgIntVectorAggregateFunction,32,44,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.AvgLongVectorAggregateFunction,32,44,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.KSumDoubleVectorAggregateFunction,36,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MaxDateVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MaxDoubleVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MaxIntVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MaxLongVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MaxTimestampVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MinDateVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MinDoubleVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MinIntVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MinLongVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.MinTimestampVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.NSumDoubleVectorAggregateFunction,48,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.SumDateVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.SumDoubleVectorAggregateFunction,36,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.SumIntVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.SumLongVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.groupby.vect.SumTimestampVectorAggregateFunction,24,40,State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.rnd.RndStringMemory,10,6,(Object)Adapter,2
+io.questdb.griffin.engine.groupby.vect.CountVectorAggregateFunction,6,22,State;(Object)Adapter,2
+io.questdb.cutlass.http.processors.JsonQueryProcessorState,230,127,State;(Object)Adapter,5
+io.questdb.cairo.sql.RecordCursorFactory,45,300,Decorator;State;(Object)Adapter;Proxy,15
+io.questdb.cutlass.http.processors.TextQueryProcessorState,36,4,(Object)Adapter,2
+io.questdb.std.AtomicIntList,4,7,(Object)Adapter,1
+io.questdb.cairo.wal.WalWriter,626,431,State;(Object)Adapter,13
+io.questdb.cairo.wal.WalWriterEvents,20,1,State;(Object)Adapter,2
+io.questdb.cutlass.text.ParallelCsvFileImporter,608,180,State;(Object)Adapter;Proxy,14
+io.questdb.std.str.StringSink,9,144,(Object)Adapter,9
+io.questdb.cutlass.text.TextMetadataDetector,70,26,State;(Object)Adapter;Proxy,5
+io.questdb.cairo.ColumnVersionWriter,10,30,State;(Object)Adapter,2
+io.questdb.cairo.TableWriterMetadata,8,15,(Object)Adapter,1
+io.questdb.cairo.TxWriter,68,185,State;(Object)Adapter,4
+io.questdb.log.SyncLogger,52,158,Decorator;State;(Object)Adapter,4
+io.questdb.std.ThreadLocal,4,7,State;(Object)Adapter,4
+io.questdb.log.Logger,52,162,Decorator;State;(Object)Adapter,4
+io.questdb.std.IntList,64,480,(Object)Adapter;Proxy,16
+io.questdb.griffin.engine.table.BwdTableReaderPageFrameCursor,146,63,Decorator;State;(Object)Adapter,8
+io.questdb.griffin.engine.table.FwdTableReaderPageFrameCursor,146,63,Decorator;State;(Object)Adapter,8
+io.questdb.griffin.UpdateOperatorImpl,84,7,State;(Object)Adapter,7
+io.questdb.griffin.DropIndexOperator,24,1,State;(Object)Adapter,3
+io.questdb.cutlass.text.CopyContext,5,5,(Object)Adapter,1
+io.questdb.cutlass.text.CopyRequestTask,10,12,(Object)Adapter,1
+io.questdb.cairo.wal.ApplyWal2TableJob,136,10,Template Method;State;(Object)Adapter,8
+io.questdb.std.IntLongHashMap,4,8,Template Method;(Object)Adapter,2
+io.questdb.griffin.PurgingOperator,28,10,State;(Object)Adapter,4
+io.questdb.griffin.engine.functions.bind.StrBindVariable,3,17,(Object)Adapter,1
+io.questdb.cairo.sql.VirtualRecord,12,140,Decorator;(Object)Adapter,4
+io.questdb.std.ObjHashSet,8,11,(Object)Adapter,1
+io.questdb.cairo.map.CompactMap,75,35,(Object)Adapter,3
+io.questdb.cairo.map.FastMap,61,77,Template Method;(Object)Adapter,3
+io.questdb.cairo.sql.async.PageFrameSequence,145,118,State;(Object)Adapter,5
+io.questdb.cairo.wal.WalReader,42,39,State;(Object)Adapter,3
+io.questdb.griffin.engine.table.FilterOnValuesRecordCursorFactory,48,16,Template Method;(Object)Adapter,4
+io.questdb.cutlass.line.udp.CharSequenceCache,0,2,State;(Object)Adapter,2
+io.questdb.cutlass.line.udp.LineUdpParserImpl,651,95,State;(Object)Adapter,17
+io.questdb.cairo.ptt.IsoDatePartitionFormat,4,4,Decorator;(Object)Adapter,2
+io.questdb.cairo.PartitionBy,28,13,Decorator;State;(Object)Adapter,4
+io.questdb.cairo.O3PartitionPurgeJob,35,5,Template Method;State;(Object)Adapter,5
+io.questdb.log.TemplateParser,9,10,(Object)Adapter,1
+io.questdb.log.LogRollingFileWriter,328,82,Template Method;State;(Object)Adapter,8
+io.questdb.log.HttpLogRecordSink,8,14,(Object)Adapter,1
+io.questdb.log.LogAlertSocketWriter,192,115,Template Method;State;(Object)Adapter,6
+io.questdb.std.str.Path,45,200,(Object)Adapter,5
+io.questdb.cairo.sql.PageAddressCacheRecord,30,90,State;(Object)Adapter,3
+io.questdb.cairo.TableReaderRecord,3,33,(Object)Adapter,1
+io.questdb.cairo.TableReaderSelectedColumnRecord,8,62,(Object)Adapter,2
+io.questdb.cairo.wal.WalDataRecord,2,33,(Object)Adapter,1
+io.questdb.network.IOContextFactoryImpl,2,3,(Object)Adapter,1
+io.questdb.network.Epoll,14,11,State;(Object)Adapter,2
+io.questdb.network.IODispatcherLinux,12,2,Template Method;(Object)Adapter,2
+io.questdb.network.Kqueue,18,25,State;(Object)Adapter,2
+io.questdb.network.IODispatcherOsx,14,2,Template Method;(Object)Adapter,2
+io.questdb.cairo.RebuildColumnBase,50,45,Template Method;Bridge;(Object)Adapter,5
+io.questdb.griffin.SqlCompiler,133,63,State;(Object)Adapter;Proxy,7
+io.questdb.std.DirectLongList,24,60,State;(Object)Adapter,3
+io.questdb.cairo.map.Map,0,217,State;(Object)Adapter,31
+io.questdb.griffin.engine.table.LatestByAllSymbolsFilteredRecordCursor,35,20,Template Method;State;(Object)Adapter,5
+io.questdb.griffin.engine.table.LatestByAllFilteredRecordCursor,15,14,Template Method;State;(Object)Adapter,5
+io.questdb.griffin.engine.table.LatestByAllRecordCursor,6,8,Template Method;State;(Object)Adapter,3
+io.questdb.cairo.vm.api.MemoryARW,0,4,(Object)Adapter,4
+io.questdb.griffin.engine.join.LongChain,2,4,(Object)Adapter,1
+io.questdb.cairo.vm.MemorySRImpl,21,17,State;(Object)Adapter,3
+io.questdb.cairo.SymbolColumnIndexer,18,40,(Object)Adapter;Proxy,3
+io.questdb.cutlass.text.CsvFileIndexer,288,51,State;(Object)Adapter,6
+io.questdb.std.FilesFacade,36,2412,State;(Object)Adapter,36
+io.questdb.cairo.TableToken,20,35,(Object)Adapter,5
+io.questdb.std.IntHashSet,4,28,Template Method;(Object)Adapter,2
+io.questdb.std.LowerCaseCharSequenceObjHashMap,3,36,Template Method;(Object)Adapter,3
+io.questdb.griffin.engine.ops.AlterOperation,137,75,State;(Object)Adapter,9
+io.questdb.log.LogAlertSocket,78,39,State;(Object)Adapter,3
+io.questdb.cairo.vm.api.MemoryMR,0,3,(Object)Adapter,3
+io.questdb.cairo.IndexBuilder,20,9,Template Method;State;(Object)Adapter;Proxy,5
+io.questdb.mp.SCSequence,0,35,(Object)Adapter,5
+io.questdb.log.LogConsoleWriter,10,5,Template Method;(Object)Adapter,2
+io.questdb.log.LogFileWriter,26,15,Template Method;(Object)Adapter,2
+io.questdb.mp.Sequence,0,56,State;Bridge;(Object)Adapter,14
+io.questdb.mp.AbstractQueueConsumerJob,6,0,Template Method;Bridge;(Object)Adapter,3
+io.questdb.log.Log,0,2516,Decorator;State;Bridge;(Object)Adapter,148
+io.questdb.cutlass.text.TextMetadataParser,64,8,State;(Object)Adapter,2
+io.questdb.cutlass.http.HttpConnectionContext,120,108,State;(Object)Adapter,5
+io.questdb.cairo.RecoverVarIndex,3,0,Template Method;State;(Object)Adapter,3
+io.questdb.cairo.CairoConfiguration,180,6948,Decorator;State;Bridge;(Object)Adapter,36
+io.questdb.std.Rnd,180,840,(Object)Adapter,30
+io.questdb.griffin.engine.functions.rnd.RndStrFunction,4,3,(Object)Adapter,1
+io.questdb.griffin.engine.table.HeapRowCursorFactory,8,8,(Object)Adapter,2
+io.questdb.griffin.engine.table.SequentialRowCursorFactory,16,14,Decorator;(Object)Adapter,5
+io.questdb.griffin.engine.table.AbstractTreeSetRecordCursorFactory,6,0,Template Method;Bridge;(Object)Adapter,3
+io.questdb.griffin.engine.table.DataFrameRecordCursorFactory,48,40,Template Method;State;(Object)Adapter,4
+io.questdb.griffin.engine.table.LatestByValueFilteredRecordCursorFactory,6,6,Template Method;State;(Object)Adapter,3
+io.questdb.griffin.engine.table.DataFrameRecordCursorImpl,25,37,State;(Object)Adapter,5
+io.questdb.griffin.engine.table.FilterOnExcludedValuesRecordCursorFactory,54,15,Template Method;(Object)Adapter,3
+io.questdb.griffin.engine.table.SortedSymbolIndexRecordCursorFactory,2,6,Template Method;(Object)Adapter,2
+io.questdb.griffin.engine.table.LatestByValueIndexedFilteredRecordCursor,21,15,State;(Object)Adapter,3
+io.questdb.griffin.engine.table.LatestByValueIndexedFilteredRecordCursorFactory,4,4,Template Method;(Object)Adapter,2
+io.questdb.griffin.engine.table.LatestByValueListRecordCursor,39,21,State;(Object)Adapter,3
+io.questdb.griffin.engine.table.LatestByDeferredListValuesFilteredRecordCursorFactory,10,4,Template Method;(Object)Adapter,2
+io.questdb.TelemetryJob,12,4,Template Method;State;(Object)Adapter,3
+io.questdb.cairo.ColumnPurgeJob,130,15,Template Method;State;(Object)Adapter,5
+io.questdb.cairo.wal.WalPurgeJob,133,20,Template Method;State;(Object)Adapter,7
+io.questdb.std.ConcurrentHashMap,186,155,Template Method;(Object)Adapter,5
+io.questdb.cairo.pool.AbstractMultiTenantPool,60,26,Template Method;Bridge;(Object)Adapter,5
+io.questdb.cairo.pool.WriterPool,84,43,Template Method;State;(Object)Adapter,6
+io.questdb.griffin.SqlExecutionContext,0,344,State;Bridge;(Object)Adapter,8
+io.questdb.std.IntStack,7,9,(Object)Adapter,1
+io.questdb.griffin.SqlExecutionContextImpl,100,171,State;(Object)Adapter,5
+io.questdb.griffin.engine.analytic.AnalyticContextImpl,6,8,(Object)Adapter,1
+io.questdb.cairo.CairoEngine,237,819,Template Method;State;(Object)Adapter;Proxy,15
+io.questdb.cairo.wal.CheckWalTransactionsJob,30,7,Template Method;State;(Object)Adapter,3
+io.questdb.cairo.pool.WalWriterPool,2,0,Template Method;(Object)Adapter,2
+io.questdb.cairo.wal.WalWriterMetadata,7,13,(Object)Adapter,1
+io.questdb.griffin.engine.table.AbstractDataFrameRecordCursor,16,28,Decorator;Bridge;(Object)Adapter,4
+io.questdb.cairo.AbstractTableNameRegistry,6,8,(Object)Adapter,2
+io.questdb.cairo.TableNameRegistryFileStore,30,18,State;(Object)Adapter,3
+io.questdb.MessageBus,0,480,State;(Object)Adapter,10
+io.questdb.cairo.sql.async.PageFrameReduceJob,18,9,State;(Object)Adapter,3
+io.questdb.cairo.AbstractFullDataFrameCursor,4,4,(Object)Adapter,1
+io.questdb.cairo.AbstractIntervalDataFrameCursor,36,17,Bridge;(Object)Adapter,2
+io.questdb.std.ObjStack,6,8,(Object)Adapter,1
+io.questdb.griffin.BasePlanSink,16,28,(Object)Adapter,2
+io.questdb.cutlass.line.tcp.TableStructureAdapter,18,17,State;(Object)Adapter,2
+io.questdb.cairo.BitmapIndexFwdReader,28,11,Decorator;(Object)Adapter,4
+io.questdb.std.IntLongPriorityQueue,3,7,(Object)Adapter,1
+io.questdb.griffin.engine.table.HeapRowCursor,12,15,Decorator;(Object)Adapter,6
+io.questdb.griffin.engine.table.LatestByValueIndexedRowCursor,5,10,Decorator;(Object)Adapter,5
+io.questdb.griffin.engine.table.LatestByValueDeferredIndexedRowCursorFactory,10,8,State;(Object)Adapter,2
+io.questdb.griffin.engine.table.LatestByValueIndexedRowCursorFactory,4,3,(Object)Adapter,1
+io.questdb.griffin.engine.table.DataFrameBwdRowCursor,8,12,Decorator;(Object)Adapter,4
+io.questdb.griffin.engine.table.BwdDataFrameRowCursorFactory,1,2,(Object)Adapter,1
+io.questdb.griffin.engine.table.DataFrameRowCursor,8,12,Decorator;(Object)Adapter,4
+io.questdb.griffin.engine.table.DataFrameRowCursorFactory,1,2,(Object)Adapter,1
+io.questdb.griffin.engine.table.SortedSymbolIndexRowCursorFactory,23,11,Decorator;State;(Object)Adapter,5
+io.questdb.griffin.engine.table.SelectedRecordCursorFactory,16,35,Decorator;(Object)Adapter,5
+io.questdb.cutlass.http.processors.TextImportProcessor,69,20,State;(Object)Adapter,3
+io.questdb.cairo.vm.api.MemoryMARW,0,4,State;(Object)Adapter,2
+io.questdb.cairo.SymbolMapWriter,84,79,State;(Object)Adapter,6
+io.questdb.griffin.engine.table.LatestByValuesFilteredRecordCursor,18,9,Template Method;State;(Object)Adapter,3
+io.questdb.network.NetworkFacade,0,672,State;Bridge;(Object)Adapter,14
+io.questdb.cutlass.line.tcp.PlainTcpLineChannel,16,8,Decorator;State;(Object)Adapter,4
+io.questdb.cutlass.line.udp.UdpLineChannel,20,12,Decorator;State;(Object)Adapter,5
+io.questdb.cairo.wal.seq.SequencerMetadata,8,17,(Object)Adapter,1
+io.questdb.cairo.wal.seq.TableSequencerImpl,170,185,State;(Object)Adapter,10
+io.questdb.mp.MCSequence,0,2,(Object)Adapter,1
+io.questdb.mp.MPSequence,1,1,(Object)Adapter,1
+io.questdb.cairo.TableConverter,7,5,State;(Object)Adapter,3
+io.questdb.std.CharSequenceObjHashMap,8,44,Template Method;(Object)Adapter,4
+io.questdb.cutlass.text.CairoTextWriter,114,80,State;(Object)Adapter;Proxy,5
+io.questdb.mp.FanOut,10,14,Decorator;(Object)Adapter,2
+io.questdb.cairo.vm.api.MemoryCMARW,0,0,(Object)Adapter,1
+io.questdb.cairo.IDGenerator,10,7,State;(Object)Adapter,2
+io.questdb.cairo.wal.seq.TableTransactionLog,66,31,State;(Object)Adapter,7
+io.questdb.cairo.map.CompactMapValue,12,53,(Object)Adapter,2
+io.questdb.std.CharSequenceIntHashMap,8,24,Template Method;(Object)Adapter,2
+io.questdb.cairo.BitmapIndexWriter,90,101,Decorator;State;(Object)Adapter;Proxy,9
+io.questdb.cairo.frm.file.ContiguousFileFixFrameColumn,40,44,State;(Object)Adapter,4
+io.questdb.cairo.frm.file.ContiguousFileVarFrameColumn,48,44,State;(Object)Adapter,4
+io.questdb.griffin.engine.ops.OperationFutureImpl,60,29,State;(Object)Adapter,5
+io.questdb.cairo.vm.api.MemoryCMR,0,0,(Object)Adapter,2
+io.questdb.Metrics,48,34,(Object)Adapter;Proxy,4
+io.questdb.cairo.ColumnVersionReader,57,52,State;(Object)Adapter,3
+io.questdb.cutlass.line.tcp.SymbolCache,50,21,State;(Object)Adapter,5
+io.questdb.std.ByteCharSequenceIntHashMap,11,15,(Object)Adapter,1
+io.questdb.griffin.engine.RecordComparator,0,10,State;(Object)Adapter,5
+io.questdb.cairo.vm.api.MemoryMAR,0,2,(Object)Adapter,1
+io.questdb.cutlass.line.tcp.LineTcpMeasurementScheduler,126,27,State;(Object)Adapter,6
+io.questdb.cutlass.line.tcp.LineTcpNetworkIOJob,44,28,State;(Object)Adapter,4
+io.questdb.metrics.VirtualLongGauge,4,12,State;(Object)Adapter,2
+io.questdb.cairo.frm.file.ContiguousFileColumnPool,1,3,(Object)Adapter,1
+io.questdb.cairo.AbstractIndexReader,55,43,Bridge;(Object)Adapter,5
+io.questdb.client.Sender,0,24,State;(Object)Adapter,2
+io.questdb.griffin.CompiledQueryImpl,84,228,Template Method;State;(Object)Adapter,7
+io.questdb.griffin.engine.ops.UpdateOperation,18,24,State;(Object)Adapter,2
+io.questdb.cairo.map.CompactMapRecord,6,24,(Object)Adapter,1
+io.questdb.cairo.map.MapRecord,0,4,State;(Object)Adapter,2
+io.questdb.cairo.map.FastMapRecord,34,56,State;(Object)Adapter,2
+io.questdb.griffin.engine.table.SymbolIndexFilteredRowCursor,56,24,Decorator;State;(Object)Adapter,7
+io.questdb.griffin.engine.table.SymbolIndexFilteredRowCursorFactory,2,6,(Object)Adapter,1
+io.questdb.std.IOURingImpl,32,10,State;(Object)Adapter,2
+io.questdb.griffin.engine.ops.InsertOperationImpl,21,17,State;(Object)Adapter,5
+io.questdb.cutlass.line.tcp.auth.EllipticCurveAuthenticator,78,23,State;(Object)Adapter,4
+io.questdb.std.datetime.microtime.MicrosecondClock,0,26,State;Bridge;(Object)Adapter,26
+io.questdb.cutlass.http.HttpResponseSink,54,26,State;(Object)Adapter,4
+io.questdb.std.datetime.millitime.MillisecondClock,0,19,State;Bridge;(Object)Adapter,19
+io.questdb.cairo.frm.file.RecycleBin,0,12,State;(Object)Adapter,6
+io.questdb.cairo.frm.file.PartitionFrame,63,68,State;(Object)Adapter,7
+io.questdb.cairo.RecordSink,0,8,State;(Object)Adapter,8
+io.questdb.cairo.wal.WalEventCursor,9,7,(Object)Adapter,1
+io.questdb.cairo.wal.SymbolMapDiffImpl,8,4,(Object)Adapter,1
+io.questdb.cairo.sql.RecordMetadata,10,200,State;(Object)Adapter,10
+io.questdb.network.EpollFacade,0,24,State;(Object)Adapter,3
+io.questdb.network.EventFdSuspendEvent,6,6,Template Method;State;(Object)Adapter,3
+io.questdb.cairo.ConcurrentBitmapIndexFwdReader,26,8,Decorator;(Object)Adapter,4
+io.questdb.network.KqueueFacade,0,18,State;(Object)Adapter,3
+io.questdb.network.PipeSuspendEvent,9,6,Template Method;State;(Object)Adapter,3
+io.questdb.cairo.vm.MemoryFCRImpl,0,3,(Object)Adapter,1
+io.questdb.cutlass.line.tcp.StaticPublicKeyRepo,2,0,(Object)Adapter,1
+io.questdb.std.CharSequenceHashSet,6,34,Template Method;(Object)Adapter,2
+io.questdb.metrics.GCMetrics,4,1,(Object)Adapter;Proxy,2
+io.questdb.griffin.engine.ops.OperationDispatcher,8,1,Template Method;(Object)Adapter,2
+io.questdb.cairo.security.SecurityContextFactory,6,4,State;(Object)Adapter,2
+io.questdb.std.AssociativeCache,20,6,State;(Object)Adapter,2
+io.questdb.griffin.model.QueryModel,510,773,(Object)Adapter;Proxy,5
+io.questdb.griffin.ExpressionTreeBuilder,3,0,(Object)Adapter,1
+io.questdb.cairo.LifecycleManager,0,2,State;(Object)Adapter,2
+io.questdb.cairo.frm.FrameColumnPool,0,4,State;(Object)Adapter,2
+io.questdb.griffin.engine.ops.DoneOperationFuture,1,7,(Object)Adapter,1
+io.questdb.cairo.vm.api.MemoryR,0,104,State;(Object)Adapter,4
+io.questdb.cairo.wal.seq.EmptyOperationCursor,1,5,(Object)Adapter,1
+io.questdb.cutlass.pgwire.PgWireUserDatabase,0,2,State;(Object)Adapter,2
+io.questdb.tasks.TelemetryTask,10,2,State;(Object)Adapter,2
+io.questdb.tasks.TelemetryWalTask,20,2,State;(Object)Adapter,2
+io.questdb.metrics.HealthMetricsImpl,2,1,State;(Object)Adapter,2
+io.questdb.std.str.DirectCharSequence,3,5,(Object)Adapter,1
+io.questdb.cairo.TableWriterAPI,0,57,State;(Object)Adapter,3
+io.questdb.cairo.sql.NetworkSqlExecutionCircuitBreaker,52,70,State;(Object)Adapter,4
+io.questdb.cairo.MemorySerializer,0,4,State;(Object)Adapter,2
+io.questdb.cairo.sql.InsertOperation,0,10,State;(Object)Adapter,2
+io.questdb.cairo.AbstractDataFrameCursorFactory,3,4,(Object)Adapter,1
+io.questdb.std.datetime.DateFormat,0,42,Decorator;State,14
+io.questdb.cairo.ptt.IsoWeekPartitionFormat,0,3,Decorator,1
+io.questdb.cairo.ColumnTypes,0,6,Decorator;State,3
+io.questdb.cairo.SymbolAsIntTypes,2,4,Decorator,2
+io.questdb.cairo.AbstractRecordMetadata,8,26,Decorator,2
+io.questdb.cairo.ArrayColumnTypes,2,10,Decorator,2
+io.questdb.cairo.SingleColumnType,2,6,Decorator,2
+io.questdb.cairo.SymbolAsStrTypes,2,2,Decorator,2
+io.questdb.cairo.sql.RowCursor,0,15,Decorator;State,5
+io.questdb.cairo.EmptyRowCursor,3,6,Decorator,3
+io.questdb.cairo.BitmapIndexBwdNullReader,3,6,Decorator,3
+io.questdb.cairo.BitmapIndexFwdNullReader,6,6,Decorator,3
+io.questdb.cairo.BitmapIndexBwdReader,15,9,Decorator,3
+io.questdb.griffin.engine.table.VirtualFunctionDirectSymbolRecordCursor,0,0,Decorator,1
+io.questdb.griffin.engine.groupby.VirtualFunctionSkewedSymbolRecordCursor,1,2,Decorator,1
+io.questdb.griffin.engine.join.RecordAsAFieldRecordCursorFactory,5,7,Decorator,2
+io.questdb.griffin.engine.orderby.LimitedSizeSortedLightRecordCursor,24,18,Decorator;State,2
+io.questdb.griffin.engine.orderby.SortedLightRecordCursor,16,17,Decorator;State,2
+io.questdb.griffin.engine.orderby.SortedRecordCursor,12,19,Decorator;State,2
+io.questdb.cairo.DefaultCairoConfiguration,12,182,Decorator,1
+io.questdb.griffin.SqlCodeGenerator,134,62,Decorator;State,12
+io.questdb.griffin.engine.table.AsyncFilteredRecordCursorFactory,24,15,Decorator;State,2
+io.questdb.griffin.engine.table.FilteredRecordCursorFactory,3,6,Decorator,1
+io.questdb.griffin.engine.table.LatestByRecordCursorFactory,55,31,Decorator;State,5
+io.questdb.griffin.engine.union.AbstractSetRecordCursorFactory,10,6,Decorator;Template Method,2
+io.questdb.griffin.engine.union.ExceptRecordCursorFactory,0,2,Decorator;Template Method,2
+io.questdb.griffin.engine.union.UnionRecordCursorFactory,0,6,Decorator;Template Method,2
+io.questdb.griffin.engine.union.IntersectRecordCursorFactory,0,2,Decorator;Template Method,2
+io.questdb.griffin.engine.union.UnionAllRecordCursorFactory,0,4,Decorator;Template Method,2
+io.questdb.griffin.engine.functions.SymbolFunction,0,90,Decorator,3
+io.questdb.griffin.engine.functions.groupby.FirstSymbolGroupByFunction,4,25,Decorator,2
+io.questdb.griffin.engine.functions.groupby.LastSymbolGroupByFunction,0,2,Decorator,1
+io.questdb.griffin.engine.functions.columns.SymbolColumn,15,32,Decorator;State,3
+io.questdb.griffin.engine.functions.constants.SymbolConstant,5,9,Decorator,1
+io.questdb.griffin.engine.functions.bind.CompiledFilterSymbolBindVariable,6,15,Decorator;State,2
+io.questdb.griffin.engine.groupby.MapSymbolColumn,18,29,Decorator;State,3
+io.questdb.griffin.engine.functions.GroupByFunction,0,16,Decorator,1
+io.questdb.griffin.engine.functions.groupby.InterpolationGroupByFunction,7,40,Decorator,1
+io.questdb.griffin.engine.functions.groupby.CountLongConstGroupByFunction,1,9,Decorator,1
+io.questdb.griffin.engine.functions.groupby.AbstractCountGroupByFunction,2,8,Decorator,1
+io.questdb.griffin.engine.table.LatestBySubQueryRecordCursorFactory,4,26,Decorator;State,2
+io.questdb.cutlass.line.LineChannel,0,8,Decorator;Bridge,2
+io.questdb.cutlass.line.tcp.DelegatingTlsChannel,42,8,Decorator;State,2
+io.questdb.mp.Barrier,0,8,Decorator,1
+io.questdb.cairo.sql.PageFrame,0,16,Decorator;State,2
+io.questdb.cairo.TxReader,39,55,State,1
+io.questdb.griffin.InsertRowImpl,15,5,State,3
+io.questdb.griffin.RecordToRowCopier,0,2,State,2
+io.questdb.std.Numbers,29,75,State,1
+io.questdb.cutlass.text.SerialCsvFileImporter,64,16,State,4
+io.questdb.mp.Worker,45,7,State,3
+io.questdb.mp.WorkerCleaner,0,1,State,1
+io.questdb.griffin.engine.functions.bind.NamedParameterLinkFunction,3,33,State,1
+io.questdb.griffin.engine.functions.date.OffsetTimestampFunctionFromOffset,2,2,State,1
+io.questdb.griffin.engine.functions.date.OffsetTimestampFunctionFromRules,6,4,State,2
+io.questdb.griffin.engine.functions.eq.UuidEqUtils,6,4,State,2
+io.questdb.griffin.engine.functions.str.TrimFunction,4,4,State,1
+io.questdb.griffin.engine.functions.conditional.BinCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.CaseFunctionPicker,0,19,State,19
+io.questdb.griffin.engine.functions.conditional.BooleanCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.ByteCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.CharCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.DateCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.DoubleCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.FloatCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.GeoByteCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.GeoIntCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.GeoLongCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.GeoShortCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.IntCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.Long128CaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.Long256CaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.LongCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.ShortCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.StrCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.TimestampCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.UuidCaseFunction,2,1,State,1
+io.questdb.cairo.wal.WalEventReader,4,1,State,1
+io.questdb.cairo.VacuumColumnVersions,30,2,State,2
+io.questdb.griffin.DatabaseSnapshotAgent,30,11,State,3
+io.questdb.cairo.ColumnPurgeOperator,45,7,State,3
+io.questdb.cutlass.text.CopyTask,91,39,State,7
+io.questdb.cutlass.pgwire.PGConnectionContext,812,210,State;Proxy,7
+io.questdb.griffin.FunctionFactoryDescriptor,8,11,State,1
+io.questdb.jit.CompiledFilterIRSerializer,72,10,State,2
+io.questdb.griffin.SqlParser,32,1,State,1
+io.questdb.griffin.engine.join.HashJoinRecordCursorFactory,16,8,State,2
+io.questdb.griffin.engine.join.HashOuterJoinFilteredRecordCursorFactory,16,8,State,2
+io.questdb.griffin.engine.join.HashOuterJoinRecordCursorFactory,16,8,State,2
+io.questdb.griffin.engine.join.HashJoinLightRecordCursorFactory,18,8,State,2
+io.questdb.griffin.engine.join.HashOuterJoinFilteredLightRecordCursorFactory,18,8,State,2
+io.questdb.griffin.engine.join.HashOuterJoinLightRecordCursorFactory,18,8,State,2
+io.questdb.griffin.engine.groupby.SampleByFillNoneRecordCursor,18,10,State,3
+io.questdb.griffin.engine.join.AsOfJoinLightRecordCursorFactory,11,3,State,1
+io.questdb.griffin.engine.join.AsOfJoinRecordCursorFactory,24,7,State,2
+io.questdb.griffin.engine.join.LtJoinLightRecordCursorFactory,11,3,State,1
+io.questdb.griffin.engine.join.LtJoinRecordCursorFactory,24,7,State,2
+io.questdb.griffin.engine.join.SpliceJoinLightRecordCursorFactory,22,3,State,1
+io.questdb.griffin.engine.union.UnionRecordCursor,14,8,State,2
+io.questdb.griffin.engine.orderby.LimitedSizeSortedLightRecordCursorFactory,21,18,State,3
+io.questdb.griffin.engine.functions.GenericRecordCursorFactory,2,2,State,1
+io.questdb.griffin.engine.groupby.GroupByRecordCursorFactory,15,6,State,3
+io.questdb.griffin.engine.groupby.SampleByInterpolateRecordCursorFactory,24,8,State,2
+io.questdb.griffin.engine.union.ExceptCastRecordCursor,6,5,State,1
+io.questdb.griffin.engine.union.ExceptRecordCursor,6,7,State,1
+io.questdb.griffin.engine.union.IntersectCastRecordCursor,6,5,State,1
+io.questdb.griffin.engine.union.IntersectRecordCursor,6,7,State,1
+io.questdb.griffin.engine.groupby.GroupByFunctionsUpdater,0,12,State;Bridge,3
+io.questdb.griffin.engine.union.UnionAllRecordCursor,4,4,State,1
+io.questdb.griffin.engine.groupby.CountRecordCursorFactory,10,8,State,2
+io.questdb.griffin.engine.groupby.GroupByNotKeyedRecordCursorFactory,24,18,State,3
+io.questdb.griffin.engine.groupby.SampleByFillPrevRecordCursor,14,9,State,2
+io.questdb.griffin.engine.groupby.SampleByFillValueRecordCursor,16,9,State,2
+io.questdb.cutlass.line.tcp.TableUpdateDetails,62,38,State,3
+io.questdb.cairo.sql.TableRecordMetadata,0,6,State,1
+io.questdb.cairo.TableStructure,0,30,State,3
+io.questdb.cutlass.text.types.InputFormatConfiguration,30,11,State,1
+io.questdb.cutlass.line.tcp.LineTcpMeasurementEvent,22,16,State,2
+io.questdb.Telemetry,18,10,State,2
+io.questdb.cutlass.line.tcp.LineTcpParser,52,12,State,1
+io.questdb.cutlass.line.tcp.IOTableUpdateDetailsPool,7,3,State,1
+io.questdb.Bootstrap,33,27,State,3
+io.questdb.TelemetryConfigLogger,16,2,State,2
+io.questdb.cairo.DebugUtils,1,1,State,1
+io.questdb.cairo.O3Utils,1,1,State,1
+io.questdb.cairo.TableUtils,82,77,State,1
+io.questdb.cairo.mig.EngineMigration,2,0,State,1
+io.questdb.cairo.mig.Mig607,6,1,State,1
+io.questdb.cairo.mig.Mig609,3,0,State,1
+io.questdb.cairo.mig.Mig614,3,0,State,1
+io.questdb.cairo.mig.Mig620,31,0,State,1
+io.questdb.cairo.mig.Mig702,12,1,State,1
+io.questdb.cutlass.http.processors.QueryCache,10,11,State,2
+io.questdb.cutlass.text.TextDelimiterScanner,11,1,State,1
+io.questdb.std.BytecodeAssembler,49,100,State,1
+io.questdb.std.datetime.microtime.TimestampFormatUtils,36,27,State,1
+io.questdb.std.datetime.millitime.DateFormatUtils,15,20,State,1
+io.questdb.griffin.SqlUtil,6,40,State,1
+io.questdb.cutlass.pgwire.PGWireServer,5,2,State,1
+io.questdb.network.IODispatcher,36,12,State,2
+io.questdb.cairo.map.RecordValueSink,0,2,State,2
+io.questdb.cairo.TableReaderMetadata,28,28,State,2
+io.questdb.cairo.TxnScoreboard,12,18,State,2
+io.questdb.cutlass.http.WaitProcessor,30,10,Template Method;State,3
+io.questdb.cutlass.line.tcp.LineTcpWriterJob,33,5,State,3
+io.questdb.cairo.DynamicTableReaderMetadata,18,24,State,3
+io.questdb.cutlass.text.TextLoader,120,143,State;Proxy,5
+io.questdb.griffin.FunctionParser,36,18,State,2
+io.questdb.std.ObjectPool,10,4,State,2
+io.questdb.griffin.CharacterStore,6,8,State,1
+io.questdb.std.MemoryPages,16,16,State;Proxy,2
+io.questdb.cutlass.line.tcp.LineTcpConnectionContext,125,34,State,5
+io.questdb.cairo.vm.MemoryCARWImpl,6,14,State,1
+io.questdb.cairo.vm.MemoryCMARWImpl,7,20,State,1
+io.questdb.cairo.vm.MemoryCMORImpl,3,8,State,1
+io.questdb.cairo.vm.MemoryCMRImpl,3,5,State,1
+io.questdb.log.LogRecord,0,23,State,1
+io.questdb.griffin.engine.table.ShowPartitionsRecordCursorFactory,18,4,State,2
+io.questdb.cairo.O3CopyJob,2,2,Template Method;State,2
+io.questdb.cairo.O3OpenColumnJob,12,8,Template Method;State,2
+io.questdb.cairo.O3PartitionJob,2,2,Template Method;State,2
+io.questdb.ServerConfiguration,0,11,State,1
+io.questdb.griffin.engine.table.AsyncJitFilteredRecordCursorFactory,12,7,State,1
+io.questdb.griffin.engine.table.DeferredSingleSymbolFilterDataFrameRecordCursorFactory,5,4,State,1
+io.questdb.std.ReadOnlyObjList,0,6,State,1
+io.questdb.griffin.engine.table.LatestByValueFilteredRecordCursor,14,12,State,2
+io.questdb.griffin.engine.table.LatestByValuesIndexedFilteredRecordCursor,22,10,State,2
+io.questdb.cutlass.text.TextConfiguration,0,14,State,1
+io.questdb.cutlass.line.udp.LineUdpLexer,17,4,State,1
+io.questdb.cutlass.line.udp.LineUdpParser,9,3,State,1
+io.questdb.cairo.wal.seq.TableSequencerAPI,16,39,State,2
+io.questdb.griffin.engine.functions.bind.BinBindVariable,1,4,State,1
+io.questdb.std.BinarySequence,0,3,State,1
+io.questdb.cairo.TableNameRegistry,1,16,State,1
+io.questdb.cutlass.http.HttpContextConfiguration,0,15,State,1
+io.questdb.griffin.engine.groupby.vect.GroupByNotKeyedVectorRecordCursorFactory,18,18,State,3
+io.questdb.griffin.engine.join.NestedLoopLeftJoinRecordCursorFactory,5,3,State,1
+io.questdb.cairo.vm.MemoryPMARImpl,14,19,State,2
+io.questdb.griffin.engine.table.LatestByAllIndexedRecordCursor,28,10,State,2
+io.questdb.griffin.engine.table.LatestByValueRecordCursor,6,5,State,1
+io.questdb.griffin.engine.table.LatestByValuesIndexedRecordCursor,9,5,State,1
+io.questdb.cutlass.text.types.DateAdapter,2,5,State,1
+io.questdb.cutlass.text.types.DateUtf8Adapter,3,3,State,1
+io.questdb.cutlass.text.types.TimestampAdapter,2,3,State,1
+io.questdb.cutlass.http.processors.JsonQueryProcessor,36,17,State,3
+io.questdb.cutlass.http.processors.JsonQueryProcessorConfiguration,0,16,State,2
+io.questdb.cutlass.http.processors.TextQueryProcessor,30,15,State,3
+io.questdb.cairo.sql.DataFrame,0,4,State,1
+io.questdb.cutlass.line.tcp.LineTcpReceiverConfiguration,0,96,State;Bridge,3
+io.questdb.tasks.LatestByTask,16,1,State,1
+io.questdb.mp.CountDownLatchSPI,0,1,State,1
+io.questdb.cutlass.line.tcp.NetworkIOJob,0,6,State,1
+io.questdb.cutlass.text.types.OtherToTimestampAdapter,1,5,State,1
+io.questdb.cutlass.text.types.TimestampCompatibleAdapter,0,1,State,1
+io.questdb.cairo.TableWriterMetrics,5,3,State,1
+io.questdb.cairo.wal.WalMetrics,12,1,State,2
+io.questdb.cutlass.http.processors.JsonQueryMetrics,3,3,State,1
+io.questdb.cutlass.http.processors.StaticContentProcessor,18,4,State,2
+io.questdb.griffin.engine.groupby.SampleByFirstLastRecordCursorFactory,103,30,State,4
+io.questdb.std.ObjectFactory,0,4,State,4
+io.questdb.cairo.sql.SqlExecutionCircuitBreakerConfiguration,0,7,State,1
+io.questdb.cutlass.line.udp.LineUdpReceiverConfiguration,0,60,State;Bridge,3
+io.questdb.std.WeakSelfReturningObjectPool,2,0,Template Method;State,2
+io.questdb.std.SelfReturningObjectFactory,0,1,State,1
+io.questdb.cairo.sql.SingleSymbolFilter,0,2,State,1
+io.questdb.cutlass.http.processors.PrometheusMetricsProcessor,2,0,State,1
+io.questdb.metrics.Scrapable,0,2,State;Proxy,2
+io.questdb.cairo.sql.AsyncWriterCommand,0,12,State,1
+io.questdb.std.Unsafe,16,25,State,1
+io.questdb.TelemetryConfiguration,0,4,State,1
+io.questdb.cairo.vm.api.MemoryMAT,0,4,State,1
+io.questdb.cairo.sql.ExecutionCircuitBreaker,0,2,State,2
+io.questdb.griffin.engine.table.DeferredSymbolIndexFilteredRowCursorFactory,4,6,State,1
+io.questdb.griffin.engine.table.DeferredSymbolIndexRowCursorFactory,5,6,State,1
+io.questdb.griffin.PlanSink,0,74,State,2
+io.questdb.std.RostiAllocFacade,0,6,State,1
+io.questdb.cairo.sql.RowCursorFactory,0,7,State,1
+io.questdb.cairo.vm.MemoryPARWImpl,23,92,State,1
+io.questdb.BuildInformation,0,3,State,1
+io.questdb.griffin.engine.ops.CopyFactory,14,2,State,1
+io.questdb.metrics.HealthMetrics,0,2,State,1
+io.questdb.std.WeakClosableObjectPool,2,4,Template Method;State,2
+io.questdb.std.WeakMutableObjectPool,2,4,Template Method;State,2
+io.questdb.ServerMain,8,10,State,1
+io.questdb.cairo.IndexFrameCursor,0,1,State,1
+io.questdb.cairo.TableNameRegistryRO,7,6,State,1
+io.questdb.cairo.wal.WalInitializer,0,1,State,1
+io.questdb.cairo.pool.ReaderPool,6,7,Template Method;State,2
+io.questdb.cairo.IntervalBwdDataFrameCursor,1,1,State,1
+io.questdb.cutlass.auth.PublicKeyRepo,0,1,State,1
+io.questdb.std.NanosecondClock,0,2,State,2
+io.questdb.cutlass.line.LineProtoTimestampAdapter,0,2,State,1
+io.questdb.network.IODispatcherWindows,12,2,Template Method;State,2
+io.questdb.network.SelectFacade,0,1,State,1
+io.questdb.std.datetime.TimeZoneRules,0,4,State,1
+io.questdb.griffin.engine.functions.date.TimestampFloorFunctions,10,16,Template Method;Bridge,2
+io.questdb.griffin.engine.groupby.AbstractNoRecordSampleByCursor,42,16,Bridge,3
+io.questdb.cutlass.line.udp.AbstractLineProtoUdpReceiver,44,5,Template Method;Bridge,4
+io.questdb.network.IODispatcherConfiguration,2,22,Bridge,1
+io.questdb.griffin.engine.table.AbstractDataFrameRecordCursorFactory,2,2,Template Method;Bridge,2
+io.questdb.cairo.sql.DataFrameCursorFactory,3,8,Bridge,1
+io.questdb.griffin.engine.groupby.AbstractSampleByCursor,11,1,Bridge,1
+io.questdb.network.IOContextFactory,0,2,Bridge,1
+io.questdb.cutlass.line.AbstractLineSender,14,26,Bridge,1
+io.questdb.cairo.pool.AbstractPool,20,11,Template Method;Bridge,2
+io.questdb.WorkerPoolManager,5,2,Bridge,1
+io.questdb.network.SuspendEvent,3,8,Template Method,1
+io.questdb.network.AtomicSuspendEvent,1,4,Template Method,1
+io.questdb.std.AbstractLowerCaseAsciiCharSequenceHashSet,7,10,Template Method,1
+io.questdb.std.LowerCaseAsciiCharSequenceIntHashMap,3,6,Template Method,1
+io.questdb.std.LowerCaseAsciiCharSequenceObjHashMap,2,8,Template Method,1
+io.questdb.std.LowerCaseAsciiCharSequenceHashSet,1,3,Template Method,1
+io.questdb.std.WeakObjectPoolBase,3,2,Template Method,1
+io.questdb.std.AbstractLowerCaseCharSequenceHashMap,2,10,Template Method,2
+io.questdb.std.LowerCaseCharSequenceIntHashMap,3,9,Template Method,1
+io.questdb.std.AbstractIntHashSet,8,5,Template Method,1
+io.questdb.std.IntObjHashMap,1,9,Template Method,1
+io.questdb.std.CompactIntHashSet,1,8,Template Method,1
+io.questdb.std.IntIntHashMap,2,5,Template Method,1
+io.questdb.std.AbstractLowerCaseCharSequenceHashSet,7,9,Template Method,1
+io.questdb.std.LowerCaseCharSequenceHashSet,1,6,Template Method,1
+io.questdb.std.AbstractCharSequenceHashSet,7,9,Template Method,1
+io.questdb.std.CompactCharSequenceHashSet,1,7,Template Method,1
+io.questdb.std.AbstractLongHashSet,8,5,Template Method,1
+io.questdb.std.LongObjHashMap,1,7,Template Method,1
+io.questdb.std.LongHashSet,2,12,Template Method,1
+io.questdb.std.LongLongHashMap,2,4,Template Method,1
+io.questdb.std.CompactLongHashSet,1,7,Template Method,1
+io.questdb.std.LongIntHashMap,2,5,Template Method,1
+io.questdb.std.datetime.AbstractTimeZoneRules,13,0,Template Method,1
+io.questdb.std.datetime.microtime.TimeZoneRulesMicros,0,0,Template Method,1
+io.questdb.std.datetime.millitime.TimeZoneRulesMillis,0,1,Template Method,1
+io.questdb.cutlass.text.GenericTextLexer,1,1,Template Method,1
+io.questdb.cutlass.text.CsvTextLexer,0,0,Template Method,1
+io.questdb.griffin.engine.groupby.vect.GroupByJob,0,0,Template Method,1
+io.questdb.cairo.O3CallbackJob,0,1,Template Method,1
+io.questdb.cairo.ColumnIndexerJob,0,0,Template Method,1
+io.questdb.cutlass.text.CopyJob,9,2,Template Method,1
+io.questdb.griffin.engine.table.LatestByAllIndexedJob,0,0,Template Method,1
+io.questdb.mp.SynchronizedJob,2,0,Template Method,1
+io.questdb.cairo.pool.MetadataPool,1,0,Template Method,1
+io.questdb.griffin.engine.groupby.AbstractSampleByRecordCursorFactory,2,3,Template Method,1
+io.questdb.griffin.engine.groupby.SampleByFillNoneRecordCursorFactory,1,3,Template Method,1
+io.questdb.griffin.engine.groupby.AbstractSampleByFillRecordCursorFactory,3,1,Template Method,1
+io.questdb.griffin.engine.groupby.AbstractSampleByNotKeyedRecordCursorFactory,0,1,Template Method,1
+io.questdb.griffin.engine.table.AbstractDescendingRecordListCursor,5,5,Template Method,1
+io.questdb.griffin.engine.table.LatestByValuesRecordCursor,5,2,Template Method,1
+io.questdb.griffin.engine.functions.regex.ILikeStrFunctionFactory,0,1,Template Method,1
+io.questdb.griffin.engine.functions.regex.LikeStrFunctionFactory,0,1,Template Method,1
+io.questdb.griffin.model.InsertModel,33,63,Proxy,3
+io.questdb.std.Mutable,0,23,Proxy,23
+io.questdb.griffin.model.CreateTableModel,51,124,Proxy,3
+io.questdb.griffin.model.AnalyticColumn,4,5,Proxy,1
+io.questdb.griffin.WhereClauseParser,68,4,Proxy,2
+io.questdb.griffin.model.JoinContext,22,4,Proxy,2
+io.questdb.cairo.vm.api.MemoryCR,4,9,Proxy,2
+io.questdb.cairo.vm.AbstractMemoryCR,20,28,Proxy,2
+io.questdb.cutlass.http.processors.TextImportProcessorState,14,2,Proxy,1
+io.questdb.cairo.pool.WriterSource,0,2,Proxy,1
+io.questdb.griffin.engine.groupby.DistinctKeyRecordCursorFactory,2,3,Proxy,1
+io.questdb.griffin.engine.functions.constants.Long256Constant,1,5,Proxy,1
+io.questdb.std.Long256,1,4,Proxy,1
+io.questdb.cairo.TableDescriptor,0,4,Proxy,1
+io.questdb.std.Sinkable,0,2,Proxy,2

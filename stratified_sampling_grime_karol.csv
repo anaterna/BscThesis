@@ -1,0 +1,57 @@
+Class,cg-na,cg-npm,Pattern,count
+io.questdb.cutlass.auth.AuthenticatorFactory,0,0,Factory Method,1
+io.questdb.cairo.SymbolMapReader,0,4,Factory Method,1
+io.questdb.cutlass.http.HttpRequestProcessorSelector,0,1,Factory Method,1
+io.questdb.cutlass.auth.DefaultAuthenticatorFactory,1,1,Factory Method,1
+io.questdb.std.IOURing,0,8,Factory Method,1
+io.questdb.cutlass.Services,0,4,Factory Method,1
+io.questdb.cutlass.http.HttpRequestProcessorFactory,0,1,Factory Method,1
+io.questdb.griffin.engine.functions.constants.LongTypeConstant,1,1,Singleton,1
+io.questdb.cairo.security.AllowAllSecurityContext,1,0,Singleton,1
+io.questdb.cairo.security.AllowAllSecurityContextFactory,1,1,Singleton,1
+io.questdb.griffin.engine.functions.constants.DoubleTypeConstant,1,1,Singleton,1
+io.questdb.cutlass.text.types.UuidAdapter,1,3,Singleton,1
+io.questdb.cutlass.text.types.CharAdapter,1,3,Singleton,1
+io.questdb.griffin.engine.functions.constants.Long256NullConstant,1,2,Singleton,1
+io.questdb.griffin.engine.join.LongChain,2,4,(Object)Adapter,1
+io.questdb.cairo.AbstractFullDataFrameCursor,4,4,(Object)Adapter,1
+io.questdb.std.ObjHashSet,8,11,(Object)Adapter,1
+io.questdb.cairo.wal.seq.EmptyOperationCursor,1,5,(Object)Adapter,1
+io.questdb.cairo.vm.MemoryFCRImpl,0,3,(Object)Adapter,1
+io.questdb.test.log.LogAlertSocketTest,0,0,(Object)Adapter,1
+io.questdb.std.Uuid,7,16,(Object)Adapter,1
+io.questdb.griffin.engine.table.VirtualFunctionDirectSymbolRecordCursor,0,0,Decorator,1
+io.questdb.griffin.engine.functions.groupby.InterpolationGroupByFunction,7,40,Decorator,1
+io.questdb.cairo.DefaultCairoConfiguration,12,182,Decorator,1
+io.questdb.griffin.engine.functions.groupby.CountLongConstGroupByFunction,1,9,Decorator,1
+io.questdb.mp.Barrier,0,8,Decorator,1
+io.questdb.griffin.engine.functions.constants.SymbolConstant,5,9,Decorator,1
+io.questdb.griffin.engine.functions.groupby.LastSymbolGroupByFunction,0,2,Decorator,1
+io.questdb.griffin.engine.functions.conditional.Long128CaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.IntCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.BinCaseFunction,2,1,State,1
+io.questdb.griffin.engine.table.DeferredSymbolIndexRowCursorFactory,5,6,State,1
+io.questdb.test.cairo.CairoTestConfiguration,0,0,State,1
+io.questdb.griffin.engine.functions.conditional.GeoShortCaseFunction,2,1,State,1
+io.questdb.griffin.engine.functions.conditional.UuidCaseFunction,2,1,State,1
+io.questdb.WorkerPoolManager,5,2,Bridge,1
+io.questdb.cutlass.line.AbstractLineSender,14,26,Bridge,1
+io.questdb.griffin.engine.groupby.AbstractSampleByCursor,11,1,Bridge,1
+io.questdb.network.IODispatcherConfiguration,2,22,Bridge,1
+io.questdb.cairo.sql.DataFrameCursorFactory,3,8,Bridge,1
+io.questdb.test.AbstractGriffinTest,0,0,Bridge,1
+io.questdb.network.IOContextFactory,0,2,Bridge,1
+io.questdb.std.LowerCaseAsciiCharSequenceHashSet,1,3,Template Method,1
+io.questdb.griffin.engine.groupby.AbstractSampleByNotKeyedRecordCursorFactory,0,1,Template Method,1
+io.questdb.mp.SynchronizedJob,2,0,Template Method,1
+io.questdb.griffin.engine.groupby.vect.GroupByJob,0,0,Template Method,1
+io.questdb.std.WeakObjectPoolBase,3,2,Template Method,1
+io.questdb.std.IntObjHashMap,1,9,Template Method,1
+io.questdb.std.AbstractCharSequenceHashSet,7,9,Template Method,1
+io.questdb.griffin.model.AnalyticColumn,4,5,Proxy,1
+io.questdb.cutlass.http.processors.TextImportProcessorState,14,2,Proxy,1
+io.questdb.cairo.pool.WriterSource,0,2,Proxy,1
+io.questdb.griffin.engine.groupby.DistinctKeyRecordCursorFactory,2,3,Proxy,1
+io.questdb.griffin.engine.functions.constants.Long256Constant,1,5,Proxy,1
+io.questdb.std.Long256,1,4,Proxy,1
+io.questdb.cairo.TableDescriptor,0,4,Proxy,1

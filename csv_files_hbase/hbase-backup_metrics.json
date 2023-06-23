@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-backup",
+    "name": "hbase/hbase-backup",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "bugs",
+        "value": "21",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "3.9",
+        "bestValue": false
+      },
+      {
+        "metric": "code_smells",
+        "value": "429",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "6392"
+      },
+      {
+        "metric": "complexity",
+        "value": "1763"
+      },
+      {
+        "metric": "development_cost",
+        "value": "379920",
+        "bestValue": false
+      },
+      {
+        "metric": "critical_violations",
+        "value": "84",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "lines",
+        "value": "18367"
+      },
+      {
+        "metric": "classes",
+        "value": "105"
+      }
+    ]
+  }
+}

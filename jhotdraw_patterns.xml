@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Factory Method">
+		<instance>
+			<role name="Creator" element="org.jhotdraw.api.app.ApplicationModel" />
+			<role name="FactoryMethod()" element="org.jhotdraw.api.app.ApplicationModel::createOpenChooser(org.jhotdraw.api.app.Application, org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="FactoryMethod()" element="org.jhotdraw.api.app.ApplicationModel::createOpenDirectoryChooser(org.jhotdraw.api.app.Application, org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="FactoryMethod()" element="org.jhotdraw.api.app.ApplicationModel::createSaveChooser(org.jhotdraw.api.app.Application, org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.jhotdraw.samples.svg.io.SVGFigureFactory" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createRect(double, double, double, double, double, double, java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createEllipse(double, double, double, double, java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createLine(double, double, double, double, java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createPolyline(java.awt.geom.Point2D$Double[], java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createPolygon(java.awt.geom.Point2D$Double[], java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createPath(org.jhotdraw.geom.BezierPath[], java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createG(java.util.Map):org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createImage(double, double, double, double, byte[], java.awt.image.BufferedImage, java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createTextArea(double, double, double, double, javax.swing.text.StyledDocument, java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createText(java.awt.geom.Point2D$Double[], double[], javax.swing.text.StyledDocument, java.util.Map):org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createRadialGradient(double, double, double, double, double, double[], java.awt.Color[], double[], boolean, java.awt.geom.AffineTransform):org.jhotdraw.samples.svg.Gradient" />
+			<role name="FactoryMethod()" element="org.jhotdraw.samples.svg.io.SVGFigureFactory::createLinearGradient(double, double, double, double, double[], java.awt.Color[], double[], boolean, java.awt.geom.AffineTransform):org.jhotdraw.samples.svg.Gradient" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.draw.figure.Figure::findConnector(java.awt.geom.Point2D$Double, org.jhotdraw.draw.figure.ConnectionFigure):org.jhotdraw.draw.connector.Connector" />
+			<role name="FactoryMethod()" element="org.jhotdraw.draw.figure.Figure::findCompatibleConnector(org.jhotdraw.draw.connector.Connector, boolean):org.jhotdraw.draw.connector.Connector" />
+		</instance>
+		<instance>
+			<role name="Creator" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="FactoryMethod()" element="org.jhotdraw.draw.figure.TextHolderFigure::getInsets():org.jhotdraw.geom.Insets2D$Double" />
+		</instance>
+	</pattern>
+	<pattern name="Prototype">
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.GraphicalCompositeFigure" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="prototype" element="org.jhotdraw.draw.GraphicalCompositeFigure::presentationFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.GraphicalCompositeFigure::clone():org.jhotdraw.draw.GraphicalCompositeFigure" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="prototype" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure::decorator:org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure::clone():org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.tool.CreationTool" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="prototype" element="org.jhotdraw.draw.tool.CreationTool::prototype:org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.CreationTool::createFigure():org.jhotdraw.draw.figure.Figure" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.samples.svg.SVGCreateFromFileTool" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="prototype" element="org.jhotdraw.samples.svg.SVGCreateFromFileTool::groupPrototype:org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="Operation()" element="org.jhotdraw.samples.svg.SVGCreateFromFileTool::activate(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.tool.ConnectionTool" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="prototype" element="org.jhotdraw.draw.tool.ConnectionTool::prototype:org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.ConnectionTool::createFigure():org.jhotdraw.draw.figure.ConnectionFigure" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.figure.LineConnectionFigure" />
+			<role name="Prototype" element="org.jhotdraw.draw.connector.Connector" />
+			<role name="prototype" element="org.jhotdraw.draw.figure.LineConnectionFigure::startConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="prototype" element="org.jhotdraw.draw.figure.LineConnectionFigure::endConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LineConnectionFigure::clone():org.jhotdraw.draw.figure.LineConnectionFigure" />
+		</instance>
+		<instance>
+			<role name="Prototype" element="org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="Client" element="org.jhotdraw.draw.handle.ConnectorHandle" />
+			<role name="prototype" element="org.jhotdraw.draw.handle.ConnectorHandle::prototype:org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.handle.ConnectorHandle::createConnection():org.jhotdraw.draw.figure.ConnectionFigure" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.action.GroupAction" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="prototype" element="org.jhotdraw.draw.action.GroupAction::prototype:org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.GroupAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.samples.svg.action.CombineAction" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="prototype" element="org.jhotdraw.samples.svg.action.CombineAction::prototype:org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="Operation()" element="org.jhotdraw.samples.svg.action.CombineAction::combineActionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.io.SerializationInputOutputFormat" />
+			<role name="Prototype" element="org.jhotdraw.draw.Drawing" />
+			<role name="prototype" element="org.jhotdraw.draw.io.SerializationInputOutputFormat::prototype:org.jhotdraw.draw.Drawing" />
+			<role name="Operation()" element="org.jhotdraw.draw.io.SerializationInputOutputFormat::createTransferable(org.jhotdraw.draw.Drawing, java.util.List, double):java.awt.datatransfer.Transferable" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.figure.LineConnectionFigure" />
+			<role name="Prototype" element="org.jhotdraw.draw.liner.Liner" />
+			<role name="prototype" element="org.jhotdraw.draw.figure.LineConnectionFigure::liner:org.jhotdraw.draw.liner.Liner" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LineConnectionFigure::clone():org.jhotdraw.draw.figure.LineConnectionFigure" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.io.ImageInputFormat" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="prototype" element="org.jhotdraw.draw.io.ImageInputFormat::prototype:org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.io.ImageInputFormat::read(java.io.File, org.jhotdraw.draw.Drawing, boolean):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.io.ImageInputFormat::createImageHolder(java.io.InputStream):org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.io.ImageInputFormat::read(java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Client" element="org.jhotdraw.draw.io.TextInputFormat" />
+			<role name="Prototype" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="prototype" element="org.jhotdraw.draw.io.TextInputFormat::prototype:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.io.TextInputFormat::createTextHolderFigures(java.io.InputStream):java.util.LinkedList" />
+			<role name="Operation()" element="org.jhotdraw.draw.io.TextInputFormat::read(java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="Singleton">
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.gui.ActivityManager" />
+			<role name="uniqueInstance" element="org.jhotdraw.gui.ActivityManager::instance:org.jhotdraw.gui.ActivityManager" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel" />
+			<role name="uniqueInstance" element="org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel::instance:org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.gui.plaf.palette.PaletteButtonUI" />
+			<role name="uniqueInstance" element="org.jhotdraw.gui.plaf.palette.PaletteButtonUI::BUTTON_UI:org.jhotdraw.gui.plaf.palette.PaletteButtonUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.gui.plaf.palette.PaletteLabelUI" />
+			<role name="uniqueInstance" element="org.jhotdraw.gui.plaf.palette.PaletteLabelUI::labelUI:org.jhotdraw.gui.plaf.palette.PaletteLabelUI" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.gui.JActivityWindow" />
+			<role name="uniqueInstance" element="org.jhotdraw.gui.JActivityWindow::instance:org.jhotdraw.gui.JActivityWindow" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.color.HSVPhysiologicColorSpace" />
+			<role name="uniqueInstance" element="org.jhotdraw.color.HSVPhysiologicColorSpace::instance:org.jhotdraw.color.HSVPhysiologicColorSpace" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.color.HSVColorSpace" />
+			<role name="uniqueInstance" element="org.jhotdraw.color.HSVColorSpace::instance:org.jhotdraw.color.HSVColorSpace" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.color.HSBColorSpace" />
+			<role name="uniqueInstance" element="org.jhotdraw.color.HSBColorSpace::instance:org.jhotdraw.color.HSBColorSpace" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.color.CMYKGenericColorSpace" />
+			<role name="uniqueInstance" element="org.jhotdraw.color.CMYKGenericColorSpace::instance:org.jhotdraw.color.CMYKGenericColorSpace" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.color.HSLColorSpace" />
+			<role name="uniqueInstance" element="org.jhotdraw.color.HSLColorSpace::instance:org.jhotdraw.color.HSLColorSpace" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.color.CMYKNominalColorSpace" />
+			<role name="uniqueInstance" element="org.jhotdraw.color.CMYKNominalColorSpace::instance:org.jhotdraw.color.CMYKNominalColorSpace" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.color.HSLPhysiologicColorSpace" />
+			<role name="uniqueInstance" element="org.jhotdraw.color.HSLPhysiologicColorSpace::instance:org.jhotdraw.color.HSLPhysiologicColorSpace" />
+		</instance>
+		<instance>
+			<role name="Singleton" element="org.jhotdraw.draw.FigureLayerComparator" />
+			<role name="uniqueInstance" element="org.jhotdraw.draw.FigureLayerComparator::INSTANCE:org.jhotdraw.draw.FigureLayerComparator" />
+		</instance>
+	</pattern>
+	<pattern name="(Object)Adapter">
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Adapter" element="org.jhotdraw.draw.handle.AbstractHandle" />
+			<role name="adaptee" element="org.jhotdraw.draw.handle.AbstractHandle::owner:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.AbstractHandle::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.tool.Tool" />
+			<role name="Adapter" element="org.jhotdraw.draw.DefaultDrawingEditor" />
+			<role name="adaptee" element="org.jhotdraw.draw.DefaultDrawingEditor::tool:org.jhotdraw.draw.tool.Tool" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingEditor::setTool(org.jhotdraw.draw.tool.Tool):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.DrawingView" />
+			<role name="Adapter" element="org.jhotdraw.draw.DefaultDrawingEditor" />
+			<role name="adaptee" element="org.jhotdraw.draw.DefaultDrawingEditor::activeView:org.jhotdraw.draw.DrawingView" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingEditor::remove(org.jhotdraw.draw.DrawingView):void" />
+		</instance>
+		<instance>
+			<role name="Adapter" element="org.jhotdraw.samples.svg.SVGDrawingPanel" />
+			<role name="Adaptee" element="org.jhotdraw.draw.DefaultDrawingView" />
+			<role name="adaptee" element="org.jhotdraw.samples.svg.SVGDrawingPanel::view:org.jhotdraw.draw.DefaultDrawingView" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.SVGDrawingPanel::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.samples.odg.io.ODGStylesReader" />
+			<role name="Adapter" element="org.jhotdraw.samples.odg.io.ODGInputFormat" />
+			<role name="adaptee" element="org.jhotdraw.samples.odg.io.ODGInputFormat::styles:org.jhotdraw.samples.odg.io.ODGStylesReader" />
+			<role name="Request()" element="org.jhotdraw.samples.odg.io.ODGInputFormat::read(java.io.InputStream, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.xml.css.StyleManager" />
+			<role name="Adapter" element="org.jhotdraw.samples.svg.io.SVGInputFormat" />
+			<role name="adaptee" element="org.jhotdraw.samples.svg.io.SVGInputFormat::styleManager:org.jhotdraw.xml.css.StyleManager" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::read(java.io.InputStream, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.api.app.ApplicationModel" />
+			<role name="Adapter" element="org.jhotdraw.app.AbstractApplication" />
+			<role name="adaptee" element="org.jhotdraw.app.AbstractApplication::model:org.jhotdraw.api.app.ApplicationModel" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getName():java.lang.String" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getVersion():java.lang.String" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getCopyright():java.lang.String" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::destroy():void" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::add(org.jhotdraw.api.app.View):void" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::dispose(org.jhotdraw.api.app.View):void" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getOpenChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getSaveChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getImportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getExportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.handle.Handle" />
+			<role name="Adapter" element="org.jhotdraw.draw.AbstractDrawingView" />
+			<role name="adaptee" element="org.jhotdraw.draw.AbstractDrawingView::activeHandle:org.jhotdraw.draw.handle.Handle" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::setActiveHandle(org.jhotdraw.draw.handle.Handle):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.handle.Handle" />
+			<role name="Adapter" element="org.jhotdraw.draw.DefaultDrawingView" />
+			<role name="adaptee" element="org.jhotdraw.draw.DefaultDrawingView::activeHandle:org.jhotdraw.draw.handle.Handle" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::setActiveHandle(org.jhotdraw.draw.handle.Handle):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.connector.Connector" />
+			<role name="Adapter" element="org.jhotdraw.draw.figure.LineConnectionFigure" />
+			<role name="adaptee" element="org.jhotdraw.draw.figure.LineConnectionFigure::endConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="adaptee" element="org.jhotdraw.draw.figure.LineConnectionFigure::startConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::getEndFigure():org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::getStartFigure():org.jhotdraw.draw.figure.Figure" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.api.app.View" />
+			<role name="Adapter" element="org.jhotdraw.app.OSXApplication$FrameHandler" />
+			<role name="adaptee" element="org.jhotdraw.app.OSXApplication$FrameHandler::view:org.jhotdraw.api.app.View" />
+			<role name="Request()" element="org.jhotdraw.app.OSXApplication$FrameHandler::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Adapter" element="org.jhotdraw.draw.tool.AbstractTool" />
+			<role name="adaptee" element="org.jhotdraw.draw.tool.AbstractTool::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.AbstractTool::activate(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Adapter" element="org.jhotdraw.draw.event.DrawingComponentRepainter" />
+			<role name="adaptee" element="org.jhotdraw.draw.event.DrawingComponentRepainter::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.event.DrawingComponentRepainter::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Adapter" element="org.jhotdraw.draw.event.SelectionComponentRepainter" />
+			<role name="adaptee" element="org.jhotdraw.draw.event.SelectionComponentRepainter::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.event.SelectionComponentRepainter::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.Drawing" />
+			<role name="Adapter" element="org.jhotdraw.draw.AbstractDrawingView" />
+			<role name="adaptee" element="org.jhotdraw.draw.AbstractDrawingView::drawing:org.jhotdraw.draw.Drawing" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::setDrawing(org.jhotdraw.draw.Drawing):void" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::selectAll():void" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::findFigure(java.awt.Point):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::findFigures(java.awt.Rectangle):java.util.Collection" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::findFiguresWithin(java.awt.Rectangle):java.util.Collection" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::delete():void" />
+			<role name="Request()" element="org.jhotdraw.draw.AbstractDrawingView::duplicate():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.Drawing" />
+			<role name="Adapter" element="org.jhotdraw.draw.DefaultDrawingView" />
+			<role name="adaptee" element="org.jhotdraw.draw.DefaultDrawingView::drawing:org.jhotdraw.draw.Drawing" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::setDrawing(org.jhotdraw.draw.Drawing):void" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::selectAll():void" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::delete():void" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::duplicate():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.Drawing" />
+			<role name="Adapter" element="org.jhotdraw.draw.io.SerializationInputOutputFormat" />
+			<role name="adaptee" element="org.jhotdraw.draw.io.SerializationInputOutputFormat::prototype:org.jhotdraw.draw.Drawing" />
+			<role name="Request()" element="org.jhotdraw.draw.io.SerializationInputOutputFormat::createTransferable(org.jhotdraw.draw.Drawing, java.util.List, double):java.awt.datatransfer.Transferable" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.api.gui.URIChooser" />
+			<role name="Adapter" element="org.jhotdraw.app.AbstractApplication" />
+			<role name="adaptee" element="org.jhotdraw.app.AbstractApplication::openChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="adaptee" element="org.jhotdraw.app.AbstractApplication::saveChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="adaptee" element="org.jhotdraw.app.AbstractApplication::importChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="adaptee" element="org.jhotdraw.app.AbstractApplication::exportChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getOpenChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getSaveChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getImportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Request()" element="org.jhotdraw.app.AbstractApplication::getExportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.liner.Liner" />
+			<role name="Adapter" element="org.jhotdraw.draw.figure.LineConnectionFigure" />
+			<role name="adaptee" element="org.jhotdraw.draw.figure.LineConnectionFigure::liner:org.jhotdraw.draw.liner.Liner" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::lineout():void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.xml.DOMFactory" />
+			<role name="Adapter" element="org.jhotdraw.xml.JavaxDOMOutput" />
+			<role name="adaptee" element="org.jhotdraw.xml.JavaxDOMOutput::factory:org.jhotdraw.xml.DOMFactory" />
+			<role name="Request()" element="org.jhotdraw.xml.JavaxDOMOutput::writeObject(java.lang.Object):void" />
+			<role name="Request()" element="org.jhotdraw.xml.JavaxDOMOutput::getPrototype():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="Adapter" element="org.jhotdraw.draw.io.ImageInputFormat" />
+			<role name="adaptee" element="org.jhotdraw.draw.io.ImageInputFormat::prototype:org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.io.ImageInputFormat::read(java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.xml.DOMFactory" />
+			<role name="Adapter" element="org.jhotdraw.xml.JavaxDOMInput" />
+			<role name="adaptee" element="org.jhotdraw.xml.JavaxDOMInput::factory:org.jhotdraw.xml.DOMFactory" />
+			<role name="Request()" element="org.jhotdraw.xml.JavaxDOMInput::readObject(int):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Adapter" element="org.jhotdraw.draw.io.TextInputFormat" />
+			<role name="adaptee" element="org.jhotdraw.draw.io.TextInputFormat::prototype:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.io.TextInputFormat::read(java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="Adapter" element="org.jhotdraw.color.DefaultHarmonicColorModel" />
+			<role name="adaptee" element="org.jhotdraw.color.DefaultHarmonicColorModel::sliderModel:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::RGBtoComponent(int, float[]):float[]" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::componentToRGB(float, float, float):int" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::getColorSpace():java.awt.color.ColorSpace" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::setColorSpace(java.awt.color.ColorSpace):void" />
+		</instance>
+		<instance>
+			<role name="Adaptee" element="org.jhotdraw.xml.DOMFactory" />
+			<role name="Adapter" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat" />
+			<role name="adaptee" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat::factory:org.jhotdraw.xml.DOMFactory" />
+			<role name="Request()" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat::write(java.io.OutputStream, org.jhotdraw.draw.Drawing):void" />
+			<role name="Request()" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat::read(java.io.InputStream, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="Command" />
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Composite" element="org.jhotdraw.draw.QuadTreeDrawing" />
+			<role name="Operation()" element="org.jhotdraw.draw.QuadTreeDrawing::findFigureInside(java.awt.geom.Point2D$Double):org.jhotdraw.draw.figure.Figure" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Composite" element="org.jhotdraw.draw.figure.AbstractCompositeFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::addNotify(org.jhotdraw.draw.Drawing):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::removeNotify(org.jhotdraw.draw.Drawing):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::transform(java.awt.geom.AffineTransform):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::getAttributesRestoreData():java.lang.Object" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::restoreAttributesTo(java.lang.Object):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::contains(java.awt.geom.Point2D$Double):boolean" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::findFigureInside(java.awt.geom.Point2D$Double):org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::draw(java.awt.Graphics2D):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::restoreTransformTo(java.lang.Object):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::getTransformRestoreData():java.lang.Object" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::willChange():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::changed():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::getDrawingArea(double):java.awt.geom.Rectangle2D$Double" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::getBounds():java.awt.geom.Rectangle2D$Double" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Composite" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::draw(java.awt.Graphics2D):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::transform(java.awt.geom.AffineTransform):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::getDrawingArea():java.awt.geom.Rectangle2D$Double" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::contains(java.awt.geom.Point2D$Double):boolean" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::findFigureInside(java.awt.geom.Point2D$Double):org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::addNotify(org.jhotdraw.draw.Drawing):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::removeNotify(org.jhotdraw.draw.Drawing):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.LabeledLineConnectionFigure::remap(java.util.Map, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Composite" element="org.jhotdraw.draw.figure.QuadTreeCompositeFigure" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.QuadTreeCompositeFigure::findFigureInside(java.awt.geom.Point2D$Double):org.jhotdraw.draw.figure.Figure" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.decoration.LineDecoration" />
+			<role name="Composite" element="org.jhotdraw.draw.decoration.CompositeLineDecoration" />
+			<role name="Operation()" element="org.jhotdraw.draw.decoration.CompositeLineDecoration::draw(java.awt.Graphics2D, org.jhotdraw.draw.figure.Figure, java.awt.geom.Point2D$Double, java.awt.geom.Point2D$Double):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.decoration.CompositeLineDecoration::getDrawingArea(org.jhotdraw.draw.figure.Figure, java.awt.geom.Point2D$Double, java.awt.geom.Point2D$Double):java.awt.geom.Rectangle2D$Double" />
+			<role name="Operation()" element="org.jhotdraw.draw.decoration.CompositeLineDecoration::getDecorationRadius(org.jhotdraw.draw.figure.Figure):double" />
+		</instance>
+	</pattern>
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Decorator" element="org.jhotdraw.draw.DrawingEditorProxy" />
+			<role name="component" element="org.jhotdraw.draw.DrawingEditorProxy::target:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::add(org.jhotdraw.draw.DrawingView):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::remove(org.jhotdraw.draw.DrawingView):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::getDrawingViews():java.util.Collection" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::getActiveView():org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::setActiveView(org.jhotdraw.draw.DrawingView):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::setTool(org.jhotdraw.draw.tool.Tool):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::getTool():org.jhotdraw.draw.tool.Tool" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::setCursor(java.awt.Cursor):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::findView(java.awt.Container):org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::applyDefaultAttributesTo(org.jhotdraw.draw.figure.Figure):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::getDefaultAttributes():java.util.Map" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::setEnabled(boolean):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::isEnabled():boolean" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::setInputMap(javax.swing.InputMap):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::getInputMap():javax.swing.InputMap" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::setActionMap(javax.swing.ActionMap):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.DrawingEditorProxy::getActionMap():javax.swing.ActionMap" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.tool.Tool" />
+			<role name="Decorator" element="org.jhotdraw.draw.tool.SelectionTool" />
+			<role name="component" element="org.jhotdraw.draw.tool.SelectionTool::tracker:org.jhotdraw.draw.tool.Tool" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.SelectionTool::activate(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.SelectionTool::deactivate(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.SelectionTool::draw(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Decorator" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure" />
+			<role name="component" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure::decorator:org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure::getDrawingArea():java.awt.geom.Rectangle2D$Double" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure::contains(java.awt.geom.Point2D$Double):boolean" />
+		</instance>
+	</pattern>
+	<pattern name="Observer">
+		<instance>
+			<role name="Observer" element="org.jhotdraw.api.gui.ActivityModel" />
+			<role name="Subject" element="org.jhotdraw.gui.JActivityIndicator" />
+			<role name="Notify()" element="org.jhotdraw.gui.JActivityIndicator::updateActivityModels():void" />
+		</instance>
+		<instance>
+			<role name="Observer" element="org.jhotdraw.color.HarmonicRule" />
+			<role name="Subject" element="org.jhotdraw.color.DefaultHarmonicColorModel" />
+			<role name="Notify()" element="org.jhotdraw.color.DefaultHarmonicColorModel::set(int, java.awt.Color):void" />
+			<role name="Notify()" element="org.jhotdraw.color.DefaultHarmonicColorModel::applyRules():void" />
+		</instance>
+	</pattern>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.ConnectionTool" />
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.tool.ConnectionTool::targetFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::repaintConnectors(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::draw(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.CreationTool" />
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.tool.CreationTool::createdFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.tool.CreationTool::prototype:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.CreationTool::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.CreationTool::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.CreationTool::mouseReleased(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.CreationTool::createFigure():org.jhotdraw.draw.figure.Figure" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.DefaultDragTracker" />
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.tool.DefaultDragTracker::anchorFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.DefaultDragTracker::mousePressed(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.DefaultHandleTracker" />
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.tool.DefaultHandleTracker::hoverFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.DefaultHandleTracker::updateHoverHandles(org.jhotdraw.draw.DrawingView, org.jhotdraw.draw.figure.Figure):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.DefaultSelectAreaTracker" />
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.tool.DefaultSelectAreaTracker::hoverFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.DefaultSelectAreaTracker::updateHoverHandles(org.jhotdraw.draw.DrawingView, org.jhotdraw.draw.figure.Figure):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.DnDTracker" />
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.tool.DnDTracker::anchorFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.DnDTracker::mousePressed(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Context" element="org.jhotdraw.draw.event.AttributeChangeEdit" />
+			<role name="state" element="org.jhotdraw.draw.event.AttributeChangeEdit::owner:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.event.AttributeChangeEdit::redo():void" />
+			<role name="Request()" element="org.jhotdraw.draw.event.AttributeChangeEdit::undo():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Context" element="org.jhotdraw.draw.event.TransformRestoreEdit" />
+			<role name="state" element="org.jhotdraw.draw.event.TransformRestoreEdit::owner:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.event.TransformRestoreEdit::undo():void" />
+			<role name="Request()" element="org.jhotdraw.draw.event.TransformRestoreEdit::redo():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Context" element="org.jhotdraw.draw.handle.BezierControlPointHandle" />
+			<role name="state" element="org.jhotdraw.draw.handle.BezierControlPointHandle::transformOwner:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.BezierControlPointHandle::dispose():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Context" element="org.jhotdraw.draw.handle.BezierNodeHandle" />
+			<role name="state" element="org.jhotdraw.draw.handle.BezierNodeHandle::transformOwner:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.BezierNodeHandle::dispose():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Context" element="org.jhotdraw.draw.handle.ConnectorHandle" />
+			<role name="state" element="org.jhotdraw.draw.handle.ConnectorHandle::connectableFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.ConnectorHandle::repaintConnectors():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.api.app.View" />
+			<role name="Context" element="org.jhotdraw.action.window.FocusWindowAction" />
+			<role name="state" element="org.jhotdraw.action.window.FocusWindowAction::view:org.jhotdraw.api.app.View" />
+			<role name="Request()" element="org.jhotdraw.action.window.FocusWindowAction::setView(org.jhotdraw.api.app.View):void" />
+			<role name="Request()" element="org.jhotdraw.action.window.FocusWindowAction::getTitle():java.lang.String" />
+			<role name="Request()" element="org.jhotdraw.action.window.FocusWindowAction::getFrame():javax.swing.JFrame" />
+			<role name="Request()" element="org.jhotdraw.action.window.FocusWindowAction::getRootPaneContainer():java.awt.Component" />
+			<role name="Request()" element="org.jhotdraw.action.window.FocusWindowAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.DefaultDrawingEditor" />
+			<role name="State" element="org.jhotdraw.draw.tool.Tool" />
+			<role name="state" element="org.jhotdraw.draw.DefaultDrawingEditor::tool:org.jhotdraw.draw.tool.Tool" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingEditor::setTool(org.jhotdraw.draw.tool.Tool):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.Drawing" />
+			<role name="Context" element="org.jhotdraw.gui.action.EditCanvasPanel" />
+			<role name="state" element="org.jhotdraw.gui.action.EditCanvasPanel::drawing:org.jhotdraw.draw.Drawing" />
+			<role name="Request()" element="org.jhotdraw.gui.action.EditCanvasPanel::updateDrawing():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingView" />
+			<role name="Context" element="org.jhotdraw.draw.text.FloatingTextArea" />
+			<role name="state" element="org.jhotdraw.draw.text.FloatingTextArea::view:org.jhotdraw.draw.DrawingView" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextArea::createOverlay(org.jhotdraw.draw.DrawingView, org.jhotdraw.draw.figure.TextHolderFigure):void" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextArea::updateWidget():void" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextArea::setBounds(java.awt.geom.Rectangle2D$Double, java.lang.String):void" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextArea::endOverlay():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingView" />
+			<role name="Context" element="org.jhotdraw.draw.text.FloatingTextField" />
+			<role name="state" element="org.jhotdraw.draw.text.FloatingTextField::view:org.jhotdraw.draw.DrawingView" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextField::createOverlay(org.jhotdraw.draw.DrawingView, org.jhotdraw.draw.figure.TextHolderFigure):void" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextField::updateWidget():void" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextField::endOverlay():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.DefaultHandleTracker" />
+			<role name="State" element="org.jhotdraw.draw.handle.Handle" />
+			<role name="state" element="org.jhotdraw.draw.tool.DefaultHandleTracker::masterHandle:org.jhotdraw.draw.handle.Handle" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.DefaultHandleTracker::activate(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.DefaultHandleTracker::deactivate(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.BezierTool" />
+			<role name="State" element="org.jhotdraw.draw.DrawingView" />
+			<role name="state" element="org.jhotdraw.draw.tool.BezierTool::creationView:org.jhotdraw.draw.DrawingView" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.BezierTool::deactivate(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.BezierTool::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.BezierTool::mouseClicked(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.BezierTool::draw(java.awt.Graphics2D):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.BezierTool::mouseMoved(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.DefaultDrawingEditor" />
+			<role name="State" element="org.jhotdraw.draw.DrawingView" />
+			<role name="state" element="org.jhotdraw.draw.DefaultDrawingEditor::activeView:org.jhotdraw.draw.DrawingView" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingEditor::remove(org.jhotdraw.draw.DrawingView):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.api.app.Application" />
+			<role name="Context" element="org.jhotdraw.samples.teddy.FindDialog" />
+			<role name="state" element="org.jhotdraw.samples.teddy.FindDialog::app:org.jhotdraw.api.app.Application" />
+			<role name="Request()" element="org.jhotdraw.samples.teddy.FindDialog::replace(java.awt.event.ActionEvent):void" />
+			<role name="Request()" element="org.jhotdraw.samples.teddy.FindDialog::replaceAndFind(java.awt.event.ActionEvent):void" />
+			<role name="Request()" element="org.jhotdraw.samples.teddy.FindDialog::previous(java.awt.event.ActionEvent):void" />
+			<role name="Request()" element="org.jhotdraw.samples.teddy.FindDialog::next(java.awt.event.ActionEvent):void" />
+			<role name="Request()" element="org.jhotdraw.samples.teddy.FindDialog::replaceAll(java.awt.event.ActionEvent):void" />
+			<role name="Request()" element="org.jhotdraw.samples.teddy.FindDialog::updateMatcher():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.text.FloatingTextArea" />
+			<role name="State" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="state" element="org.jhotdraw.draw.text.FloatingTextArea::editedFigure:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextArea::updateWidget():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.text.FloatingTextField" />
+			<role name="State" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="state" element="org.jhotdraw.draw.text.FloatingTextField::editedFigure:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextField::createOverlay(org.jhotdraw.draw.DrawingView, org.jhotdraw.draw.figure.TextHolderFigure):void" />
+			<role name="Request()" element="org.jhotdraw.draw.text.FloatingTextField::updateWidget():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.samples.svg.gui.ViewToolBar" />
+			<role name="State" element="org.jhotdraw.draw.DrawingView" />
+			<role name="state" element="org.jhotdraw.samples.svg.gui.ViewToolBar::view:org.jhotdraw.draw.DrawingView" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.gui.ViewToolBar::setView(org.jhotdraw.draw.DrawingView):void" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.gui.ViewToolBar::createDisclosedComponent(int):javax.swing.JComponent" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.DefaultDrawingView" />
+			<role name="State" element="org.jhotdraw.draw.handle.Handle" />
+			<role name="state" element="org.jhotdraw.draw.DefaultDrawingView::activeHandle:org.jhotdraw.draw.handle.Handle" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::setActiveHandle(org.jhotdraw.draw.handle.Handle):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.app.AppletApplication" />
+			<role name="State" element="org.jhotdraw.api.app.View" />
+			<role name="state" element="org.jhotdraw.app.AppletApplication::view:org.jhotdraw.api.app.View" />
+			<role name="Request()" element="org.jhotdraw.app.AppletApplication::show(org.jhotdraw.api.app.View):void" />
+			<role name="Request()" element="org.jhotdraw.app.AppletApplication::hide(org.jhotdraw.api.app.View):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Context" element="org.jhotdraw.draw.tool.TextAreaCreationTool" />
+			<role name="state" element="org.jhotdraw.draw.tool.TextAreaCreationTool::typingTarget:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.TextAreaCreationTool::beginEdit(org.jhotdraw.draw.figure.TextHolderFigure):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.TextAreaCreationTool::endEdit():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Context" element="org.jhotdraw.draw.tool.TextAreaEditingTool" />
+			<role name="state" element="org.jhotdraw.draw.tool.TextAreaEditingTool::typingTarget:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.TextAreaEditingTool::beginEdit(org.jhotdraw.draw.figure.TextHolderFigure):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.TextAreaEditingTool::endEdit():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Context" element="org.jhotdraw.draw.tool.TextCreationTool" />
+			<role name="state" element="org.jhotdraw.draw.tool.TextCreationTool::typingTarget:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.TextCreationTool::endEdit():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Context" element="org.jhotdraw.draw.tool.TextEditingTool" />
+			<role name="state" element="org.jhotdraw.draw.tool.TextEditingTool::typingTarget:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.TextEditingTool::endEdit():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.ConnectionTool" />
+			<role name="State" element="org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="state" element="org.jhotdraw.draw.tool.ConnectionTool::prototype:org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="state" element="org.jhotdraw.draw.tool.ConnectionTool::createdFigure:org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::mouseReleased(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::draw(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.figure.LineConnectionFigure" />
+			<role name="State" element="org.jhotdraw.draw.connector.Connector" />
+			<role name="state" element="org.jhotdraw.draw.figure.LineConnectionFigure::endConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="state" element="org.jhotdraw.draw.figure.LineConnectionFigure::startConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::getEndFigure():org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::getStartFigure():org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::clone():org.jhotdraw.draw.figure.LineConnectionFigure" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.draw.action.AttributeToggler" />
+			<role name="state" element="org.jhotdraw.draw.action.AttributeToggler::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.action.AttributeToggler::getView():org.jhotdraw.draw.DrawingView" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.draw.action.DrawingColorIcon" />
+			<role name="state" element="org.jhotdraw.draw.action.DrawingColorIcon::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.action.DrawingColorIcon::paintIcon(java.awt.Component, java.awt.Graphics, int, int):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.draw.action.SelectionColorIcon" />
+			<role name="state" element="org.jhotdraw.draw.action.SelectionColorIcon::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.action.SelectionColorIcon::paintIcon(java.awt.Component, java.awt.Graphics, int, int):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.samples.svg.gui.DrawingOpacityIcon" />
+			<role name="state" element="org.jhotdraw.samples.svg.gui.DrawingOpacityIcon::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.gui.DrawingOpacityIcon::paintIcon(java.awt.Component, java.awt.Graphics, int, int):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.samples.svg.gui.SelectionOpacityIcon" />
+			<role name="state" element="org.jhotdraw.samples.svg.gui.SelectionOpacityIcon::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.gui.SelectionOpacityIcon::paintIcon(java.awt.Component, java.awt.Graphics, int, int):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.gui.action.ButtonFactory$ToolButtonListener" />
+			<role name="state" element="org.jhotdraw.gui.action.ButtonFactory$ToolButtonListener::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.gui.action.ButtonFactory$ToolButtonListener::itemStateChanged(java.awt.event.ItemEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.samples.net.NetApplicationModel$ToolButtonListener" />
+			<role name="state" element="org.jhotdraw.samples.net.NetApplicationModel$ToolButtonListener::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.net.NetApplicationModel$ToolButtonListener::itemStateChanged(java.awt.event.ItemEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.samples.pert.PertApplicationModel$ToolButtonListener" />
+			<role name="state" element="org.jhotdraw.samples.pert.PertApplicationModel$ToolButtonListener::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.pert.PertApplicationModel$ToolButtonListener::itemStateChanged(java.awt.event.ItemEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.samples.svg.gui.ToolsToolBar$SelectionToolButtonHandler" />
+			<role name="state" element="org.jhotdraw.samples.svg.gui.ToolsToolBar$SelectionToolButtonHandler::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.gui.ToolsToolBar$SelectionToolButtonHandler::mouseClicked(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.color.ColorTrackImageProducer" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.color.ColorTrackImageProducer::colorizer:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.color.ColorTrackImageProducer::generateHorizontalColorTrack():void" />
+			<role name="Request()" element="org.jhotdraw.color.ColorTrackImageProducer::generateVerticalColorTrack():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.color.ColorWheelChooser" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.color.ColorWheelChooser::ccModel:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.color.ColorWheelChooser::updateChooser():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.gui.plaf.palette.colorchooser.ColorSliderTextFieldHandler" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.gui.plaf.palette.colorchooser.ColorSliderTextFieldHandler::ccModel:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.ColorSliderTextFieldHandler::docChanged():void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.ColorSliderTextFieldHandler::stateChanged(javax.swing.event.ChangeEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser::ccModel:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser::buildChooser():void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser::updateChooser():void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser::blackFieldFocusLost(java.awt.event.FocusEvent):void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser::yellowFieldFocusLost(java.awt.event.FocusEvent):void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser::magentaFieldFocusLost(java.awt.event.FocusEvent):void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser::cyanFieldFocusLost(java.awt.event.FocusEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser::ccModel:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser::buildChooser():void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser::updateChooser():void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser::brightnessFieldFocusLost(java.awt.event.FocusEvent):void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser::saturationFieldFocusLost(java.awt.event.FocusEvent):void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser::hueFieldFocusLost(java.awt.event.FocusEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser::ccModel:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser::buildChooser():void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser::updateChooser():void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser::blueFieldFocusLost(java.awt.event.FocusEvent):void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser::greenFieldFocusLost(java.awt.event.FocusEvent):void" />
+			<role name="Request()" element="org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser::redFieldFocusLost(java.awt.event.FocusEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="Context" element="org.jhotdraw.draw.handle.ConnectorHandle" />
+			<role name="state" element="org.jhotdraw.draw.handle.ConnectorHandle::createdConnection:org.jhotdraw.draw.figure.ConnectionFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.ConnectorHandle::draw(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.app.OSXApplication$FrameHandler" />
+			<role name="State" element="org.jhotdraw.api.app.View" />
+			<role name="state" element="org.jhotdraw.app.OSXApplication$FrameHandler::view:org.jhotdraw.api.app.View" />
+			<role name="Request()" element="org.jhotdraw.app.OSXApplication$FrameHandler::propertyChange(java.beans.PropertyChangeEvent):void" />
+			<role name="Request()" element="org.jhotdraw.app.OSXApplication$FrameHandler::windowIconified(java.awt.event.WindowEvent):void" />
+			<role name="Request()" element="org.jhotdraw.app.OSXApplication$FrameHandler::windowDeiconified(java.awt.event.WindowEvent):void" />
+			<role name="Request()" element="org.jhotdraw.app.OSXApplication$FrameHandler::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.app.action.app.ExitAction" />
+			<role name="State" element="org.jhotdraw.api.app.View" />
+			<role name="state" element="org.jhotdraw.app.action.app.ExitAction::unsavedView:org.jhotdraw.api.app.View" />
+			<role name="Request()" element="org.jhotdraw.app.action.app.ExitAction::actionPerformed(java.awt.event.ActionEvent):void" />
+			<role name="Request()" element="org.jhotdraw.app.action.app.ExitAction::saveChanges():void" />
+			<role name="Request()" element="org.jhotdraw.app.action.app.ExitAction::reviewChanges():void" />
+			<role name="Request()" element="org.jhotdraw.app.action.app.ExitAction::saveChangesAndReviewNext():void" />
+			<role name="Request()" element="org.jhotdraw.app.action.app.ExitAction::reviewNext():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.samples.svg.action.CombineAction" />
+			<role name="State" element="org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="state" element="org.jhotdraw.samples.svg.action.CombineAction::prototype:org.jhotdraw.draw.figure.CompositeFigure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.action.CombineAction::canUngroup():boolean" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.action.CombineAction::combineActionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.samples.svg.SVGDrawingPanel" />
+			<role name="state" element="org.jhotdraw.samples.svg.SVGDrawingPanel::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.SVGDrawingPanel::setEditor(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.draw.event.DrawingComponentRepainter" />
+			<role name="state" element="org.jhotdraw.draw.event.DrawingComponentRepainter::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.event.DrawingComponentRepainter::dispose():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Context" element="org.jhotdraw.draw.event.SelectionComponentRepainter" />
+			<role name="state" element="org.jhotdraw.draw.event.SelectionComponentRepainter::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.event.SelectionComponentRepainter::dispose():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.api.gui.ActivityModel" />
+			<role name="Context" element="org.jhotdraw.gui.JActivityView" />
+			<role name="state" element="org.jhotdraw.gui.JActivityView::model:org.jhotdraw.api.gui.ActivityModel" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::setModel(org.jhotdraw.api.gui.ActivityModel):void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateTitle():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateNote():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateIndeterminate():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateWarning():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateError():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateLabelVisibility():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateCancelable():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateCanceled():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::updateClosed():void" />
+			<role name="Request()" element="org.jhotdraw.gui.JActivityView::cancel(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.DefaultDrawingView" />
+			<role name="State" element="org.jhotdraw.draw.Drawing" />
+			<role name="state" element="org.jhotdraw.draw.DefaultDrawingView::drawing:org.jhotdraw.draw.Drawing" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::drawCanvas(java.awt.Graphics2D):void" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::drawDrawing(java.awt.Graphics2D):void" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::delete():void" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::duplicate():void" />
+		</instance>
+		<instance>
+			<role name="State" element="org.jhotdraw.draw.locator.Locator" />
+			<role name="Context" element="org.jhotdraw.draw.connector.LocatorConnector" />
+			<role name="state" element="org.jhotdraw.draw.connector.LocatorConnector::locator:org.jhotdraw.draw.locator.Locator" />
+			<role name="Request()" element="org.jhotdraw.draw.connector.LocatorConnector::locate(org.jhotdraw.draw.figure.ConnectionFigure):java.awt.geom.Point2D$Double" />
+			<role name="Request()" element="org.jhotdraw.draw.connector.LocatorConnector::getBounds():java.awt.geom.Rectangle2D$Double" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.io.SerializationInputOutputFormat" />
+			<role name="State" element="org.jhotdraw.draw.Drawing" />
+			<role name="state" element="org.jhotdraw.draw.io.SerializationInputOutputFormat::prototype:org.jhotdraw.draw.Drawing" />
+			<role name="Request()" element="org.jhotdraw.draw.io.SerializationInputOutputFormat::createTransferable(org.jhotdraw.draw.Drawing, java.util.List, double):java.awt.datatransfer.Transferable" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.ConnectionTool" />
+			<role name="State" element="org.jhotdraw.draw.connector.Connector" />
+			<role name="state" element="org.jhotdraw.draw.tool.ConnectionTool::startConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="state" element="org.jhotdraw.draw.tool.ConnectionTool::endConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::mousePressed(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::mouseDragged(java.awt.event.MouseEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.ConnectionTool::mouseReleased(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.event.SelectionComponentDisplayer" />
+			<role name="State" element="org.jhotdraw.draw.DrawingView" />
+			<role name="state" element="org.jhotdraw.draw.event.SelectionComponentDisplayer::view:org.jhotdraw.draw.DrawingView" />
+			<role name="Request()" element="org.jhotdraw.draw.event.SelectionComponentDisplayer::propertyChange(java.beans.PropertyChangeEvent):void" />
+			<role name="Request()" element="org.jhotdraw.draw.event.SelectionComponentDisplayer::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.figure.LineConnectionFigure" />
+			<role name="State" element="org.jhotdraw.draw.liner.Liner" />
+			<role name="state" element="org.jhotdraw.draw.figure.LineConnectionFigure::liner:org.jhotdraw.draw.liner.Liner" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::clone():org.jhotdraw.draw.figure.LineConnectionFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.figure.LineConnectionFigure::lineout():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.color.JColorWheel" />
+			<role name="State" element="org.jhotdraw.color.AbstractColorWheelImageProducer" />
+			<role name="state" element="org.jhotdraw.color.JColorWheel::colorWheelProducer:org.jhotdraw.color.AbstractColorWheelImageProducer" />
+			<role name="Request()" element="org.jhotdraw.color.JColorWheel::getColorLocation(float[]):java.awt.Point" />
+			<role name="Request()" element="org.jhotdraw.color.JColorWheel::getColorAt(int, int):float[]" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.DefaultDrawingView" />
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="state" element="org.jhotdraw.draw.DefaultDrawingView::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::drawHandles(java.awt.Graphics2D):void" />
+			<role name="Request()" element="org.jhotdraw.draw.DefaultDrawingView::drawTool(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.samples.svg.io.SVGInputFormat" />
+			<role name="State" element="org.jhotdraw.samples.svg.io.SVGFigureFactory" />
+			<role name="state" element="org.jhotdraw.samples.svg.io.SVGInputFormat::factory:org.jhotdraw.samples.svg.io.SVGFigureFactory" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readGElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readAElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readRectElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readCircleElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readEllipseElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readImageElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readLineElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readPolylineElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readPolygonElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readPathElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readTextElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readTextAreaElement(org.w3c.dom.Element):org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readLinearGradientElement(org.w3c.dom.Element):void" />
+			<role name="Request()" element="org.jhotdraw.samples.svg.io.SVGInputFormat::readRadialGradientElement(org.w3c.dom.Element):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.samples.draw.DrawView" />
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="state" element="org.jhotdraw.samples.draw.DrawView::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.draw.DrawView::setEditor(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.samples.net.NetView" />
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="state" element="org.jhotdraw.samples.net.NetView::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.net.NetView::setEditor(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.samples.odg.ODGView" />
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="state" element="org.jhotdraw.samples.odg.ODGView::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.odg.ODGView::setEditor(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.samples.pert.PertView" />
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="state" element="org.jhotdraw.samples.pert.PertView::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.samples.pert.PertView::setEditor(org.jhotdraw.draw.DrawingEditor):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.color.JHarmonicColorWheel" />
+			<role name="State" element="org.jhotdraw.color.HarmonicColorModel" />
+			<role name="state" element="org.jhotdraw.color.JHarmonicColorWheel::harmonicModel:org.jhotdraw.color.HarmonicColorModel" />
+			<role name="Request()" element="org.jhotdraw.color.JHarmonicColorWheel::setColorSpace(java.awt.color.ColorSpace):void" />
+			<role name="Request()" element="org.jhotdraw.color.JHarmonicColorWheel::setHarmonicColorModel(org.jhotdraw.color.HarmonicColorModel):void" />
+			<role name="Request()" element="org.jhotdraw.color.JHarmonicColorWheel::paintThumb(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.action.window.ArrangeWindowsAction" />
+			<role name="State" element="org.jhotdraw.api.gui.Arrangeable" />
+			<role name="state" element="org.jhotdraw.action.window.ArrangeWindowsAction::arrangeable:org.jhotdraw.api.gui.Arrangeable" />
+			<role name="Request()" element="org.jhotdraw.action.window.ArrangeWindowsAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.event.SelectionComponentDisplayer" />
+			<role name="State" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="state" element="org.jhotdraw.draw.event.SelectionComponentDisplayer::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Request()" element="org.jhotdraw.draw.event.SelectionComponentDisplayer::updateVisibility():void" />
+			<role name="Request()" element="org.jhotdraw.draw.event.SelectionComponentDisplayer::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.color.JColorWheel" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.color.JColorWheel::model:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.color.JColorWheel::setModel(org.jhotdraw.color.ColorSliderModel):void" />
+			<role name="Request()" element="org.jhotdraw.color.JColorWheel::createWheelProducer(int, int):org.jhotdraw.color.AbstractColorWheelImageProducer" />
+			<role name="Request()" element="org.jhotdraw.color.JColorWheel::paintWheel(java.awt.Graphics2D):void" />
+			<role name="Request()" element="org.jhotdraw.color.JColorWheel::getThumbLocation():java.awt.Point" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.xml.JavaxDOMOutput" />
+			<role name="State" element="org.jhotdraw.xml.DOMFactory" />
+			<role name="state" element="org.jhotdraw.xml.JavaxDOMOutput::factory:org.jhotdraw.xml.DOMFactory" />
+			<role name="Request()" element="org.jhotdraw.xml.JavaxDOMOutput::writeObject(java.lang.Object):void" />
+			<role name="Request()" element="org.jhotdraw.xml.JavaxDOMOutput::getPrototype():java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.SelectionTool" />
+			<role name="State" element="org.jhotdraw.draw.tool.DragTracker" />
+			<role name="state" element="org.jhotdraw.draw.tool.SelectionTool::dragTracker:org.jhotdraw.draw.tool.DragTracker" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.SelectionTool::getDragTracker(org.jhotdraw.draw.figure.Figure):org.jhotdraw.draw.tool.DragTracker" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.handle.ConnectorHandle" />
+			<role name="State" element="org.jhotdraw.draw.connector.Connector" />
+			<role name="state" element="org.jhotdraw.draw.handle.ConnectorHandle::connector:org.jhotdraw.draw.connector.Connector" />
+			<role name="state" element="org.jhotdraw.draw.handle.ConnectorHandle::connectableConnector:org.jhotdraw.draw.connector.Connector" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.ConnectorHandle::getLocationOnDrawing():java.awt.geom.Point2D$Double" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.ConnectorHandle::getLocation():java.awt.Point" />
+			<role name="Request()" element="org.jhotdraw.draw.handle.ConnectorHandle::trackStep(java.awt.Point, java.awt.Point, int):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.io.ImageInputFormat" />
+			<role name="State" element="org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="state" element="org.jhotdraw.draw.io.ImageInputFormat::prototype:org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.io.ImageInputFormat::read(java.io.File, org.jhotdraw.draw.Drawing, boolean):void" />
+			<role name="Request()" element="org.jhotdraw.draw.io.ImageInputFormat::createImageHolder(java.io.InputStream):org.jhotdraw.draw.figure.ImageHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.io.ImageInputFormat::read(java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.xml.JavaxDOMInput" />
+			<role name="State" element="org.jhotdraw.xml.DOMFactory" />
+			<role name="state" element="org.jhotdraw.xml.JavaxDOMInput::factory:org.jhotdraw.xml.DOMFactory" />
+			<role name="Request()" element="org.jhotdraw.xml.JavaxDOMInput::readObject(int):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.tool.SelectionTool" />
+			<role name="State" element="org.jhotdraw.draw.tool.HandleTracker" />
+			<role name="state" element="org.jhotdraw.draw.tool.SelectionTool::handleTracker:org.jhotdraw.draw.tool.HandleTracker" />
+			<role name="Request()" element="org.jhotdraw.draw.tool.SelectionTool::getHandleTracker(org.jhotdraw.draw.handle.Handle):org.jhotdraw.draw.tool.HandleTracker" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.io.TextInputFormat" />
+			<role name="State" element="org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="state" element="org.jhotdraw.draw.io.TextInputFormat::prototype:org.jhotdraw.draw.figure.TextHolderFigure" />
+			<role name="Request()" element="org.jhotdraw.draw.io.TextInputFormat::createTextHolderFigures(java.io.InputStream):java.util.LinkedList" />
+			<role name="Request()" element="org.jhotdraw.draw.io.TextInputFormat::read(java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.color.DefaultHarmonicColorModel" />
+			<role name="State" element="org.jhotdraw.color.ColorSliderModel" />
+			<role name="state" element="org.jhotdraw.color.DefaultHarmonicColorModel::sliderModel:org.jhotdraw.color.ColorSliderModel" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::RGBtoComponent(int, float[]):float[]" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::componentToRGB(float, float, float):int" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::getColorSpace():java.awt.color.ColorSpace" />
+			<role name="Request()" element="org.jhotdraw.color.DefaultHarmonicColorModel::setColorSpace(java.awt.color.ColorSpace):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.event.CompositeFigureEdit" />
+			<role name="State" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="state" element="org.jhotdraw.draw.event.CompositeFigureEdit::figure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Request()" element="org.jhotdraw.draw.event.CompositeFigureEdit::undo():void" />
+			<role name="Request()" element="org.jhotdraw.draw.event.CompositeFigureEdit::redo():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat" />
+			<role name="State" element="org.jhotdraw.xml.DOMFactory" />
+			<role name="state" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat::factory:org.jhotdraw.xml.DOMFactory" />
+			<role name="Request()" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat::read(java.net.URL, java.io.InputStream, org.jhotdraw.draw.Drawing, java.util.LinkedList):void" />
+			<role name="Request()" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat::write(java.io.OutputStream, org.jhotdraw.draw.Drawing):void" />
+			<role name="Request()" element="org.jhotdraw.draw.io.DOMStorableInputOutputFormat::read(java.io.InputStream, org.jhotdraw.draw.Drawing, boolean):void" />
+		</instance>
+	</pattern>
+	<pattern name="Strategy" />
+	<pattern name="Bridge">
+		<instance>
+			<role name="Implementor" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Abstraction" element="org.jhotdraw.draw.handle.AbstractConnectionHandle" />
+			<role name="implementor" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::connectableFigure:org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::repaintConnectors():void" />
+		</instance>
+		<instance>
+			<role name="Implementor" element="org.jhotdraw.draw.figure.Figure" />
+			<role name="Abstraction" element="org.jhotdraw.draw.handle.AbstractHandle" />
+			<role name="implementor" element="org.jhotdraw.draw.handle.AbstractHandle::owner:org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.handle.AbstractHandle::dispose():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.handle.AbstractHandle" />
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingView" />
+			<role name="implementor" element="org.jhotdraw.draw.handle.AbstractHandle::view:org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.handle.AbstractHandle::getEditor():org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.handle.AbstractHandle::fireUndoableEditHappened(javax.swing.undo.UndoableEdit):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.action.AbstractDrawingViewAction" />
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingView" />
+			<role name="implementor" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::activeView:org.jhotdraw.draw.DrawingView" />
+			<role name="implementor" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::specificView:org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::unregisterEventHandler():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::registerEventHandler():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.action.AbstractSelectedAction" />
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingView" />
+			<role name="implementor" element="org.jhotdraw.draw.action.AbstractSelectedAction::activeView:org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractSelectedAction::unregisterEventHandler():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractSelectedAction::registerEventHandler():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler" />
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingView" />
+			<role name="implementor" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::view:org.jhotdraw.draw.DrawingView" />
+			<role name="implementor" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::activeView:org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateActiveView():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateFigures():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.app.AbstractApplication" />
+			<role name="Implementor" element="org.jhotdraw.api.app.ApplicationModel" />
+			<role name="implementor" element="org.jhotdraw.app.AbstractApplication::model:org.jhotdraw.api.app.ApplicationModel" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::basicCreateView():org.jhotdraw.api.app.View" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getName():java.lang.String" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getVersion():java.lang.String" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getCopyright():java.lang.String" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::destroy():void" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::add(org.jhotdraw.api.app.View):void" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::dispose(org.jhotdraw.api.app.View):void" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getOpenChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getSaveChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getImportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getExportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.AbstractDrawingView" />
+			<role name="Implementor" element="org.jhotdraw.draw.handle.Handle" />
+			<role name="implementor" element="org.jhotdraw.draw.AbstractDrawingView::activeHandle:org.jhotdraw.draw.handle.Handle" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::setActiveHandle(org.jhotdraw.draw.handle.Handle):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.action.AbstractApplicationAction" />
+			<role name="Implementor" element="org.jhotdraw.api.app.Application" />
+			<role name="implementor" element="org.jhotdraw.action.AbstractApplicationAction::app:org.jhotdraw.api.app.Application" />
+			<role name="Operation()" element="org.jhotdraw.action.AbstractApplicationAction::isEnabled():boolean" />
+			<role name="Operation()" element="org.jhotdraw.action.AbstractApplicationAction::setEnabled(boolean):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.app.AbstractApplication" />
+			<role name="Implementor" element="org.jhotdraw.api.app.View" />
+			<role name="implementor" element="org.jhotdraw.app.AbstractApplication::activeView:org.jhotdraw.api.app.View" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::setActiveView(org.jhotdraw.api.app.View):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler" />
+			<role name="Implementor" element="org.jhotdraw.api.gui.AttributeEditor" />
+			<role name="implementor" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::attributeEditor:org.jhotdraw.api.gui.AttributeEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::setAttributeEditor(org.jhotdraw.api.gui.AttributeEditor):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateAttributeEditor():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateFigures():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.tool.AbstractTool" />
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="implementor" element="org.jhotdraw.draw.tool.AbstractTool::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.AbstractTool::activate(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.AbstractTool::getView():org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.AbstractTool::keyPressed(java.awt.event.KeyEvent):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.tool.AbstractTool::mousePressed(java.awt.event.MouseEvent):void" />
+		</instance>
+		<instance>
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Abstraction" element="org.jhotdraw.draw.action.AbstractDrawingViewAction" />
+			<role name="implementor" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::getView():org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::unregisterEventHandler():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingViewAction::registerEventHandler():void" />
+		</instance>
+		<instance>
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Abstraction" element="org.jhotdraw.draw.action.AbstractSelectedAction" />
+			<role name="implementor" element="org.jhotdraw.draw.action.AbstractSelectedAction::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractSelectedAction::getView():org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractSelectedAction::unregisterEventHandler():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractSelectedAction::registerEventHandler():void" />
+		</instance>
+		<instance>
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="Abstraction" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler" />
+			<role name="implementor" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::setEditor(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::getActiveView():org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateActiveView():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.AbstractDrawingView" />
+			<role name="Implementor" element="org.jhotdraw.draw.Drawing" />
+			<role name="implementor" element="org.jhotdraw.draw.AbstractDrawingView::drawing:org.jhotdraw.draw.Drawing" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::drawCanvas(java.awt.Graphics2D):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::drawDrawing(java.awt.Graphics2D):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::findFigure(java.awt.Point):org.jhotdraw.draw.figure.Figure" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::findFigures(java.awt.Rectangle):java.util.Collection" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::findFiguresWithin(java.awt.Rectangle):java.util.Collection" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::delete():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::duplicate():void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.action.AbstractViewAction" />
+			<role name="Implementor" element="org.jhotdraw.api.app.Application" />
+			<role name="implementor" element="org.jhotdraw.action.AbstractViewAction::app:org.jhotdraw.api.app.Application" />
+			<role name="Operation()" element="org.jhotdraw.action.AbstractViewAction::getActiveView():org.jhotdraw.api.app.View" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.handle.LocatorHandle" />
+			<role name="Implementor" element="org.jhotdraw.draw.locator.Locator" />
+			<role name="implementor" element="org.jhotdraw.draw.handle.LocatorHandle::locator:org.jhotdraw.draw.locator.Locator" />
+			<role name="Operation()" element="org.jhotdraw.draw.handle.LocatorHandle::getLocationOnDrawing():java.awt.geom.Point2D$Double" />
+			<role name="Operation()" element="org.jhotdraw.draw.handle.LocatorHandle::getLocation():java.awt.Point" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.app.AbstractApplication" />
+			<role name="Implementor" element="org.jhotdraw.api.gui.URIChooser" />
+			<role name="implementor" element="org.jhotdraw.app.AbstractApplication::openChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="implementor" element="org.jhotdraw.app.AbstractApplication::saveChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="implementor" element="org.jhotdraw.app.AbstractApplication::importChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="implementor" element="org.jhotdraw.app.AbstractApplication::exportChooser:org.jhotdraw.api.gui.URIChooser" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getOpenChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getSaveChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getImportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+			<role name="Operation()" element="org.jhotdraw.app.AbstractApplication::getExportChooser(org.jhotdraw.api.app.View):org.jhotdraw.api.gui.URIChooser" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.figure.AbstractCompositeFigure" />
+			<role name="Implementor" element="org.jhotdraw.draw.layouter.Layouter" />
+			<role name="implementor" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::layouter:org.jhotdraw.draw.layouter.Layouter" />
+			<role name="Operation()" element="org.jhotdraw.draw.figure.AbstractCompositeFigure::getPreferredSize():org.jhotdraw.geom.Dimension2DDouble" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.AbstractDrawingView" />
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="implementor" element="org.jhotdraw.draw.AbstractDrawingView::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::drawHandles(java.awt.Graphics2D):void" />
+			<role name="Operation()" element="org.jhotdraw.draw.AbstractDrawingView::drawTool(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="Abstraction" element="org.jhotdraw.draw.action.AbstractDrawingEditorAction" />
+			<role name="Implementor" element="org.jhotdraw.draw.DrawingEditor" />
+			<role name="implementor" element="org.jhotdraw.draw.action.AbstractDrawingEditorAction::editor:org.jhotdraw.draw.DrawingEditor" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingEditorAction::updateEnabledState():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingEditorAction::getView():org.jhotdraw.draw.DrawingView" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingEditorAction::unregisterEventHandler():void" />
+			<role name="Operation()" element="org.jhotdraw.draw.action.AbstractDrawingEditorAction::registerEventHandler():void" />
+		</instance>
+	</pattern>
+	<pattern name="Template Method">
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.app.AbstractApplication" />
+			<role name="TemplateMethod()" element="org.jhotdraw.app.AbstractApplication::createView():org.jhotdraw.api.app.View" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction" />
+			<role name="TemplateMethod()" element="org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.geom.Insets2D" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::set(org.jhotdraw.geom.Insets2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::add(double, double, double, double):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::add(org.jhotdraw.geom.Insets2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::addTo(java.awt.geom.Rectangle2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::subtract(double, double, double, double):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::subtract(org.jhotdraw.geom.Insets2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::subtractTo(java.awt.geom.Rectangle2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::equals(java.lang.Object):boolean" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::hashCode():int" />
+			<role name="TemplateMethod()" element="org.jhotdraw.geom.Insets2D::toString():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.gui.plaf.palette.MultiIcon" />
+			<role name="TemplateMethod()" element="org.jhotdraw.gui.plaf.palette.MultiIcon::paintIcon(java.awt.Component, java.awt.Graphics, int, int):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.gui.plaf.palette.MultiIcon::generateIconsFromTiledImage():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.color.AbstractColorWheelImageProducer" />
+			<role name="TemplateMethod()" element="org.jhotdraw.color.AbstractColorWheelImageProducer::regenerateColorWheel():void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.color.AbstractColorWheelImageProducer::getColorLocation(java.awt.Color):java.awt.Point" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.decoration.AbstractLineDecoration" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.decoration.AbstractLineDecoration::getDecorationRadius(org.jhotdraw.draw.figure.Figure):double" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.decoration.AbstractLineDecoration::getTransformedDecoratorPath(org.jhotdraw.draw.figure.Figure, java.awt.geom.Point2D$Double, java.awt.geom.Point2D$Double):java.awt.geom.Path2D$Double" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.handle.AbstractConnectionHandle" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::getSource():org.jhotdraw.draw.connector.Connector" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::trackStart(java.awt.Point, int):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::trackStep(java.awt.Point, java.awt.Point, int):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::trackEnd(java.awt.Point, java.awt.Point, int):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::findConnectionTarget(java.awt.geom.Point2D$Double, org.jhotdraw.draw.Drawing):org.jhotdraw.draw.connector.Connector" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::draw(java.awt.Graphics2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::basicGetBounds():java.awt.Rectangle" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::createSecondaryHandles():java.util.Collection" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractConnectionHandle::getBezierNode():org.jhotdraw.geom.BezierPath$Node" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.handle.AbstractRotateHandle" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractRotateHandle::getLocation():java.awt.Point" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractRotateHandle::trackStart(java.awt.Point, int):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractRotateHandle::keyPressed(java.awt.event.KeyEvent):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.handle.AbstractHandle" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractHandle::getBounds():java.awt.Rectangle" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.handle.AbstractHandle::updateBounds():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.action.AlignAction" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.action.AlignAction::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateActiveView():void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateAttributeEditor():void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.event.AbstractAttributeEditorHandler::updateFigures():void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.figure.AbstractAttributedCompositeFigure" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.figure.AbstractAttributedCompositeFigure::drawFigure(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.figure.AbstractAttributedFigure" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.figure.AbstractAttributedFigure::draw(java.awt.Graphics2D):void" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure::contains(java.awt.geom.Point2D$Double):boolean" />
+		</instance>
+		<instance>
+			<role name="AbstractClass" element="org.jhotdraw.draw.AbstractDrawingView" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::repaintHandles():void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::drawBackground(java.awt.Graphics2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::setEmptyDrawingMessage(java.lang.String):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::getCanvasViewBounds():java.awt.Rectangle" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::drawDrawing(java.awt.Graphics2D):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::setDrawing(org.jhotdraw.draw.Drawing):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::repaintDrawingArea(java.awt.geom.Rectangle2D$Double):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::addToSelection(org.jhotdraw.draw.figure.Figure):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::addToSelection(java.util.Collection):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::removeFromSelection(org.jhotdraw.draw.figure.Figure):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::selectAll():void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::invalidateHandles():void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::validateHandles():void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::drawingToView(java.awt.geom.Point2D$Double):java.awt.Point" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::viewToDrawing(java.awt.Point):java.awt.geom.Point2D$Double" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::removeNotify(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::addNotify(org.jhotdraw.draw.DrawingEditor):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::setConstrainerVisible(boolean):void" />
+			<role name="TemplateMethod()" element="org.jhotdraw.draw.AbstractDrawingView::setActiveHandle(org.jhotdraw.draw.handle.Handle):void" />
+		</instance>
+	</pattern>
+	<pattern name="Visitor" />
+	<pattern name="Proxy" />
+	<pattern name="Proxy2" />
+	<pattern name="Chain of Responsibility" />
+</system>
+

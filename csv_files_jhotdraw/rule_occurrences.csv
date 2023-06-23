@@ -1,0 +1,101 @@
+RuleId,RuleName,Occurrences
+S125,Sections of code should not be commented out,272
+S1186,Methods should not be empty,197
+S2293,"The diamond operator (<>"") should be used""",172
+S3776,Cognitive Complexity of methods should not be too high,138
+S1948,"Fields in a Serializable"" class should either be transient or serializable""",114
+S3252,"static"" base class members should not be accessed via derived types""",112
+S1192,String literals should not be duplicated,79
+S1124,Modifiers should be declared in the correct order,75
+S1659,Multiple variables should not be declared on the same line,59
+S1481,Unused local variables should be removed,59
+S117,Local variable and method parameter names should comply with a naming convention,57
+S106,Standard outputs should not be used directly to log anything,57
+S131,"switch"" statements should have ""default"" clauses""",55
+S1172,Unused method parameters should be removed,54
+S1121,Assignments should not be made from within sub-expressions,54
+S1604,Anonymous inner classes containing only one method should become lambdas,52
+S1134,"Track uses of FIXME"" tags""",48
+S3740,Raw types should not be used,47
+S1068,"Unused private"" fields should be removed""",46
+S1854,Unused assignments should be removed,43
+S5993,"Constructors of an abstract"" class should not be declared ""public""""",43
+S3878,Arrays should not be created for varargs parameters,41
+S2696,"Instance methods should not write to static"" fields""",41
+S1155,Collection.isEmpty() should be used to test for emptiness,37
+S1488,Local variables should not be declared and then immediately returned or thrown,36
+S2975,"clone"" should not be overridden""",35
+S1450,Private fields only used as local variables in methods should become local variables,31
+S1066,"Collapsible if"" statements should be merged""",31
+S1905,Redundant casts should not be used,29
+S1144,"Unused private"" methods should be removed""",23
+S1161,"@Override"" should be used on overriding and implementing methods""",23
+S2589,Boolean expressions should not be gratuitous,22
+S1197,"Array designators []"" should be on the type not the variable""",21
+S1874,"@Deprecated"" code should not be used""",21
+S6353,Regular expression quantifiers and character classes should be used concisely,20
+S1104,Class variable fields should not have public accessibility,18
+S1128,Unnecessary imports should be removed,17
+S107,Methods should not have too many parameters,15
+S1116,Empty statements should be removed,14
+S1301,"switch"" statements should have at least 3 ""case"" clauses""",13
+S5411,"Avoid using boxed Boolean"" types directly in boolean expressions""",13
+S100,Method names should comply with a naming convention,13
+S1125,Boolean literals should not be redundant,13
+S1319,"Declarations should use Java collection interfaces such as List"" rather than specific implementation classes such as ""LinkedList""""",12
+S112,Generic exceptions should never be thrown,12
+S135,"Loops should not contain more than a single break"" or ""continue"" statement""",11
+S4524,"default"" clauses should be last""",11
+S108,Nested blocks of code should not be left empty,10
+S1119,Labels should not be used,10
+S4719,"StandardCharsets"" constants should be preferred""",10
+S2093,Try-with-resources should be used,8
+S3358,Ternary operators should not be nested,8
+S3398,"private"" methods called only by inner classes should be moved to those classes""",8
+S4165,Assignments should not be redundant,7
+S2786,"Nested enum""s should not be declared static""",7
+S1118,Utility classes should not have public constructors,7
+S1130,"throws"" declarations should not be superfluous""",7
+S1141,Try-catch blocks should not be nested,6
+S116,Field names should comply with a naming convention,6
+S2160,"Subclasses that add fields should override equals""""",5
+S1133,Deprecated code should be removed,5
+S1181,Throwable and Error should not be caught,5
+S1452,Generic wildcard types should not be used in return types,5
+S4144,Methods should not have identical implementations,4
+S3012,Arrays should not be copied using loops,4
+S127,"for"" loop stop conditions should be invariant""",4
+S5843,Regular expressions should not be too complicated,4
+S1871,Two branches in a conditional structure should not have exactly the same implementation,4
+S1185,Overriding methods should do more than simply call the same method in the super class,4
+S1940,Boolean checks should not be inverted,4
+S2129,Constructors should not be used to instantiate String BigInteger BigDecimal and primitive-wrapper classes,4
+S3516,Methods returns should not be invariant,3
+S1168,Empty arrays and collections should be returned instead of null,3
+S1135,"Track uses of TODO"" tags""",3
+S3008,Static non-final field names should comply with a naming convention,3
+S2387,Child class fields should not shadow parent class fields,3
+S1126,"Return of boolean expressions should not be wrapped into an if-then-else"" statement""",2
+S1845,Methods and field names should not be the same or differ only by capitalization,2
+S1117,Local variables should not shadow class fields,2
+S2147,Catches should be combined,2
+S3010,Static fields should not be updated in constructors,2
+S1149,"Synchronized classes Vector, Hashtable, Stack and StringBuffer should not be used",2
+S5361,"String#replace"" should be preferred to ""String#replaceAll""""",2
+S1210,"equals(Object obj)"" should be overridden along with the ""compareTo(T obj)"" method""",2
+S1065,Unused labels should be removed,2
+S4201,"Null checks should not be used with instanceof""""",1
+S3985,"Unused private"" classes should be removed""",1
+S1596,"Collections.EMPTY_LIST"" ""EMPTY_MAP"" and ""EMPTY_SET"" should not be used""",1
+S3626,Jump statements should not be redundant,1
+S3038,Abstract methods should not be redundant,1
+S2386,"Mutable fields should not be public static""""",1
+S2326,Unused type parameters should be removed,1
+S2130,"Parsing should be used to convert Strings"" to primitives""",1
+S2094,Classes should not be empty,1
+S2065,"Fields in non-serializable classes should not be transient""""",1
+S1610,Abstract classes without fields should be converted to interfaces,1
+S1223,Non-constructor methods should not have the same name as the enclosing class,1
+S1171,Only static class initializers should be used,1
+S1110,Redundant pairs of parentheses should be removed,1
+S6397,Character classes in regular expressions should not contain only one character,1

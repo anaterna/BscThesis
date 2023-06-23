@@ -1,0 +1,1462 @@
+Class,TotalBrokenRules,Minor,Major,Critical,Pattern,cg-na,cg-npm
+core:src/main/java/io/questdb/Bootstrap.java,6,0.0,1.0,5.0,State,33,27
+core:src/main/java/io/questdb/BootstrapConfiguration.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/PropServerConfiguration.java,4,1.0,0.0,3.0,State;Decorator;Factory Method,783,222
+core:src/main/java/io/questdb/ServerMain.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/TelemetryConfigLogger.java,1,0.0,1.0,0.0,State,16,2
+core:src/main/java/io/questdb/cairo/AbstractIntervalDataFrameCursor.java,4,0.0,2.0,2.0,(Object)Adapter;Bridge,36,17
+core:src/main/java/io/questdb/cairo/AttachDetachStatus.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/BitmapIndexBwdNullReader.java,1,0.0,0.0,1.0,Decorator,3,6
+core:src/main/java/io/questdb/cairo/BitmapIndexFwdNullReader.java,1,0.0,0.0,1.0,Decorator,6,6
+core:src/main/java/io/questdb/cairo/BitmapIndexUtils.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/cairo/CairoEngine.java,2,0.0,1.0,0.0,State;Template Method;(Object)Adapter;Proxy,237,819
+core:src/main/java/io/questdb/cairo/CairoException.java,1,1.0,0.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/CairoKeywords.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/ColumnPurgeOperator.java,2,1.0,0.0,1.0,State,45,7
+core:src/main/java/io/questdb/cairo/ColumnVersionReader.java,1,0.0,1.0,0.0,State;(Object)Adapter,57,52
+core:src/main/java/io/questdb/cairo/ColumnVersionWriter.java,1,0.0,1.0,0.0,State;(Object)Adapter,10,30
+core:src/main/java/io/questdb/cairo/DebugUtils.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/O3CopyJob.java,1,0.0,1.0,0.0,State;Template Method,2,2
+core:src/main/java/io/questdb/cairo/O3OpenColumnJob.java,2,0.0,0.0,2.0,State;Template Method,12,8
+core:src/main/java/io/questdb/cairo/O3PartitionJob.java,1,0.0,0.0,1.0,State;Template Method,2,2
+core:src/main/java/io/questdb/cairo/O3PartitionPurgeJob.java,1,0.0,0.0,1.0,State;Template Method;(Object)Adapter,35,5
+core:src/main/java/io/questdb/cairo/SecurityContext.java,6,0.0,0.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/TableConverter.java,4,0.0,1.0,3.0,State;(Object)Adapter,7,5
+core:src/main/java/io/questdb/cairo/TableNameRegistryFileStore.java,1,0.0,0.0,1.0,State;(Object)Adapter,30,18
+core:src/main/java/io/questdb/cairo/TableReader.java,10,0.0,5.0,5.0,State;Factory Method;(Object)Adapter,444,526
+core:src/main/java/io/questdb/cairo/TableUtils.java,6,0.0,2.0,4.0,,0,0
+core:src/main/java/io/questdb/cairo/TableWriter.java,28,0.0,10.0,18.0,State;Factory Method;(Object)Adapter,3525,2360
+core:src/main/java/io/questdb/cairo/TxReader.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/frm/DeletedFrameColumn.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/cairo/frm/FrameAlgebra.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/frm/file/ContiguousFileColumnPool.java,2,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/cairo/frm/file/ContiguousFileFixFrameColumn.java,6,0.0,6.0,0.0,State;(Object)Adapter,40,44
+core:src/main/java/io/questdb/cairo/frm/file/ContiguousFileVarFrameColumn.java,5,0.0,5.0,0.0,State;(Object)Adapter,48,44
+core:src/main/java/io/questdb/cairo/pool/AbstractMultiTenantPool.java,1,0.0,0.0,1.0,Template Method;(Object)Adapter;Bridge,60,26
+core:src/main/java/io/questdb/cairo/pool/WriterPool.java,1,0.0,0.0,1.0,State;Template Method;(Object)Adapter,84,43
+core:src/main/java/io/questdb/cairo/ptt/PartitionDateParseUtil.java,8,0.0,7.0,1.0,,0,0
+core:src/main/java/io/questdb/cairo/security/AllowAllSecurityContext.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cairo/security/ReadOnlySecurityContext.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/cairo/sql/SqlExecutionCircuitBreaker.java,1,0.0,0.0,1.0,Singleton;State;(Object)Adapter;Bridge,68,374
+core:src/main/java/io/questdb/cairo/vm/MemoryCMARWImpl.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/cairo/wal/ApplyWal2TableJob.java,4,0.0,2.0,2.0,State;Template Method;(Object)Adapter,136,10
+core:src/main/java/io/questdb/cairo/wal/WalPurgeJob.java,1,0.0,0.0,1.0,State;Template Method;(Object)Adapter,133,20
+core:src/main/java/io/questdb/cairo/wal/WalWriter.java,1,0.0,0.0,1.0,State;(Object)Adapter,626,431
+core:src/main/java/io/questdb/cairo/wal/seq/TableSequencerAPI.java,1,0.0,0.0,1.0,State,16,39
+core:src/main/java/io/questdb/cutlass/auth/AnonymousAuthenticator.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/cutlass/auth/AuthUtils.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cutlass/http/DefaultHttpServerConfiguration.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cutlass/http/HttpConnectionContext.java,1,0.0,0.0,1.0,State;(Object)Adapter,120,108
+core:src/main/java/io/questdb/cutlass/http/MimeTypesCache.java,3,0.0,2.0,1.0,,0,0
+core:src/main/java/io/questdb/cutlass/http/processors/JsonQueryProcessor.java,2,0.0,0.0,2.0,State,36,17
+core:src/main/java/io/questdb/cutlass/http/processors/TextImportProcessor.java,1,0.0,0.0,1.0,State;(Object)Adapter,69,20
+core:src/main/java/io/questdb/cutlass/http/processors/TextQueryProcessor.java,2,0.0,0.0,2.0,State,30,15
+core:src/main/java/io/questdb/cutlass/line/tcp/LineTcpConnectionContext.java,1,0.0,0.0,1.0,State,125,34
+core:src/main/java/io/questdb/cutlass/line/tcp/LineTcpMeasurementScheduler.java,1,0.0,0.0,1.0,State;(Object)Adapter,126,27
+core:src/main/java/io/questdb/cutlass/line/tcp/StaticPublicKeyRepo.java,2,1.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/cutlass/line/tcp/SymbolCache.java,1,0.0,1.0,0.0,State;(Object)Adapter,50,21
+core:src/main/java/io/questdb/cutlass/line/udp/LineUdpParserImpl.java,1,0.0,1.0,0.0,State;(Object)Adapter,651,95
+core:src/main/java/io/questdb/cutlass/pgwire/ClearTextPgWireAuthenticator.java,1,0.0,1.0,0.0,State;(Object)Adapter,0,0
+core:src/main/java/io/questdb/cutlass/pgwire/PGConnectionContext.java,5,0.0,2.0,3.0,State;Proxy,812,210
+core:src/main/java/io/questdb/cutlass/text/CairoTextWriter.java,4,0.0,2.0,2.0,State;(Object)Adapter;Proxy,114,80
+core:src/main/java/io/questdb/cutlass/text/CopyRequestTask.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/cutlass/text/CopyTask.java,2,0.0,2.0,0.0,State,91,39
+core:src/main/java/io/questdb/cutlass/text/ParallelCsvFileImporter.java,13,0.0,9.0,4.0,State;(Object)Adapter;Proxy,608,180
+core:src/main/java/io/questdb/griffin/PurgingOperator.java,1,0.0,0.0,1.0,State;(Object)Adapter,28,10
+core:src/main/java/io/questdb/griffin/SqlCodeGenerator.java,2,0.0,0.0,2.0,State;Decorator,134,62
+core:src/main/java/io/questdb/griffin/SqlCompiler.java,15,5.0,1.0,9.0,State;(Object)Adapter;Proxy,133,63
+core:src/main/java/io/questdb/griffin/SqlOptimiser.java,11,0.0,0.0,10.0,Singleton;(Object)Adapter,13,0
+core:src/main/java/io/questdb/griffin/SqlUtil.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/griffin/WhereClauseParser.java,2,0.0,1.0,1.0,Proxy,68,4
+core:src/main/java/io/questdb/griffin/WhereClauseSymbolEstimator.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/griffin/engine/functions/catalogue/Constants.java,1,1.0,0.0,0.0,,0,0
+core:src/main/java/io/questdb/griffin/engine/functions/date/DateTruncFunctionFactory.java,2,0.0,0.0,2.0,Decorator;Factory Method,0,6
+core:src/main/java/io/questdb/griffin/engine/join/AbstractSymbolWrapOverCursor.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/griffin/engine/join/AsOfJoinRecordCursorFactory.java,1,0.0,1.0,0.0,State,24,7
+core:src/main/java/io/questdb/griffin/engine/join/LtJoinRecordCursorFactory.java,1,0.0,1.0,0.0,State,24,7
+core:src/main/java/io/questdb/griffin/engine/ops/CopyCancelFactory.java,2,1.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/griffin/engine/ops/CopyFactory.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/griffin/engine/table/ShowPartitionsRecordCursorFactory.java,3,0.0,0.0,3.0,State,18,4
+core:src/main/java/io/questdb/griffin/model/IntervalUtils.java,5,2.0,1.0,2.0,,0,0
+core:src/main/java/io/questdb/griffin/model/QueryColumn.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/griffin/model/RuntimeIntervalModel.java,1,0.0,1.0,0.0,State;Factory Method;(Object)Adapter,16,13
+core:src/main/java/io/questdb/log/LogAlertSocket.java,3,1.0,0.0,2.0,State;(Object)Adapter,78,39
+core:src/main/java/io/questdb/log/LogFactory.java,1,0.0,0.0,1.0,Singleton;Decorator,31,24
+core:src/main/java/io/questdb/log/LogRecordSink.java,4,2.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/std/Chars.java,2,0.0,0.0,0.0,,0,0
+core:src/main/java/io/questdb/std/Files.java,4,2.0,1.0,1.0,,0,0
+core:src/main/java/io/questdb/std/WeakObjectPoolBase.java,1,0.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/std/fastdouble/FastDoubleMath.java,7,6.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/std/fastdouble/FastDoubleSwar.java,3,2.0,1.0,0.0,,0,0
+core:src/main/java/io/questdb/std/fastdouble/FastFloatMath.java,1,0.0,0.0,1.0,,0,0
+core:src/main/java/io/questdb/std/str/Path.java,2,0.0,2.0,0.0,(Object)Adapter,45,200
+core:src/test/java/io/questdb/test/AbstractBootstrapTest.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/AbstractCairoTest.java,25,14.0,8.0,3.0,Bridge,0,0
+core:src/test/java/io/questdb/test/AbstractGriffinTest.java,22,1.0,15.0,5.0,,0,0
+core:src/test/java/io/questdb/test/AbstractTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/BootstrapTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/CollectionsTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/CreateTableTestUtils.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/FilesTest.java,13,2.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/MetricsTest.java,2,2.0,0.0,0.0,Decorator;Proxy2,0,0
+core:src/test/java/io/questdb/test/PerformanceTest.java,3,0.0,1.0,2.0,,0,0
+core:src/test/java/io/questdb/test/PropServerConfigurationTest.java,35,7.0,16.0,12.0,,0,0
+core:src/test/java/io/questdb/test/QuestDBTestNode.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/ServerMainBackupDatabaseTest.java,6,1.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/ServerMainForeignTableTest.java,11,0.0,2.0,8.0,,0,0
+core:src/test/java/io/questdb/test/ServerMainShowPartitionsTest.java,5,1.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/ServerMainVectorGroupByTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/TelemetryTest.java,10,3.0,0.0,7.0,,0,0
+core:src/test/java/io/questdb/test/TestListener.java,3,1.0,2.0,0.0,,0,0
+core:src/test/java/io/questdb/test/TestServerConfiguration.java,7,2.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/VolumeDefinitionsTest.java,8,3.0,1.0,4.0,,0,0
+core:src/test/java/io/questdb/test/cairo/BinarySearchTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/BitmapIndexTest.java,50,16.0,26.0,8.0,,0,0
+core:src/test/java/io/questdb/test/cairo/CairoEngineTest.java,7,0.0,6.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/CairoMemoryTest.java,10,2.0,5.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cairo/CairoReadonlyEngineTest.java,2,1.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/ColumnVersionWriterTest.java,29,4.0,3.0,22.0,,0,0
+core:src/test/java/io/questdb/test/cairo/CreateTableTest.java,27,0.0,5.0,22.0,,0,0
+core:src/test/java/io/questdb/test/cairo/DoubleReloadTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/FullBwdDataFrameCursorTest.java,4,1.0,3.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/FullFwdDataFrameCursorFactoryTest.java,4,2.0,2.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/FullFwdDataFrameCursorTest.java,110,40.0,59.0,10.0,,0,0
+core:src/test/java/io/questdb/test/cairo/GenericRecordMetadataTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/GeoHashesTest.java,14,4.0,5.0,5.0,,0,0
+core:src/test/java/io/questdb/test/cairo/IndexBuilderTest.java,28,5.0,6.0,17.0,,0,0
+core:src/test/java/io/questdb/test/cairo/IntervalBwdDataFrameCursorTest.java,46,11.0,8.0,27.0,,0,0
+core:src/test/java/io/questdb/test/cairo/IntervalFwdDataFrameCursorTest.java,48,13.0,8.0,27.0,,0,0
+core:src/test/java/io/questdb/test/cairo/MemRemappedFileTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/PartitionByTest.java,21,1.0,3.0,17.0,,0,0
+core:src/test/java/io/questdb/test/cairo/RecordChainTest.java,4,3.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/RecordCursorPrinter.java,3,0.0,3.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/RecoverVarIndexTest.java,13,3.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/cairo/SymbolMapTest.java,19,15.0,4.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableModel.java,2,0.0,2.0,0.0,State;(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/cairo/TableNameRegistryTest.java,8,0.0,4.0,4.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableReadFailTest.java,3,1.0,2.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableReaderMetadataTest.java,23,9.0,0.0,14.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableReaderMetadataTimestampTest.java,18,3.0,0.0,15.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableReaderReloadFuzzTest.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableReaderReloadTest.java,3,0.0,3.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableReaderTailRecordCursorTest.java,4,0.0,3.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableReaderTest.java,85,27.0,38.0,20.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableUtilsTest.java,7,1.0,5.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TableWriterTest.java,117,45.0,47.0,24.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TxnScoreboardTest.java,15,0.0,5.0,10.0,,0,0
+core:src/test/java/io/questdb/test/cairo/TxnTest.java,5,2.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cairo/map/CompactMapTest.java,21,12.0,8.0,1.0,State;(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/cairo/map/FastMapTest.java,23,11.0,10.0,2.0,,0,0
+core:src/test/java/io/questdb/test/cairo/map/RecordValueSinkFactoryTest.java,2,0.0,2.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/pool/ReaderPoolTest.java,23,4.0,14.0,5.0,(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/cairo/pool/WriterPoolTest.java,28,3.0,21.0,4.0,,0,0
+core:src/test/java/io/questdb/test/cairo/sql/RecordTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/vm/ContiguousMemoryMTest.java,22,21.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/vm/ContiguousOffsetMappedMemoryTest.java,3,1.0,2.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/vm/MemoryCARWImplTest.java,9,4.0,1.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cairo/vm/MemoryPARWImplTest.java,5,4.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/vm/MemoryPMARImplTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cairo/wal/TableSequencerImplTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cairo/wal/WalTableWriterFuzzTest.java,10,0.0,2.0,8.0,,0,0
+core:src/test/java/io/questdb/test/cairo/wal/WalWriterTest.java,65,5.0,47.0,13.0,,0,0
+core:src/test/java/io/questdb/test/cairo/wal/WriteAndReadSyncTest.java,3,1.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/client/LineSenderBuilderTest.java,8,0.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/IODispatcherHeartbeatTest.java,6,1.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/NetUtils.java,3,1.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/DispatcherWriterQueueTest.java,15,4.0,3.0,8.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HealthCheckTest.java,10,0.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HttpAlterTableTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HttpFlushQueryCacheTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HttpHeaderParserTest.java,5,1.0,1.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HttpHealthCheckTestBuilder.java,5,4.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HttpMinTestBuilder.java,2,2.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HttpMultipartContentParserTest.java,7,3.0,1.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/HttpQueryTestBuilder.java,14,13.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/IODispatcherTest.java,268,32.0,22.0,214.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/ImportIODispatcherTest.java,97,29.0,6.0,62.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/MetricsIODispatcherTest.java,1,0.0,0.0,1.0,State;(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/cutlass/http/MimeTypesCacheTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/RetryIODispatcherTest.java,56,6.0,30.0,20.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/http/SendAndReceiveRequestBuilder.java,16,7.0,4.0,5.0,State,0,0
+core:src/test/java/io/questdb/test/cutlass/http/WaitProcessorTest.java,5,0.0,2.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/json/JsonLexerTest.java,9,0.0,4.0,5.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/AbstractLinePartitionReadOnlyTest.java,13,0.0,1.0,12.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/LineSenderExceptionTest.java,4,3.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/interop/TestInterop.java,18,1.0,13.0,4.0,State;(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/AbstractLineTcpReceiverFuzzTest.java,9,1.0,4.0,4.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/AbstractLineTcpReceiverTest.java,10,5.0,5.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/AlterTableDropActivePartitionLineTest.java,3,1.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/AlterTableLineTcpReceiverTest.java,28,14.0,1.0,13.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/AlterWalTableLineTcpReceiverTest.java,35,17.0,2.0,16.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/BaseLineTcpContextTest.java,4,0.0,1.0,3.0,(Object)Adapter;Bridge,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/BaseLineTcpInsertGeoHashTest.java,4,1.0,1.0,2.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/ColumnNameType.java,2,2.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/DelegatingTlsChannelTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/EllipticCurveAuthConnectionContextTest.java,10,0.0,3.0,7.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/IOTableUpdateDetailsPoolTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpConnectionContextTest.java,56,1.0,2.0,53.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpInsertByteGeoHashTest.java,5,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpInsertIntGeoHashTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpInsertLongGeoHashTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpInsertOtherTypesTest.java,36,1.0,1.0,34.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpInsertShortGeoHashTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpO3Test.java,11,7.0,3.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpParser2Test.java,10,0.0,4.0,6.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpPartitionReadOnlyTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpReceiverFuzzTest.java,2,1.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpReceiverTest.java,97,42.0,14.0,41.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpReceiverUpdateFuzzTest.java,2,0.0,2.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpSenderTest.java,13,5.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTcpTypeConversionTest.java,9,1.0,1.0,7.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/LineTlsTcpSenderTest.java,3,0.0,1.0,2.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/SymbolCacheTest.java,23,3.0,1.0,19.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/load/LineData.java,3,1.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/load/TableData.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpInsertByteGeoHashTest.java,4,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpInsertGeoHashTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpInsertIntGeoHashTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpInsertLongGeoHashTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpInsertOtherTypesTest.java,36,0.0,1.0,35.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpInsertShortGeoHashTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpLexerTest.java,7,1.0,0.0,6.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpParserImplTest.java,37,0.0,1.0,36.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpParserSupportTest.java,14,6.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LineUdpPartitionReadOnlyTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/LinuxLineUdpProtoReceiverTest.java,5,2.0,2.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/line/udp/UdpLineChannelTest.java,3,3.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/pgwire/BasePGTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/pgwire/PGJobContextTest.java,251,4.0,30.0,209.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/pgwire/PGMultiStatementMessageTest.java,30,0.0,0.0,29.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/pgwire/PGQuerySuspendabilityTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/pgwire/PGSecurityTest.java,7,0.0,2.0,5.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/pgwire/PGUpdateConcurrentTest.java,10,0.0,3.0,7.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/text/CsvFileIndexerTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/text/ParallelCsvFileImporterTest.java,66,2.0,5.0,59.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/text/SqlExecutionContextStub.java,11,0.0,0.0,11.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/text/TextLoaderTest.java,165,1.0,4.0,160.0,,0,0
+core:src/test/java/io/questdb/test/cutlass/text/types/TypeManagerTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/fuzz/FuzzInsertOperation.java,6,2.0,3.0,1.0,,0,0
+core:src/test/java/io/questdb/test/fuzz/FuzzTransaction.java,5,5.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/fuzz/FuzzTransactionGenerator.java,6,1.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AbstractAlterTableAttachPartitionTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AbstractO3Test.java,11,0.0,3.0,8.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AbstractSqlParserTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AddIndexTest.java,8,0.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableAddColumnTest.java,15,0.0,0.0,15.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableAlterColumnTest.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableAlterSymbolColumnCacheFlagTest.java,5,0.0,0.0,5.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableAttachPartitionFromSoftLinkTest.java,63,0.0,4.0,59.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableAttachPartitionTest.java,15,0.0,1.0,14.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableDetachPartitionTest.java,79,0.0,1.0,78.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableDropActivePartitionTest.java,22,0.0,0.0,22.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableDropPartitionTest.java,35,0.0,3.0,32.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableO3MaxLagTest.java,10,0.0,2.0,8.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableRenameColumnTest.java,13,0.0,0.0,13.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableSetTypeRestartTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableSetTypeTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AlterTableWalEnabledTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AsOfJoinTest.java,44,0.0,1.0,43.0,,0,0
+core:src/test/java/io/questdb/test/griffin/AsyncOffloadTest.java,10,0.0,1.0,9.0,,0,0
+core:src/test/java/io/questdb/test/griffin/BaseFunctionFactoryTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/BitwiseTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ColumnPurgeJobTest.java,48,2.0,3.0,43.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ColumnVersionTest.java,6,0.0,0.0,6.0,,0,0
+core:src/test/java/io/questdb/test/griffin/CompiledFilterRegressionTest.java,25,1.0,1.0,23.0,,0,0
+core:src/test/java/io/questdb/test/griffin/CompiledFilterTest.java,13,0.0,2.0,11.0,,0,0
+core:src/test/java/io/questdb/test/griffin/CopyTest.java,25,1.0,1.0,23.0,,0,0
+core:src/test/java/io/questdb/test/griffin/CustomisableRunnable.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/DataGripTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/DistinctKeyRecordCursorFactoryTest.java,13,0.0,0.0,13.0,,0,0
+core:src/test/java/io/questdb/test/griffin/DistinctTimeSeriesTest.java,8,0.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/griffin/DistinctWithLimitTest.java,11,0.0,0.0,11.0,,0,0
+core:src/test/java/io/questdb/test/griffin/DropIndexTest.java,24,4.0,1.0,19.0,,0,0
+core:src/test/java/io/questdb/test/griffin/DropTableTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/EngineMigrationTest.java,25,0.0,0.0,25.0,,0,0
+core:src/test/java/io/questdb/test/griffin/EscapeTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ExcelODBCTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ExceptTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ExplainPlanTest.java,338,2.0,12.0,288.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ExpressionParserTest.java,22,2.0,0.0,20.0,,0,0
+core:src/test/java/io/questdb/test/griffin/FunctionParserTest.java,16,1.0,13.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/GriffinParserTestUtils.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/GroupByFunctionTest.java,23,0.0,0.0,23.0,,0,0
+core:src/test/java/io/questdb/test/griffin/GroupByRewriteTest.java,10,0.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/griffin/GroupByTest.java,64,0.0,1.0,63.0,,0,0
+core:src/test/java/io/questdb/test/griffin/HideTelemetryTablesTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ImplicitToTimestampCastTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ImplicitTypeConversionsTest.java,10,0.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/griffin/InsertCastTest.java,26,0.0,0.0,26.0,,0,0
+core:src/test/java/io/questdb/test/griffin/InsertNullGeoHashTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/InsertNullTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/griffin/InsertTest.java,35,1.0,15.0,19.0,,0,0
+core:src/test/java/io/questdb/test/griffin/IntersectTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/JoinTest.java,207,0.0,1.0,205.0,,0,0
+core:src/test/java/io/questdb/test/griffin/KeyedAggregationTest.java,45,1.0,2.0,42.0,,0,0
+core:src/test/java/io/questdb/test/griffin/LatestByTest.java,38,0.0,3.0,35.0,,0,0
+core:src/test/java/io/questdb/test/griffin/LimitTest.java,47,0.0,0.0,47.0,,0,0
+core:src/test/java/io/questdb/test/griffin/Long128Tests.java,30,0.0,0.0,30.0,,0,0
+core:src/test/java/io/questdb/test/griffin/MemoryLeakTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/NestedSetOperationTest.java,41,0.0,2.0,39.0,,0,0
+core:src/test/java/io/questdb/test/griffin/NoopGroupByTest.java,30,0.0,2.0,28.0,,0,0
+core:src/test/java/io/questdb/test/griffin/NullLiteralsTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3FailureTest.java,106,2.0,20.0,80.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3MaxLagFuzzTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3MaxLagTest.java,43,1.0,1.0,41.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3MetricsTest.java,11,2.0,0.0,9.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3PartitionPurgeTest.java,11,0.0,1.0,10.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3SplitPartitionTest.java,29,1.0,3.0,25.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3SquashPartitionTest.java,32,0.0,0.0,32.0,,0,0
+core:src/test/java/io/questdb/test/griffin/O3Test.java,117,0.0,8.0,109.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByAdviceTest.java,99,0.0,0.0,99.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByAscRowSkippingTest.java,24,0.0,0.0,24.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByDescRowSkippingTest.java,26,0.0,0.0,26.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByExpressionTest.java,6,0.0,0.0,5.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByNothingRowSkippingTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByTimeoutTest.java,5,2.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByWithAsyncFilterTest.java,21,0.0,0.0,21.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByWithFilterTest.java,45,0.0,0.0,45.0,,0,0
+core:src/test/java/io/questdb/test/griffin/OrderByWithIntervalFilterTest.java,43,0.0,0.0,43.0,,0,0
+core:src/test/java/io/questdb/test/griffin/PageFrameCursorTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/PartitionDeleteTest.java,4,0.0,2.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/PowerTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ReaderPoolTableFunctionTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/RemovePartitionTest.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SampleBySqlParserTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SecurityTest.java,36,1.0,2.0,33.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ShowPartitionsTest.java,17,1.0,0.0,16.0,,0,0
+core:src/test/java/io/questdb/test/griffin/ShowTablesTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SimulatedDeleteTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SnapshotTest.java,17,0.0,4.0,13.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SortAndLimitTest.java,8,1.0,0.0,7.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SqlCodeGeneratorTest.java,269,0.0,8.0,260.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SqlCompilerTest.java,155,0.0,6.0,149.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SqlKeywordsTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SqlParserTest.java,166,0.0,0.0,165.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SqlParserUpdateTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SqlUtilTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/SymbolNotEqualsValueTest.java,22,0.0,0.0,22.0,,0,0
+core:src/test/java/io/questdb/test/griffin/TableBackupTest.java,5,1.0,1.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/TableWriterAsyncCmdTest.java,7,0.0,0.0,7.0,,0,0
+core:src/test/java/io/questdb/test/griffin/TimestampQueryTest.java,26,0.0,0.0,26.0,,0,0
+core:src/test/java/io/questdb/test/griffin/TruncateTest.java,14,0.0,1.0,13.0,,0,0
+core:src/test/java/io/questdb/test/griffin/UnionAllCastTest.java,78,0.0,0.0,78.0,,0,0
+core:src/test/java/io/questdb/test/griffin/UnionTest.java,102,0.0,1.0,100.0,,0,0
+core:src/test/java/io/questdb/test/griffin/UpdateConcurrentTest.java,3,0.0,2.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/UpdateTest.java,80,4.0,1.0,75.0,,0,0
+core:src/test/java/io/questdb/test/griffin/UuidTest.java,27,0.0,0.0,27.0,,0,0
+core:src/test/java/io/questdb/test/griffin/VacuumColumnVersionTest.java,16,0.0,0.0,16.0,,0,0
+core:src/test/java/io/questdb/test/griffin/VacuumTablePartitionTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/WhereClauseParserTest.java,70,0.0,41.0,29.0,,0,0
+core:src/test/java/io/questdb/test/griffin/WhereClauseSymbolEstimatorTest.java,5,0.0,4.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/WithClauseTest.java,7,0.0,0.0,7.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/AbstractFunctionFactoryTest.java,16,0.0,6.0,10.0,State;Template Method,0,0
+core:src/test/java/io/questdb/test/griffin/engine/QueryExecutionTimeoutTest.java,15,0.0,1.0,14.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/analytic/AnalyticFunctionTest.java,22,0.0,0.0,22.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/BooleanFunctionTest.java,4,0.0,1.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/CharFunctionTest.java,2,1.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/DateFunctionTest.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/GeoByteFunctionTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/GeoIntFunctionTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/GeoLongFunctionTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/GeoShortFunctionTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/GroupByFunctionTest.java,9,0.0,2.0,7.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/Long256FunctionTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/RecordFunctionTest.java,1,0.0,1.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/StrFunctionTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/TimestampFunctionTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/TouchTableFunctionTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/bind/BindVariableServiceImplTest.java,5,1.0,1.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/bind/BindVariablesTest.java,11,1.0,1.0,9.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/bool/AllNotEqStrFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/cast/CastLongToGeoHashFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/cast/CastTest.java,129,0.0,0.0,129.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/BrokenIntReadTest.java,10,0.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/CurrentSchemasFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/CursorDereferenceFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/FlushQueryCacheTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/PgAttrDefFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/PgAttributeFunctionFactoryTest.java,54,0.0,0.0,54.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/PrefixedPgClassFunctionFactoryTest.java,6,0.0,0.0,6.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/StringToStringArrayFunctionTest.java,5,0.0,0.0,5.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/TableListFunctionFactoryTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/catalogue/TypeOfFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/conditional/CaseFunctionFactoryTest.java,54,0.0,0.0,54.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/conditional/CoalesceFunctionFactoryTest.java,22,0.0,0.0,22.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/conditional/NullIfFunctionFactoryTest.java,5,0.0,0.0,5.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/conditional/SwitchFunctionFactoryTest.java,51,0.0,0.0,51.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/DateTruncFunctionFactoryTest.java,10,0.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/ExtractFunctionTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/MicrosOfSecondFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/MinuteFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/MonthOfYearFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/SecondOfMinuteFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/TimestampAddFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/TimestampAtTimeZoneTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/TimestampDiffFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/ToDateVCFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/ToTimestampVCFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/date/YearFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/EqGeoHashGeoHashFunctionFactoryTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/EqGeoHashStrFunctionFactoryTest.java,7,0.0,0.0,7.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/EqLong256FunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/EqLong256StrFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/EqStrCharFunctionTest.java,10,0.0,0.0,10.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/EqStrFunctionFactoryTest.java,8,0.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/EqTimestampStrFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/eq/NotEqStrFunctionFactoryTest.java,16,0.0,0.0,16.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/geohash/GeoHashFromCoordinatesFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/geohash/GeoHashNativeTest.java,1,1.0,0.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/geohash/GeoHashQueryTest.java,18,0.0,2.0,16.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/AvgDoubleVecGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/AvgIntVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/AvgLongVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/CountDistinctIntGroupByFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/CountDistinctLongGroupByFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/CountLong256GroupByFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/CountStringGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/CountSymbolGroupByFunctionFactoryTest.java,13,0.0,0.0,13.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/FirstDateGroupByFunctionFactoryTest.java,6,0.0,4.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/FirstDoubleGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/FirstIntGroupByFunctionFactoryTest.java,6,0.0,4.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/FirstLongGroupByFunctionFactoryTest.java,6,0.0,4.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/FirstTimestampGroupByFunctionFactoryTest.java,6,0.0,4.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/HaversineDistDegreeGroupByFunctionFactoryTest.java,29,1.0,14.0,13.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/LastDateGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/LastDoubleGroupByFunctionFactoryTest.java,2,0.0,2.0,0.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/LastIntGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/LastLongGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/LastTimestampGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MaxDateVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MaxDoubleGroupByFunctionFactoryTest.java,10,0.0,3.0,7.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MaxDoubleVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MaxIntVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MaxLongVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MaxStrGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MaxTimestampVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinCharGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinDateVecGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinDoubleGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinDoubleVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinFloatGroupByFunctionFactoryTest.java,5,0.0,3.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinIntGroupByFunctionFactoryTest.java,6,0.0,4.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinIntVecGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinLongGroupByFunctionFactoryTest.java,6,0.0,4.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinLongVecGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinStrGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/MinTimestampVecGroupByFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/StdDevSampleGroupByFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/StringAggGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/SumDateVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/SumDoubleVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/SumIntVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/SumLongVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/groupby/SumTimestampVecGroupByFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/lt/LtLong256FunctionFactoryTest.java,6,0.0,0.0,6.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/lt/LtTimestampFunctionFactoryTest.java,6,0.0,0.0,6.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/AddLong256FunctionFactoryTest.java,2,0.0,1.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/CeilFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/CeilingFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/FloorFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/RoundDoubleFunctionFactoryConstTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/RoundDownDoubleFunctionFactoryConstTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/RoundHalfEvenDoubleFunctionFactoryConstTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/math/RoundUpDoubleFunctionFactoryConstTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/regex/ILikeFunctionFactoryTest.java,8,0.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/regex/LikeFunctionFactoryTest.java,11,0.0,0.0,11.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/regex/MatchStrFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/regex/NotMatchStrFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/rnd/RndBinCCCFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/rnd/RndStringRndListFunctionFactoryTest.java,15,0.0,0.0,15.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/rnd/RndSymbolFunctionFactoryTest.java,15,0.0,0.0,15.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/LPadStrFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/LTrimFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/LeftFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/LengthFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/LowerFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/PositionFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/RPadStrFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/ReplaceStrFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/RightFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/SplitPartCharFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/SplitPartFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/StartsWithStrFunctionFactoryTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/StrPosFunctionFactoryTest.java,3,0.0,0.0,3.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/ToLowercaseFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/ToUppercaseFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/TrimFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/functions/str/UpperFunctionFactoryTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/groupby/CountColumnTest.java,41,0.0,0.0,41.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/groupby/CountTest.java,18,0.0,0.0,18.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/groupby/GroupByFunctionCaseTest.java,8,0.0,0.0,8.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/groupby/GroupByFunctionsUpdaterFactoryTest.java,4,0.0,3.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/groupby/GroupByGeoHashTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/groupby/MonthTimestampSamplerTest.java,2,0.0,0.0,2.0,,0,0
+core:src/test/java/io/questdb/test/griffin/engine/groupby/SampleByTest.java,379,1.0,1.0,377.0,,0,0
+core:src/test/java/io/questdb/test/griffin/wal/AbstractFuzzTest.java,4,3.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/wal/WalPurgeJobTest.java,1,0.0,0.0,1.0,,0,0
+core:src/test/java/io/questdb/test/griffin/wal/WalTableFailureTest.java,4,0.0,0.0,4.0,,0,0
+core:src/test/java/io/questdb/test/griffin/wal/WalTableSqlTest.java,12,0.0,0.0,12.0,,0,0
+core:src/test/java/io/questdb/test/griffin/wal/WalWriterFuzzTest.java,4,1.0,1.0,2.0,,0,0
+core:src/test/java/io/questdb/test/log/LogRecordSinkTest.java,3,0.0,3.0,0.0,,0,0
+core:src/test/java/io/questdb/test/tools/TestUtils.java,13,0.0,12.0,1.0,,0,0
+io/questdb/FactoryProviderFactory.java,0,0,0,0,State;Factory Method,0,1
+io/questdb/std/LongList.java,0,0,0,0,Factory Method;(Object)Adapter,55,506
+io/questdb/std/IOURingFacade.java,0,0,0,0,State;Factory Method;(Object)Adapter,0,20
+io/questdb/std/IOURingFacadeImpl.java,0,0,0,0,Singleton;Factory Method,4,16
+io/questdb/cutlass/auth/Authenticator.java,0,0,0,0,State;Factory Method,10,16
+io/questdb/cutlass/http/HttpServer.java,0,0,0,0,Factory Method;(Object)Adapter,4,14
+io/questdb/cutlass/http/HttpRequestProcessor.java,0,0,0,0,Factory Method,0,21
+io/questdb/cutlass/http/HttpServerConfiguration.java,0,0,0,0,State;Factory Method,2,13
+io/questdb/PropServerConfiguration.java,0,0,0,0,State;Decorator;Factory Method,783,222
+io/questdb/cairo/sql/RecordCursor.java,0,0,0,0,Decorator;Factory Method;State;Proxy;Bridge,0,307
+io/questdb/griffin/engine/table/DataFrameRecordCursor.java,0,0,0,0,(Object)Adapter;Decorator;Factory Method;State;Bridge,0,52
+io/questdb/griffin/engine/table/FilteredRecordCursor.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,48,137
+io/questdb/griffin/engine/table/StringLongTuplesRecordCursor.java,0,0,0,0,Decorator;Factory Method,56,112
+io/questdb/cairo/TableReaderRecordCursor.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,160,171
+io/questdb/griffin/engine/union/AbstractSetRecordCursor.java,0,0,0,0,Decorator;Factory Method,12,4
+io/questdb/griffin/engine/LimitRecordCursorFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,178,158
+io/questdb/griffin/engine/table/TableListRecordCursorFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,75,104
+io/questdb/griffin/engine/table/FilterOnSubQueryRecordCursorFactory.java,0,0,0,0,Template Method;(Object)Adapter;Decorator;Factory Method;State,88,199
+io/questdb/griffin/engine/table/ReaderPoolRecordCursorFactory.java,0,0,0,0,Decorator;Factory Method,126,112
+io/questdb/griffin/engine/table/LatestByLightRecordCursorFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,159,185
+io/questdb/cairo/sql/DelegatingRecordCursor.java,0,0,0,0,State;Factory Method,0,2
+io/questdb/griffin/engine/table/AsyncFilteredNegativeLimitRecordCursor.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,209,184
+io/questdb/griffin/engine/groupby/DistinctTimeSeriesRecordCursorFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,285,183
+io/questdb/cairo/map/CompactMapCursor.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,64,111
+io/questdb/griffin/engine/analytic/CachedAnalyticRecordCursorFactory.java,0,0,0,0,(Object)Adapter;Decorator;Factory Method;State;Proxy,144,151
+io/questdb/griffin/engine/table/ShowColumnsRecordCursorFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,45,103
+io/questdb/griffin/engine/functions/catalogue/PgDatabaseFunctionFactory.java,0,0,0,0,Decorator;Factory Method,34,110
+io/questdb/griffin/engine/ExplainPlanFactory.java,0,0,0,0,State;Decorator;Factory Method,61,120
+io/questdb/griffin/engine/functions/catalogue/WalTableListFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,89,124
+io/questdb/griffin/engine/groupby/vect/GroupByRecordCursorFactory.java,0,0,0,0,(Object)Adapter;Decorator;Factory Method;State;Proxy,315,221
+io/questdb/cairo/wal/WalDataCursor.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,48,157
+io/questdb/griffin/engine/EmptyTableRandomRecordCursor.java,0,0,0,0,Singleton;Decorator;Factory Method,45,120
+io/questdb/griffin/engine/groupby/DistinctSymbolRecordCursorFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,91,157
+io/questdb/griffin/engine/SingleValueRecordCursor.java,0,0,0,0,Decorator;Factory Method,28,98
+io/questdb/griffin/engine/table/SelectedRecordCursor.java,0,0,0,0,Decorator;Factory Method,56,121
+io/questdb/griffin/engine/table/AsyncFilteredRecordCursor.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,340,193
+io/questdb/cairo/sql/NoRandomAccessRecordCursor.java,0,0,0,0,Decorator;Factory Method,0,24
+io/questdb/griffin/engine/groupby/DistinctRecordCursorFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,123,193
+io/questdb/griffin/engine/functions/rnd/LongSequenceFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,49,111
+io/questdb/cairo/RecordChain.java,0,0,0,0,(Object)Adapter;Decorator;Factory Method;State;Proxy,230,651
+io/questdb/griffin/engine/orderby/RecordTreeChain.java,0,0,0,0,State;Decorator;Factory Method;Proxy,70,132
+io/questdb/cairo/map/FastMapCursor.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,144,109
+io/questdb/cairo/TableReaderSelectedColumnRecordCursor.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,176,172
+io/questdb/griffin/engine/AbstractVirtualFunctionRecordCursor.java,0,0,0,0,Decorator;Factory Method,70,136
+io/questdb/griffin/engine/functions/catalogue/TableListFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,95,120
+io/questdb/cairo/sql/Record.java,0,0,0,0,State;Factory Method;(Object)Adapter,6,92
+io/questdb/cairo/sql/SymbolTableSource.java,0,0,0,0,State;Factory Method,0,7
+io/questdb/cairo/sql/PageFrameCursor.java,0,0,0,0,State;Decorator;Factory Method,0,25
+io/questdb/cairo/sql/DataFrameCursor.java,0,0,0,0,State;Factory Method;(Object)Adapter;Bridge,0,70
+io/questdb/cairo/TableReader.java,0,0,0,0,State;Factory Method;(Object)Adapter,444,526
+io/questdb/cairo/sql/SymbolTable.java,0,0,0,0,Decorator;Factory Method,6,6
+io/questdb/cairo/EmptySymbolMapReader.java,0,0,0,0,Singleton;Decorator;Factory Method,4,40
+io/questdb/cairo/SymbolMapReaderImpl.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,147,124
+io/questdb/cairo/TableWriter.java,0,0,0,0,State;Factory Method;(Object)Adapter,3525,2360
+io/questdb/griffin/model/RuntimeIntrinsicIntervalModel.java,0,0,0,0,Factory Method;Bridge,0,3
+io/questdb/griffin/model/RuntimeIntervalModel.java,0,0,0,0,State;Factory Method;(Object)Adapter,16,13
+io/questdb/griffin/engine/table/AbstractDeferredValueRecordCursorFactory.java,0,0,0,0,Factory Method;(Object)Adapter;Template Method;Bridge,30,6
+io/questdb/griffin/engine/table/LatestByValueDeferredIndexedFilteredRecordCursorFactory.java,0,0,0,0,Factory Method;Template Method,0,4
+io/questdb/griffin/engine/table/LatestByValueDeferredFilteredRecordCursorFactory.java,0,0,0,0,Factory Method;Template Method,0,4
+io/questdb/griffin/engine/functions/cast/AbstractCastToSymbolFunction.java,0,0,0,0,Decorator;Factory Method;Template Method,20,31
+io/questdb/griffin/engine/functions/cast/CastCharToSymbolFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method,0,10
+io/questdb/griffin/engine/functions/cast/CastShortToSymbolFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method,0,10
+io/questdb/griffin/engine/functions/cast/CastByteToSymbolFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method,0,10
+io/questdb/griffin/engine/functions/cast/CastFloatToSymbolFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method,0,10
+io/questdb/griffin/engine/functions/cast/CastIntToSymbolFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method,0,10
+io/questdb/griffin/FunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,0,27
+io/questdb/griffin/engine/functions/regex/AbstractLikeStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;Template Method,5,11
+io/questdb/griffin/engine/functions/cast/CastFloatToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/catalogue/PgTypeFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastStrToStrArrayFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastLongToSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,10,24
+io/questdb/griffin/engine/functions/groupby/LastTimestampGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastDoubleToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastCharToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/catalogue/SimulateCrashFunctionFactory.java,0,0,0,0,Decorator;Factory Method,15,6
+io/questdb/griffin/engine/functions/groupby/LastShortGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastIntToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/SumFloatGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastShortToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/eq/EqLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastDoubleToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/str/SplitPartFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method;Bridge,13,21
+io/questdb/griffin/engine/functions/date/TimestampFloorFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastDateToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqStrUuidFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastSymbolToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastShortToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/date/TimestampSequenceFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,6,18
+io/questdb/griffin/engine/functions/cast/CastSymbolToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/BitwiseXorLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/catalogue/CurrentSchemasFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/NegShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/date/TimestampShuffleFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/rnd/RndStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,3,9
+io/questdb/griffin/engine/functions/cast/CastDateToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqUuidStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastShortToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastDoubleToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/date/SysdateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,5,10
+io/questdb/griffin/engine/functions/date/TimestampCeilFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method;Bridge,4,18
+io/questdb/griffin/engine/functions/groupby/AvgDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/FloorFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/rnd/RndStringRndListFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,8,12
+io/questdb/griffin/engine/functions/cast/CastShortToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastCharToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndDateCCCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/groupby/SumLongGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastByteToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/catalogue/CurrentDatabaseFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,9
+io/questdb/griffin/engine/functions/cast/CastLongToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/bool/AndFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/math/SubDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastShortToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/MulIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,10
+io/questdb/griffin/engine/functions/str/LengthSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastSymbolToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastCharToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/date/ToUTCTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastCharToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/date/MinuteOfHourFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/math/PIDoubleFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,6
+io/questdb/griffin/engine/functions/catalogue/SessionUserFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,9
+io/questdb/griffin/engine/functions/math/RemDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/date/ToTimestampVCFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,9,10
+io/questdb/griffin/engine/functions/cast/CastIntToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastTimestampToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/regex/MatchStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastIntToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastIntToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/AbsDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastCharToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/test/TestSumTDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastStrToRegProcedureFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,6
+io/questdb/griffin/engine/functions/math/CotDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/catalogue/FormatTypeFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastDateToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/str/LeftFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,8,13
+io/questdb/griffin/engine/functions/groupby/MaxDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastStrToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/CountIntGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/conditional/CaseFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/str/TrimFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/date/TimestampAddFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,27,23
+io/questdb/griffin/engine/functions/cast/CastBooleanToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/table/AllTablesFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/LogDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastByteToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/rnd/RndFloatCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,2,9
+io/questdb/griffin/engine/functions/date/ExtractFromTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastIntToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/AvgBooleanGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/DivIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/catalogue/CurrentSchemaFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/catalogue/PgGetSIExprFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/CountLongGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/date/ToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,11,10
+io/questdb/griffin/engine/functions/catalogue/UserByIdCatalogueFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/AbsIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastDoubleToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/eq/EqLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastNullTypeFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastLongToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/CountLong256GroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/catalogue/PgClassFunctionFactory.java,0,0,0,0,Decorator;Factory Method,51,12
+io/questdb/griffin/engine/functions/math/MulFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/groupby/SumDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastByteToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/eq/EqIntStrCFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,11
+io/questdb/griffin/engine/functions/math/RemIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/math/SubIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/rnd/RndLong256NFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,10
+io/questdb/griffin/engine/functions/eq/EqGeoHashGeoHashFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method,5,14
+io/questdb/griffin/engine/functions/lt/LtCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,5,12
+io/questdb/griffin/engine/functions/math/AddLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/str/LengthBinFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/table/TableWriterMetricsFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastShortToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastLongToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/NegIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/catalogue/PgAttributeFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,18,11
+io/questdb/griffin/engine/functions/cast/CastFloatToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/groupby/MaxFloatGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/RemLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,10
+io/questdb/griffin/engine/functions/catalogue/PgNamespaceFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/MulDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastBooleanToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/catalogue/PgGetKeywordsFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,9
+io/questdb/griffin/engine/functions/catalogue/PgIsInRecoveryFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/bool/InSymbolCursorFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,36,51
+io/questdb/griffin/engine/functions/math/BitwiseOrLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/date/DaysPerMonthFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/str/SubStringFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,6,12
+io/questdb/griffin/engine/functions/catalogue/AbstractEmptyCatalogueFunctionFactory.java,0,0,0,0,Decorator;Factory Method,6,9
+io/questdb/griffin/engine/functions/groupby/LastLongGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/date/HourOfDayFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/str/SizePrettyFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,9,11
+io/questdb/griffin/engine/functions/math/NegByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/catalogue/PrefixedAgeFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,6
+io/questdb/griffin/engine/functions/rnd/RndBinFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,5,13
+io/questdb/griffin/engine/functions/cast/CastLongToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/date/MillisOfSecondFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/catalogue/DumpMemoryUsageFunctionFactory.java,0,0,0,0,Decorator;Factory Method,6,6
+io/questdb/griffin/engine/functions/cast/CastDateToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/SwappingArgsFunctionFactory.java,0,0,0,0,Decorator;Factory Method,6,5
+io/questdb/griffin/engine/functions/cast/CastBooleanToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqBooleanCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,11
+io/questdb/griffin/engine/functions/math/CosDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/date/ToTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/eq/EqDoubleFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndFloatFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/cast/CastStrToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/analytic/RowNumberFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,10,19
+io/questdb/griffin/engine/functions/cast/CastTimestampToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqSymStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,11
+io/questdb/griffin/engine/functions/cast/CastFloatToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/BitwiseXorIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/eq/EqShortFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/str/StrPosCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,11
+io/questdb/griffin/engine/functions/cast/CastBooleanToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/CountDistinctUuidGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastTimestampToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastIntToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/groupby/MaxLongGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/analytic/RankFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,37,59
+io/questdb/griffin/engine/functions/date/PgPostmasterStartTimeFunctionFactory.java,0,0,0,0,Decorator;Factory Method,6,6
+io/questdb/griffin/engine/functions/conditional/NullIfCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/eq/EqStrCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,13
+io/questdb/griffin/engine/functions/test/TestSumStringGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/MaxBooleanGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/conditional/SwitchFunctionFactory.java,0,0,0,0,Decorator;Factory Method,27,6
+io/questdb/griffin/engine/functions/cast/CastSymbolToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/str/StrPosFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,11
+io/questdb/griffin/engine/functions/rnd/RndGeoHashFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,8,18
+io/questdb/griffin/engine/functions/groupby/MinIntGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastCharToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/conditional/NullIfIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/rnd/RndByteCCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,3,9
+io/questdb/griffin/engine/functions/bool/InTimestampStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,5,11
+io/questdb/griffin/engine/functions/date/ToStrDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,18,15
+io/questdb/griffin/engine/functions/cast/CastIntToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/table/TablePartitionsFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/SumIntGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastDoubleToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/str/ToCharBinFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,9
+io/questdb/griffin/engine/functions/eq/EqLong256StrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,9,11
+io/questdb/griffin/engine/functions/groupby/FirstShortGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/SubLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/test/TestLatchedCounterFunctionFactory.java,0,0,0,0,Decorator;Factory Method,9,12
+io/questdb/griffin/engine/functions/str/LPadFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,8,9
+io/questdb/griffin/engine/functions/catalogue/PgAttrDefFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,21,11
+io/questdb/griffin/engine/functions/cast/CastStrToRegClassFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,7,8
+io/questdb/griffin/engine/functions/str/RTrimFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/bool/OrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastTimestampToSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,10,24
+io/questdb/griffin/engine/functions/cast/CastDoubleToSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,12,24
+io/questdb/griffin/engine/functions/cast/CastStrToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/regex/NotMatchStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/catalogue/VersionFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/CountDistinctLong256GroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/catalogue/FlushQueryCacheFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,7,8
+io/questdb/griffin/engine/functions/cast/CastFloatToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/FirstDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/lt/LtDoubleVVFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,12
+io/questdb/griffin/engine/functions/cast/CastFloatToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastIntToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastStrToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/lt/LtLong256FunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,12
+io/questdb/griffin/engine/functions/cast/CastBooleanToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastLongToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastLongToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastStrToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqCharCharFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/geohash/GeoHashFromCoordinatesFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,9,13
+io/questdb/griffin/engine/functions/eq/EqUuidFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,11
+io/questdb/griffin/engine/functions/cast/CastSymbolToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/LnDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/lock/AdvisoryUnlockAll.java,0,0,0,0,Decorator;Factory Method,0,18
+io/questdb/griffin/engine/functions/math/SqrtDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastLongToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastDateToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastIntToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/catalogue/DumpThreadStacksFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,8,11
+io/questdb/griffin/engine/functions/groupby/LastDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/str/StartsWithStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/groupby/MinTimestampGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastTimestampToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/catalogue/IsTableVisibleCatalogueFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/LastIntGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/CountFloatGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/bool/InStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,8
+io/questdb/griffin/engine/functions/cast/CastCharToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/AbsLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/lt/LtIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,12
+io/questdb/griffin/engine/functions/groupby/MaxStrGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastDoubleToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/date/ToTimezoneTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/groupby/HaversineDistDegreeGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastGeoHashToGeoHashFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;Template Method,24,32
+io/questdb/griffin/engine/functions/cast/CastDoubleToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/date/DayOfMonthFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/date/SystimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,5,10
+io/questdb/griffin/engine/functions/groupby/FirstSymbolGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/RemFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/eq/EqBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndCharFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/lt/LtLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,12
+io/questdb/griffin/engine/functions/str/ToUppercaseFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,10
+io/questdb/griffin/engine/functions/groupby/CountStrGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndByteFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,6,9
+io/questdb/griffin/engine/functions/str/ConcatFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,6
+io/questdb/griffin/engine/functions/groupby/MinDateGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/FirstByteGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/regex/RegexpReplaceStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,14,12
+io/questdb/griffin/engine/functions/groupby/FirstLongGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/date/DateTruncFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastBooleanToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastSymbolToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/MaxDateGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastStrToSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,8,23
+io/questdb/griffin/engine/functions/rnd/ListFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,6,21
+io/questdb/griffin/engine/functions/rnd/RndIntCCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/table/TouchTableFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,16,18
+io/questdb/griffin/engine/functions/str/RPadFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,8,9
+io/questdb/griffin/engine/functions/groupby/CountGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndUuidFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,1,8
+io/questdb/griffin/engine/functions/cast/CastDateToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastSymbolToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/date/ToStrTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,16,15
+io/questdb/griffin/engine/functions/math/SubTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,10
+io/questdb/griffin/engine/functions/eq/EqBinaryFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/test/TestMatchFunctionFactory.java,0,0,0,0,Decorator;Factory Method,12,15
+io/questdb/griffin/engine/functions/cast/CastDateToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/CountDistinctLongGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/eq/EqIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/FirstDateGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/LastCharGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/CountDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastByteToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/SumLong256GroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/bool/BetweenTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,6,12
+io/questdb/griffin/engine/functions/cast/CastDoubleToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastShortToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/AbsShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/groupby/LastDateGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/Atan2DoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,5,7
+io/questdb/griffin/engine/functions/bool/InSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,8,10
+io/questdb/griffin/engine/functions/groupby/LastSymbolGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastDateToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/str/RPadStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,9,10
+io/questdb/griffin/engine/functions/groupby/KSumDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndDateFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,3,9
+io/questdb/griffin/engine/functions/eq/EqSymCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,11
+io/questdb/griffin/engine/functions/cast/VarcharCastHelperFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastStrToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/NegLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/groupby/FirstGeoHashGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastLongToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/table/ReaderPoolFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/groupby/CountDistinctSymbolGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/str/ReplaceStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,9,8
+io/questdb/griffin/engine/functions/date/NowFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,5,16
+io/questdb/griffin/engine/functions/cast/CastStrToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/rnd/RndIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/regex/MatchCharFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/groupby/MaxIntGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastByteToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/RoundDownDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,6,13
+io/questdb/griffin/engine/functions/str/LTrimFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/rnd/RndDoubleCCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,2,9
+io/questdb/griffin/engine/functions/eq/EqLong128FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastSymbolToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastDateToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/MaxTimestampGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/NegDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/rnd/RndLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/cast/CastBooleanToSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,21
+io/questdb/griffin/engine/functions/math/SinDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/bool/InUuidFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,8
+io/questdb/griffin/engine/functions/groupby/LastByteGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/DivLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/groupby/FirstFloatGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/MinBooleanGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastByteToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastStrToGeoHashFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,15
+io/questdb/griffin/engine/functions/str/ToLowercaseFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,10
+io/questdb/griffin/engine/functions/date/YearFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/catalogue/TypeOfFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,10,8
+io/questdb/griffin/engine/functions/math/AcosDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/catalogue/PgGetPartKeyDefFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/MinDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastDoubleToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/conditional/NullIfStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastByteToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastFloatToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastDateToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/RoundHalfEvenDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,12,13
+io/questdb/griffin/engine/functions/str/LengthStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastBooleanToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/NegFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,9
+io/questdb/griffin/engine/functions/rnd/RndLogFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,6
+io/questdb/griffin/engine/functions/cast/CastStrToUuidFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/rnd/RndShortCCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,3,9
+io/questdb/griffin/engine/functions/math/MulLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/math/BitwiseNotIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastShortToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqByteFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastStrToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/catalogue/CurrentUserFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/table/TableColumnsFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/date/SecondOfMinuteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/rnd/RndSymbolFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,8,23
+io/questdb/griffin/engine/functions/math/RadiansDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/groupby/CountGeoHashGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastLong256ToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/test/TestDataUnavailableFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,10,11
+io/questdb/griffin/engine/functions/cast/CastDoubleToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastLongToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/AddFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/groupby/FirstCharGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastSymbolToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/groupby/FirstIntGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/date/AddLongToTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,10
+io/questdb/griffin/engine/functions/bool/AllNotEqStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastFloatToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastCharToShortFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastBooleanToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/str/LPadStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,9,10
+io/questdb/griffin/engine/functions/math/FloorDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/math/DivFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/math/DivDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastUuidToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastByteToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastShortToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/str/SplitPartCharFunctionFactory.java,0,0,0,0,Decorator;Factory Method;Template Method;Bridge,16,21
+io/questdb/griffin/engine/functions/groupby/CountSymbolGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/bin/Base64FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/BitwiseOrIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/lt/LtTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,12
+io/questdb/griffin/engine/functions/rnd/RndBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/cast/CastShortToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/groupby/MinStrGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/long128/LongsToLong128FunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,11
+io/questdb/griffin/engine/functions/groupby/LastGeoHashGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/NSumDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/PowDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastFloatToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/array/IntArrayDereferenceHackFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastIntToCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/date/IsLeapYearFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastByteToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastByteToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastCharToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastSymbolToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastTimestampToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastSymbolToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastDateToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/RoundUpDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,12,13
+io/questdb/griffin/engine/functions/cast/CastTimestampToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastFloatToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/catalogue/PgGetSITExprFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/BitwiseAndIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/math/DegreesDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/math/AsinDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/groupby/StdDevSampleDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastCharToByteFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/CeilFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastShortToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastLongToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastTimestampToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/groupby/FirstUuidGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastStrToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastLongToFloatFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/rnd/RndDoubleFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/rnd/RndShortFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/NegatingFunctionFactory.java,0,0,0,0,Decorator;Factory Method,6,5
+io/questdb/griffin/engine/functions/cast/CastIntToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/bool/InCharFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,8
+io/questdb/griffin/engine/functions/groupby/IsLongOrderedGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastStrToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/date/MonthOfYearFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/math/CeilDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/catalogue/TxIDCurrentFunctionFactory.java,0,0,0,0,Decorator;Factory Method,6,9
+io/questdb/griffin/engine/functions/math/AddIntFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastBooleanToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/eq/EqStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,13
+io/questdb/griffin/engine/functions/groupby/LastFloatGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/date/TimestampDiffFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,27,23
+io/questdb/griffin/engine/functions/date/DayOfWeekSundayFirstFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/groupby/FirstTimestampGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastDoubleToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastTimestampToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/math/RoundDoubleZeroScaleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/cast/CastDateToSymbolFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,10,24
+io/questdb/griffin/engine/functions/cast/CastStrToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastStrToBinaryFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/groupby/CountDistinctStringGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/groupby/MaxCharGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/array/StrArrayDereferenceFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastLong256ToStrFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,9
+io/questdb/griffin/engine/functions/test/TestNPEFactory.java,0,0,0,0,Singleton;Decorator;Factory Method,4,9
+io/questdb/griffin/engine/functions/date/WeekOfYearFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/groupby/StringAggGroupByFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method;(Object)Adapter,15,35
+io/questdb/griffin/engine/functions/cast/CastTimestampToIntFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/date/ToPgDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/table/MemoryMetricsFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/conditional/CoalesceFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,24,28
+io/questdb/griffin/engine/functions/groupby/MinLongGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/date/DayOfWeekFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/groupby/MinFloatGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/AtanDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/griffin/engine/functions/cast/CastTimestampToBooleanFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/AddLong256FunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,11
+io/questdb/griffin/engine/functions/date/MicrosOfSecondFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/groupby/MinCharGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/test/TestSumXDoubleGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/cast/CastCharToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/cast/CastBooleanToDateFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/rnd/RndLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,6,10
+io/questdb/griffin/engine/functions/rnd/RndStringListFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,6,12
+io/questdb/griffin/engine/functions/cast/CastTimestampToLongFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/rnd/RndSymbolListFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,6,21
+io/questdb/griffin/engine/functions/cast/CastByteToDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,7
+io/questdb/griffin/engine/functions/str/RightFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,8,13
+io/questdb/griffin/engine/functions/cast/AbstractEntityCastFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,3
+io/questdb/griffin/engine/functions/bool/NotFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/metadata/BuildFunctionFactory.java,0,0,0,0,Decorator;Factory Method,3,9
+io/questdb/griffin/engine/functions/cast/CastLongToGeoHashFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,14
+io/questdb/griffin/engine/functions/math/BitwiseAndLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/math/AddDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastBooleanToTimestampFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/conditional/NullIfLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,9
+io/questdb/griffin/engine/functions/cast/CastFloatToLong256FunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/cast/CastFloatToStrFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/regex/NotMatchCharFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,6
+io/questdb/griffin/engine/functions/math/BitwiseNotLongFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,1,8
+io/questdb/griffin/engine/functions/catalogue/CursorDereferenceFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,3,10
+io/questdb/griffin/engine/functions/bool/InTimestampTimestampFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,2,11
+io/questdb/griffin/engine/functions/groupby/CountDistinctIntGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/rnd/RndBinCCCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,12,17
+io/questdb/griffin/engine/functions/groupby/LastUuidGroupByFunctionFactory.java,0,0,0,0,Decorator;Factory Method,0,9
+io/questdb/griffin/engine/functions/math/RoundDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,6,13
+io/questdb/griffin/engine/functions/rnd/RndLongCCFunctionFactory.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,4,9
+io/questdb/griffin/engine/functions/math/TanDoubleFunctionFactory.java,0,0,0,0,State;Decorator;Factory Method,4,8
+io/questdb/cairo/sql/Function.java,0,0,0,0,State;Factory Method;(Object)Adapter;Bridge,0,20961
+io/questdb/metrics/MetricsRegistry.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter;Proxy2,0,33
+io/questdb/metrics/NullMetricsRegistry.java,0,0,0,0,Decorator;Factory Method;Proxy2,0,27
+io/questdb/metrics/MetricsRegistryImpl.java,0,0,0,0,Decorator;Factory Method;(Object)Adapter,3,19
+io/questdb/metrics/Counter.java,0,0,0,0,State;Factory Method;(Object)Adapter,0,18
+io/questdb/metrics/CounterWithOneLabel.java,0,0,0,0,State;Factory Method,0,2
+io/questdb/metrics/CounterWithTwoLabels.java,0,0,0,0,State;Factory Method,0,2
+io/questdb/metrics/DoubleGauge.java,0,0,0,0,Singleton;Factory Method,2,2
+io/questdb/metrics/LongGauge.java,0,0,0,0,State;Factory Method;(Object)Adapter,0,35
+io/questdb/cutlass/line/udp/LineUdpParserSupport.java,0,0,0,0,Singleton;State,2,0
+io/questdb/cutlass/text/AbstractTextLexer.java,0,0,0,0,Singleton;Template Method;Bridge,79,35
+io/questdb/mp/OpenBarrier.java,0,0,0,0,Singleton;Decorator,2,16
+io/questdb/cairo/sql/SqlExecutionCircuitBreaker.java,0,0,0,0,Singleton;State;(Object)Adapter;Bridge,68,374
+io/questdb/cairo/SymbolValueCountCollector.java,0,0,0,0,Singleton;State;(Object)Adapter,3,3
+io/questdb/cairo/IndexFrame.java,0,0,0,0,Singleton;(Object)Adapter,6,4
+io/questdb/log/LogFactory.java,0,0,0,0,Singleton;Decorator,31,24
+io/questdb/griffin/QueryFutureUpdateListener.java,0,0,0,0,Singleton;State,2,6
+io/questdb/griffin/engine/functions/constants/SymbolTypeConstant.java,0,0,0,0,Singleton;Decorator,2,12
+io/questdb/griffin/SqlOptimiser.java,0,0,0,0,Singleton;(Object)Adapter,13,0
+io/questdb/test/std/TestFilesFacadeImpl.java,0,0,0,0,Singleton;State,0,0
+io/questdb/std/LongLongHashSet.java,0,0,0,0,(Object)Adapter;Strategy,20,14
+io/questdb/std/Long256Impl.java,0,0,0,0,(Object)Adapter;Proxy,18,39
+io/questdb/griffin/engine/functions/groupby/AvgDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/CountDistinctIntGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,46
+io/questdb/griffin/engine/functions/groupby/CountDistinctLong256GroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,46
+io/questdb/griffin/engine/functions/groupby/CountDistinctLongGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,46
+io/questdb/griffin/engine/functions/groupby/CountDistinctStringGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,46
+io/questdb/griffin/engine/functions/groupby/CountDistinctSymbolGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,46
+io/questdb/griffin/engine/functions/groupby/CountDistinctUuidGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,38
+io/questdb/griffin/engine/functions/groupby/FirstByteGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,22
+io/questdb/griffin/engine/functions/groupby/FirstCharGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,22
+io/questdb/griffin/engine/functions/groupby/FirstDateGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,19
+io/questdb/griffin/engine/functions/groupby/FirstDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,22
+io/questdb/griffin/engine/functions/groupby/FirstFloatGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,22
+io/questdb/griffin/engine/functions/groupby/FirstGeoHashGroupByFunctionByte.java,0,0,0,0,State;Decorator;(Object)Adapter,6,31
+io/questdb/griffin/engine/functions/groupby/FirstGeoHashGroupByFunctionInt.java,0,0,0,0,State;Decorator;(Object)Adapter,6,31
+io/questdb/griffin/engine/functions/groupby/FirstGeoHashGroupByFunctionLong.java,0,0,0,0,State;Decorator;(Object)Adapter,6,31
+io/questdb/griffin/engine/functions/groupby/FirstGeoHashGroupByFunctionShort.java,0,0,0,0,State;Decorator;(Object)Adapter,6,31
+io/questdb/griffin/engine/functions/groupby/FirstIntGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,25
+io/questdb/griffin/engine/functions/groupby/FirstLongGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,22
+io/questdb/griffin/engine/functions/groupby/FirstShortGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,22
+io/questdb/griffin/engine/functions/groupby/FirstTimestampGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,19
+io/questdb/griffin/engine/functions/groupby/FirstUuidGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,22
+io/questdb/griffin/engine/functions/groupby/HaversineDistDegreeGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,15,35
+io/questdb/griffin/engine/functions/groupby/IsLongOrderedGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,9,17
+io/questdb/griffin/engine/functions/groupby/KSumDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/MaxCharGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,17
+io/questdb/griffin/engine/functions/groupby/MaxDateGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,17
+io/questdb/griffin/engine/functions/groupby/MaxDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,20
+io/questdb/griffin/engine/functions/groupby/MaxFloatGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,20
+io/questdb/griffin/engine/functions/groupby/MaxIntGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/MaxLongGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,20
+io/questdb/griffin/engine/functions/groupby/MaxStrGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,47
+io/questdb/griffin/engine/functions/groupby/MaxTimestampGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,17
+io/questdb/griffin/engine/functions/groupby/MinCharGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,17
+io/questdb/griffin/engine/functions/groupby/MinDateGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,17
+io/questdb/griffin/engine/functions/groupby/MinDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,20
+io/questdb/griffin/engine/functions/groupby/MinFloatGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,20
+io/questdb/griffin/engine/functions/groupby/MinIntGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/MinLongGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,20
+io/questdb/griffin/engine/functions/groupby/MinStrGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,16,47
+io/questdb/griffin/engine/functions/groupby/MinTimestampGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,17
+io/questdb/griffin/engine/functions/groupby/NSumDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/StdDevSampleDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/SumDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/SumFloatGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/SumIntGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/groupby/SumLong256GroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,26
+io/questdb/griffin/engine/functions/groupby/SumLongGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,23
+io/questdb/griffin/engine/functions/test/TestSumDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,6,20
+io/questdb/griffin/engine/functions/test/TestSumStringGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,9,26
+io/questdb/griffin/engine/functions/test/TestSumTDoubleGroupByFunction.java,0,0,0,0,State;Decorator;(Object)Adapter,9,23
+io/questdb/std/ObjList.java,0,0,0,0,(Object)Adapter;Proxy,117,1209
+io/questdb/mp/RingQueue.java,0,0,0,0,(Object)Adapter,10,6
+io/questdb/cutlass/text/CopyRequestJob.java,0,0,0,0,State;Template Method;(Object)Adapter,162,9
+io/questdb/network/AbstractIODispatcher.java,0,0,0,0,Template Method;(Object)Adapter;Bridge,440,69
+io/questdb/griffin/engine/groupby/vect/SumLong256VectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,45,56
+io/questdb/griffin/engine/groupby/vect/DistinctFunc.java,0,0,0,0,State;(Object)Adapter,0,42
+io/questdb/griffin/engine/groupby/vect/KeyValueFunc.java,0,0,0,0,State;(Object)Adapter,0,42
+io/questdb/griffin/engine/groupby/vect/AvgDoubleVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,32,44
+io/questdb/griffin/engine/groupby/vect/AvgIntVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,32,44
+io/questdb/griffin/engine/groupby/vect/AvgLongVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,32,44
+io/questdb/griffin/engine/groupby/vect/KSumDoubleVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,36,40
+io/questdb/griffin/engine/groupby/vect/MaxDateVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MaxDoubleVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MaxIntVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MaxLongVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MaxTimestampVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MinDateVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MinDoubleVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MinIntVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MinLongVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/MinTimestampVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/NSumDoubleVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,48,40
+io/questdb/griffin/engine/groupby/vect/SumDateVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/SumDoubleVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,36,40
+io/questdb/griffin/engine/groupby/vect/SumIntVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/SumLongVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/groupby/vect/SumTimestampVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,24,40
+io/questdb/griffin/engine/functions/rnd/RndStringMemory.java,0,0,0,0,(Object)Adapter,10,6
+io/questdb/griffin/engine/groupby/vect/CountVectorAggregateFunction.java,0,0,0,0,State;(Object)Adapter,6,22
+io/questdb/cutlass/http/processors/JsonQueryProcessorState.java,0,0,0,0,State;(Object)Adapter,230,127
+io/questdb/cairo/sql/RecordCursorFactory.java,0,0,0,0,State;Decorator;(Object)Adapter;Proxy,45,300
+io/questdb/cutlass/http/processors/TextQueryProcessorState.java,0,0,0,0,(Object)Adapter,36,4
+io/questdb/cairo/wal/WalWriter.java,0,0,0,0,State;(Object)Adapter,626,431
+io/questdb/cairo/wal/WalWriterEvents.java,0,0,0,0,State;(Object)Adapter,20,1
+io/questdb/cutlass/text/ParallelCsvFileImporter.java,0,0,0,0,State;(Object)Adapter;Proxy,608,180
+io/questdb/std/str/StringSink.java,0,0,0,0,(Object)Adapter,9,144
+io/questdb/cutlass/text/TextMetadataDetector.java,0,0,0,0,State;(Object)Adapter;Proxy,70,26
+io/questdb/cairo/ColumnVersionWriter.java,0,0,0,0,State;(Object)Adapter,10,30
+io/questdb/cairo/TxWriter.java,0,0,0,0,State;(Object)Adapter,68,185
+io/questdb/log/SyncLogger.java,0,0,0,0,State;Decorator;(Object)Adapter,52,158
+io/questdb/std/ThreadLocal.java,0,0,0,0,State;(Object)Adapter,4,7
+io/questdb/log/Logger.java,0,0,0,0,State;Decorator;(Object)Adapter,52,162
+io/questdb/std/IntList.java,0,0,0,0,(Object)Adapter;Proxy,64,480
+io/questdb/griffin/engine/table/BwdTableReaderPageFrameCursor.java,0,0,0,0,State;Decorator;(Object)Adapter,146,63
+io/questdb/griffin/engine/table/FwdTableReaderPageFrameCursor.java,0,0,0,0,State;Decorator;(Object)Adapter,146,63
+io/questdb/griffin/UpdateOperatorImpl.java,0,0,0,0,State;(Object)Adapter,84,7
+io/questdb/griffin/DropIndexOperator.java,0,0,0,0,State;(Object)Adapter,24,1
+io/questdb/cairo/wal/ApplyWal2TableJob.java,0,0,0,0,State;Template Method;(Object)Adapter,136,10
+io/questdb/std/IntLongHashMap.java,0,0,0,0,Template Method;(Object)Adapter,4,8
+io/questdb/griffin/PurgingOperator.java,0,0,0,0,State;(Object)Adapter,28,10
+io/questdb/cairo/sql/VirtualRecord.java,0,0,0,0,Decorator;(Object)Adapter,12,140
+io/questdb/cairo/map/CompactMap.java,0,0,0,0,(Object)Adapter,75,35
+io/questdb/cairo/map/FastMap.java,0,0,0,0,Template Method;(Object)Adapter,61,77
+io/questdb/cairo/sql/async/PageFrameSequence.java,0,0,0,0,State;(Object)Adapter,145,118
+io/questdb/cairo/wal/WalReader.java,0,0,0,0,State;(Object)Adapter,42,39
+io/questdb/griffin/engine/table/FilterOnValuesRecordCursorFactory.java,0,0,0,0,Template Method;(Object)Adapter,48,16
+io/questdb/cutlass/line/udp/CharSequenceCache.java,0,0,0,0,State;(Object)Adapter,0,2
+io/questdb/cutlass/line/udp/LineUdpParserImpl.java,0,0,0,0,State;(Object)Adapter,651,95
+io/questdb/cairo/ptt/IsoDatePartitionFormat.java,0,0,0,0,Decorator;(Object)Adapter,4,4
+io/questdb/cairo/PartitionBy.java,0,0,0,0,State;Decorator;(Object)Adapter,28,13
+io/questdb/cairo/O3PartitionPurgeJob.java,0,0,0,0,State;Template Method;(Object)Adapter,35,5
+io/questdb/log/LogRollingFileWriter.java,0,0,0,0,State;Template Method;(Object)Adapter,328,82
+io/questdb/log/LogAlertSocketWriter.java,0,0,0,0,State;Template Method;(Object)Adapter,192,115
+io/questdb/std/str/Path.java,0,0,0,0,(Object)Adapter,45,200
+io/questdb/cairo/sql/PageAddressCacheRecord.java,0,0,0,0,State;(Object)Adapter,30,90
+io/questdb/cairo/TableReaderSelectedColumnRecord.java,0,0,0,0,(Object)Adapter,8,62
+io/questdb/network/Epoll.java,0,0,0,0,State;(Object)Adapter,14,11
+io/questdb/network/IODispatcherLinux.java,0,0,0,0,Template Method;(Object)Adapter,12,2
+io/questdb/network/Kqueue.java,0,0,0,0,State;(Object)Adapter,18,25
+io/questdb/network/IODispatcherOsx.java,0,0,0,0,Template Method;(Object)Adapter,14,2
+io/questdb/cairo/RebuildColumnBase.java,0,0,0,0,Template Method;(Object)Adapter;Bridge,50,45
+io/questdb/griffin/SqlCompiler.java,0,0,0,0,State;(Object)Adapter;Proxy,133,63
+io/questdb/std/DirectLongList.java,0,0,0,0,State;(Object)Adapter,24,60
+io/questdb/cairo/map/Map.java,0,0,0,0,State;(Object)Adapter,0,217
+io/questdb/griffin/engine/table/LatestByAllSymbolsFilteredRecordCursor.java,0,0,0,0,State;Template Method;(Object)Adapter,35,20
+io/questdb/griffin/engine/table/LatestByAllFilteredRecordCursor.java,0,0,0,0,State;Template Method;(Object)Adapter,15,14
+io/questdb/griffin/engine/table/LatestByAllRecordCursor.java,0,0,0,0,State;Template Method;(Object)Adapter,6,8
+io/questdb/cairo/vm/api/MemoryARW.java,0,0,0,0,(Object)Adapter,0,4
+io/questdb/cairo/vm/MemorySRImpl.java,0,0,0,0,State;(Object)Adapter,21,17
+io/questdb/cairo/SymbolColumnIndexer.java,0,0,0,0,(Object)Adapter;Proxy,18,40
+io/questdb/cutlass/text/CsvFileIndexer.java,0,0,0,0,State;(Object)Adapter,288,51
+io/questdb/std/FilesFacade.java,0,0,0,0,State;(Object)Adapter,36,2412
+io/questdb/cairo/TableToken.java,0,0,0,0,(Object)Adapter,20,35
+io/questdb/std/IntHashSet.java,0,0,0,0,Template Method;(Object)Adapter,4,28
+io/questdb/std/LowerCaseCharSequenceObjHashMap.java,0,0,0,0,Template Method;(Object)Adapter,3,36
+io/questdb/griffin/engine/ops/AlterOperation.java,0,0,0,0,State;(Object)Adapter,137,75
+io/questdb/log/LogAlertSocket.java,0,0,0,0,State;(Object)Adapter,78,39
+io/questdb/test/cairo/TableModel.java,0,0,0,0,State;(Object)Adapter,0,0
+io/questdb/cairo/vm/api/MemoryMR.java,0,0,0,0,(Object)Adapter,0,3
+io/questdb/cairo/IndexBuilder.java,0,0,0,0,State;Template Method;(Object)Adapter;Proxy,20,9
+io/questdb/mp/SCSequence.java,0,0,0,0,(Object)Adapter,0,35
+io/questdb/log/LogConsoleWriter.java,0,0,0,0,Template Method;(Object)Adapter,10,5
+io/questdb/log/LogFileWriter.java,0,0,0,0,Template Method;(Object)Adapter,26,15
+io/questdb/mp/Sequence.java,0,0,0,0,State;(Object)Adapter;Bridge,0,56
+io/questdb/mp/AbstractQueueConsumerJob.java,0,0,0,0,Template Method;(Object)Adapter;Bridge,6,0
+io/questdb/log/Log.java,0,0,0,0,State;Decorator;(Object)Adapter;Bridge,0,2516
+io/questdb/cutlass/text/TextMetadataParser.java,0,0,0,0,State;(Object)Adapter,64,8
+io/questdb/cutlass/http/HttpConnectionContext.java,0,0,0,0,State;(Object)Adapter,120,108
+io/questdb/cairo/RecoverVarIndex.java,0,0,0,0,State;Template Method;(Object)Adapter,3,0
+io/questdb/cairo/CairoConfiguration.java,0,0,0,0,State;Decorator;(Object)Adapter;Bridge,180,6948
+io/questdb/std/Rnd.java,0,0,0,0,(Object)Adapter,180,840
+io/questdb/griffin/engine/table/HeapRowCursorFactory.java,0,0,0,0,(Object)Adapter,8,8
+io/questdb/griffin/engine/table/SequentialRowCursorFactory.java,0,0,0,0,Decorator;(Object)Adapter,16,14
+io/questdb/griffin/engine/table/AbstractTreeSetRecordCursorFactory.java,0,0,0,0,Template Method;(Object)Adapter;Bridge,6,0
+io/questdb/griffin/engine/table/DataFrameRecordCursorFactory.java,0,0,0,0,State;Template Method;(Object)Adapter,48,40
+io/questdb/griffin/engine/table/LatestByValueFilteredRecordCursorFactory.java,0,0,0,0,State;Template Method;(Object)Adapter,6,6
+io/questdb/griffin/engine/table/DataFrameRecordCursorImpl.java,0,0,0,0,State;(Object)Adapter,25,37
+io/questdb/griffin/engine/table/FilterOnExcludedValuesRecordCursorFactory.java,0,0,0,0,Template Method;(Object)Adapter,54,15
+io/questdb/griffin/engine/table/SortedSymbolIndexRecordCursorFactory.java,0,0,0,0,Template Method;(Object)Adapter,2,6
+io/questdb/griffin/engine/table/LatestByValueIndexedFilteredRecordCursor.java,0,0,0,0,State;(Object)Adapter,21,15
+io/questdb/griffin/engine/table/LatestByValueIndexedFilteredRecordCursorFactory.java,0,0,0,0,Template Method;(Object)Adapter,4,4
+io/questdb/griffin/engine/table/LatestByValueListRecordCursor.java,0,0,0,0,State;(Object)Adapter,39,21
+io/questdb/griffin/engine/table/LatestByDeferredListValuesFilteredRecordCursorFactory.java,0,0,0,0,Template Method;(Object)Adapter,10,4
+io/questdb/TelemetryJob.java,0,0,0,0,State;Template Method;(Object)Adapter,12,4
+io/questdb/cairo/ColumnPurgeJob.java,0,0,0,0,State;Template Method;(Object)Adapter,130,15
+io/questdb/cairo/wal/WalPurgeJob.java,0,0,0,0,State;Template Method;(Object)Adapter,133,20
+io/questdb/std/ConcurrentHashMap.java,0,0,0,0,Template Method;(Object)Adapter,186,155
+io/questdb/cairo/pool/AbstractMultiTenantPool.java,0,0,0,0,Template Method;(Object)Adapter;Bridge,60,26
+io/questdb/cairo/pool/WriterPool.java,0,0,0,0,State;Template Method;(Object)Adapter,84,43
+io/questdb/griffin/SqlExecutionContext.java,0,0,0,0,State;(Object)Adapter;Bridge,0,344
+io/questdb/griffin/SqlExecutionContextImpl.java,0,0,0,0,State;(Object)Adapter,100,171
+io/questdb/cairo/CairoEngine.java,0,0,0,0,State;Template Method;(Object)Adapter;Proxy,237,819
+io/questdb/cairo/wal/CheckWalTransactionsJob.java,0,0,0,0,State;Template Method;(Object)Adapter,30,7
+io/questdb/cairo/pool/WalWriterPool.java,0,0,0,0,Template Method;(Object)Adapter,2,0
+io/questdb/griffin/engine/table/AbstractDataFrameRecordCursor.java,0,0,0,0,Decorator;(Object)Adapter;Bridge,16,28
+io/questdb/test/griffin/engine/orderby/LimitedSizeLongTreeChainTest.java,0,0,0,0,(Object)Adapter,0,0
+io/questdb/cairo/AbstractTableNameRegistry.java,0,0,0,0,(Object)Adapter,6,8
+io/questdb/cairo/TableNameRegistryFileStore.java,0,0,0,0,State;(Object)Adapter,30,18
+io/questdb/MessageBus.java,0,0,0,0,State;(Object)Adapter,0,480
+io/questdb/cairo/sql/async/PageFrameReduceJob.java,0,0,0,0,State;(Object)Adapter,18,9
+io/questdb/cairo/AbstractIntervalDataFrameCursor.java,0,0,0,0,(Object)Adapter;Bridge,36,17
+io/questdb/griffin/BasePlanSink.java,0,0,0,0,(Object)Adapter,16,28
+io/questdb/cutlass/line/tcp/TableStructureAdapter.java,0,0,0,0,State;(Object)Adapter,18,17
+io/questdb/cairo/BitmapIndexFwdReader.java,0,0,0,0,Decorator;(Object)Adapter,28,11
+io/questdb/griffin/engine/table/HeapRowCursor.java,0,0,0,0,Decorator;(Object)Adapter,12,15
+io/questdb/griffin/engine/table/LatestByValueIndexedRowCursor.java,0,0,0,0,Decorator;(Object)Adapter,5,10
+io/questdb/griffin/engine/table/LatestByValueDeferredIndexedRowCursorFactory.java,0,0,0,0,State;(Object)Adapter,10,8
+io/questdb/griffin/engine/table/DataFrameBwdRowCursor.java,0,0,0,0,Decorator;(Object)Adapter,8,12
+io/questdb/griffin/engine/table/DataFrameRowCursor.java,0,0,0,0,Decorator;(Object)Adapter,8,12
+io/questdb/griffin/engine/table/SortedSymbolIndexRowCursorFactory.java,0,0,0,0,State;Decorator;(Object)Adapter,23,11
+io/questdb/griffin/engine/table/SelectedRecordCursorFactory.java,0,0,0,0,Decorator;(Object)Adapter,16,35
+io/questdb/cutlass/http/processors/TextImportProcessor.java,0,0,0,0,State;(Object)Adapter,69,20
+io/questdb/cairo/vm/api/MemoryMARW.java,0,0,0,0,State;(Object)Adapter,0,4
+io/questdb/cairo/SymbolMapWriter.java,0,0,0,0,State;(Object)Adapter,84,79
+io/questdb/griffin/engine/table/LatestByValuesFilteredRecordCursor.java,0,0,0,0,State;Template Method;(Object)Adapter,18,9
+io/questdb/network/NetworkFacade.java,0,0,0,0,State;(Object)Adapter;Bridge,0,672
+io/questdb/cutlass/line/tcp/PlainTcpLineChannel.java,0,0,0,0,State;Decorator;(Object)Adapter,16,8
+io/questdb/cutlass/line/udp/UdpLineChannel.java,0,0,0,0,State;Decorator;(Object)Adapter,20,12
+io/questdb/cairo/wal/seq/TableSequencerImpl.java,0,0,0,0,State;(Object)Adapter,170,185
+io/questdb/cairo/TableConverter.java,0,0,0,0,State;(Object)Adapter,7,5
+io/questdb/std/CharSequenceObjHashMap.java,0,0,0,0,Template Method;(Object)Adapter,8,44
+io/questdb/cutlass/text/CairoTextWriter.java,0,0,0,0,State;(Object)Adapter;Proxy,114,80
+io/questdb/mp/FanOut.java,0,0,0,0,Decorator;(Object)Adapter,10,14
+io/questdb/cairo/IDGenerator.java,0,0,0,0,State;(Object)Adapter,10,7
+io/questdb/cairo/wal/seq/TableTransactionLog.java,0,0,0,0,State;(Object)Adapter,66,31
+io/questdb/cairo/map/CompactMapValue.java,0,0,0,0,(Object)Adapter,12,53
+io/questdb/std/CharSequenceIntHashMap.java,0,0,0,0,Template Method;(Object)Adapter,8,24
+io/questdb/cairo/BitmapIndexWriter.java,0,0,0,0,State;Decorator;(Object)Adapter;Proxy,90,101
+io/questdb/cairo/frm/file/ContiguousFileFixFrameColumn.java,0,0,0,0,State;(Object)Adapter,40,44
+io/questdb/cairo/frm/file/ContiguousFileVarFrameColumn.java,0,0,0,0,State;(Object)Adapter,48,44
+io/questdb/griffin/engine/ops/OperationFutureImpl.java,0,0,0,0,State;(Object)Adapter,60,29
+io/questdb/cairo/vm/api/MemoryCMR.java,0,0,0,0,(Object)Adapter,0,0
+io/questdb/Metrics.java,0,0,0,0,(Object)Adapter;Proxy,48,34
+io/questdb/test/cutlass/http/MetricsIODispatcherTest.java,0,0,0,0,State;(Object)Adapter,0,0
+io/questdb/cairo/ColumnVersionReader.java,0,0,0,0,State;(Object)Adapter,57,52
+io/questdb/cutlass/line/tcp/SymbolCache.java,0,0,0,0,State;(Object)Adapter,50,21
+io/questdb/griffin/engine/RecordComparator.java,0,0,0,0,State;(Object)Adapter,0,10
+io/questdb/cutlass/line/tcp/LineTcpMeasurementScheduler.java,0,0,0,0,State;(Object)Adapter,126,27
+io/questdb/cutlass/line/tcp/LineTcpNetworkIOJob.java,0,0,0,0,State;(Object)Adapter,44,28
+io/questdb/test/cutlass/line/tcp/BaseLineTcpContextTest.java,0,0,0,0,(Object)Adapter;Bridge,0,0
+io/questdb/metrics/VirtualLongGauge.java,0,0,0,0,State;(Object)Adapter,4,12
+io/questdb/cairo/AbstractIndexReader.java,0,0,0,0,(Object)Adapter;Bridge,55,43
+io/questdb/client/Sender.java,0,0,0,0,State;(Object)Adapter,0,24
+io/questdb/test/cutlass/line/interop/TestInterop.java,0,0,0,0,State;(Object)Adapter,0,0
+io/questdb/griffin/CompiledQueryImpl.java,0,0,0,0,State;Template Method;(Object)Adapter,84,228
+io/questdb/griffin/engine/ops/UpdateOperation.java,0,0,0,0,State;(Object)Adapter,18,24
+io/questdb/cairo/map/MapRecord.java,0,0,0,0,State;(Object)Adapter,0,4
+io/questdb/cairo/map/FastMapRecord.java,0,0,0,0,State;(Object)Adapter,34,56
+io/questdb/griffin/engine/table/SymbolIndexFilteredRowCursor.java,0,0,0,0,State;Decorator;(Object)Adapter,56,24
+io/questdb/std/IOURingImpl.java,0,0,0,0,State;(Object)Adapter,32,10
+io/questdb/griffin/engine/ops/InsertOperationImpl.java,0,0,0,0,State;(Object)Adapter,21,17
+io/questdb/cutlass/line/tcp/auth/EllipticCurveAuthenticator.java,0,0,0,0,State;(Object)Adapter,78,23
+io/questdb/std/datetime/microtime/MicrosecondClock.java,0,0,0,0,State;(Object)Adapter;Bridge,0,26
+io/questdb/cutlass/http/HttpResponseSink.java,0,0,0,0,State;(Object)Adapter,54,26
+io/questdb/std/datetime/millitime/MillisecondClock.java,0,0,0,0,State;(Object)Adapter;Bridge,0,19
+io/questdb/cairo/frm/file/RecycleBin.java,0,0,0,0,State;(Object)Adapter,0,12
+io/questdb/cairo/frm/file/PartitionFrame.java,0,0,0,0,State;(Object)Adapter,63,68
+io/questdb/cairo/RecordSink.java,0,0,0,0,State;(Object)Adapter,0,8
+io/questdb/cairo/sql/RecordMetadata.java,0,0,0,0,State;(Object)Adapter,10,200
+io/questdb/network/EpollFacade.java,0,0,0,0,State;(Object)Adapter,0,24
+io/questdb/network/EventFdSuspendEvent.java,0,0,0,0,State;Template Method;(Object)Adapter,6,6
+io/questdb/cairo/ConcurrentBitmapIndexFwdReader.java,0,0,0,0,Decorator;(Object)Adapter,26,8
+io/questdb/network/KqueueFacade.java,0,0,0,0,State;(Object)Adapter,0,18
+io/questdb/network/PipeSuspendEvent.java,0,0,0,0,State;Template Method;(Object)Adapter,9,6
+io/questdb/test/cairo/pool/ReaderPoolTest.java,0,0,0,0,(Object)Adapter,0,0
+io/questdb/std/CharSequenceHashSet.java,0,0,0,0,Template Method;(Object)Adapter,6,34
+io/questdb/metrics/GCMetrics.java,0,0,0,0,(Object)Adapter;Proxy,4,1
+io/questdb/griffin/engine/ops/OperationDispatcher.java,0,0,0,0,Template Method;(Object)Adapter,8,1
+io/questdb/cutlass/pgwire/ClearTextPgWireAuthenticator.java,0,0,0,0,State;(Object)Adapter,0,0
+io/questdb/cairo/security/SecurityContextFactory.java,0,0,0,0,State;(Object)Adapter,6,4
+io/questdb/std/AssociativeCache.java,0,0,0,0,State;(Object)Adapter,20,6
+io/questdb/griffin/model/QueryModel.java,0,0,0,0,(Object)Adapter;Proxy,510,773
+io/questdb/cairo/LifecycleManager.java,0,0,0,0,State;(Object)Adapter,0,2
+io/questdb/cairo/frm/FrameColumnPool.java,0,0,0,0,State;(Object)Adapter,0,4
+io/questdb/cairo/vm/api/MemoryR.java,0,0,0,0,State;(Object)Adapter,0,104
+io/questdb/test/cairo/map/CompactMapTest.java,0,0,0,0,State;(Object)Adapter,0,0
+io/questdb/cutlass/pgwire/PgWireUserDatabase.java,0,0,0,0,State;(Object)Adapter,0,2
+io/questdb/tasks/TelemetryTask.java,0,0,0,0,State;(Object)Adapter,10,2
+io/questdb/tasks/TelemetryWalTask.java,0,0,0,0,State;(Object)Adapter,20,2
+io/questdb/metrics/HealthMetricsImpl.java,0,0,0,0,State;(Object)Adapter,2,1
+io/questdb/cairo/TableWriterAPI.java,0,0,0,0,State;(Object)Adapter,0,57
+io/questdb/cairo/sql/NetworkSqlExecutionCircuitBreaker.java,0,0,0,0,State;(Object)Adapter,52,70
+io/questdb/cairo/MemorySerializer.java,0,0,0,0,State;(Object)Adapter,0,4
+io/questdb/cairo/sql/InsertOperation.java,0,0,0,0,State;(Object)Adapter,0,10
+io/questdb/std/datetime/DateFormat.java,0,0,0,0,State;Decorator,0,42
+io/questdb/cairo/ColumnTypes.java,0,0,0,0,State;Decorator,0,6
+io/questdb/cairo/SymbolAsIntTypes.java,0,0,0,0,Decorator,2,4
+io/questdb/cairo/AbstractRecordMetadata.java,0,0,0,0,Decorator,8,26
+io/questdb/cairo/ArrayColumnTypes.java,0,0,0,0,Decorator,2,10
+io/questdb/cairo/SingleColumnType.java,0,0,0,0,Decorator,2,6
+io/questdb/cairo/SymbolAsStrTypes.java,0,0,0,0,Decorator,2,2
+io/questdb/cairo/sql/RowCursor.java,0,0,0,0,State;Decorator,0,15
+io/questdb/cairo/EmptyRowCursor.java,0,0,0,0,Decorator,3,6
+io/questdb/cairo/BitmapIndexBwdNullReader.java,0,0,0,0,Decorator,3,6
+io/questdb/cairo/BitmapIndexFwdNullReader.java,0,0,0,0,Decorator,6,6
+io/questdb/cairo/BitmapIndexBwdReader.java,0,0,0,0,Decorator,15,9
+io/questdb/griffin/engine/join/RecordAsAFieldRecordCursorFactory.java,0,0,0,0,Decorator,5,7
+io/questdb/griffin/engine/orderby/LimitedSizeSortedLightRecordCursor.java,0,0,0,0,State;Decorator,24,18
+io/questdb/griffin/engine/orderby/SortedLightRecordCursor.java,0,0,0,0,State;Decorator,16,17
+io/questdb/griffin/engine/orderby/SortedRecordCursor.java,0,0,0,0,State;Decorator,12,19
+io/questdb/griffin/SqlCodeGenerator.java,0,0,0,0,State;Decorator,134,62
+io/questdb/griffin/engine/table/AsyncFilteredRecordCursorFactory.java,0,0,0,0,State;Decorator,24,15
+io/questdb/griffin/engine/table/LatestByRecordCursorFactory.java,0,0,0,0,State;Decorator,55,31
+io/questdb/griffin/engine/union/AbstractSetRecordCursorFactory.java,0,0,0,0,Decorator;Template Method,10,6
+io/questdb/griffin/engine/union/ExceptRecordCursorFactory.java,0,0,0,0,Decorator;Template Method,0,2
+io/questdb/griffin/engine/union/UnionRecordCursorFactory.java,0,0,0,0,Decorator;Template Method,0,6
+io/questdb/griffin/engine/union/IntersectRecordCursorFactory.java,0,0,0,0,Decorator;Template Method,0,2
+io/questdb/griffin/engine/union/UnionAllRecordCursorFactory.java,0,0,0,0,Decorator;Template Method,0,4
+io/questdb/griffin/engine/functions/SymbolFunction.java,0,0,0,0,Decorator,0,90
+io/questdb/griffin/engine/functions/groupby/FirstSymbolGroupByFunction.java,0,0,0,0,Decorator,4,25
+io/questdb/griffin/engine/functions/columns/SymbolColumn.java,0,0,0,0,State;Decorator,15,32
+io/questdb/griffin/engine/functions/bind/CompiledFilterSymbolBindVariable.java,0,0,0,0,State;Decorator,6,15
+io/questdb/griffin/engine/groupby/MapSymbolColumn.java,0,0,0,0,State;Decorator,18,29
+io/questdb/griffin/engine/table/LatestBySubQueryRecordCursorFactory.java,0,0,0,0,State;Decorator,4,26
+io/questdb/cutlass/line/LineChannel.java,0,0,0,0,Decorator;Bridge,0,8
+io/questdb/cutlass/line/tcp/DelegatingTlsChannel.java,0,0,0,0,State;Decorator,42,8
+io/questdb/cairo/sql/PageFrame.java,0,0,0,0,State;Decorator,0,16
+io/questdb/test/MetricsTest.java,0,0,0,0,Decorator;Proxy2,0,0
+io/questdb/griffin/InsertRowImpl.java,0,0,0,0,State,15,5
+io/questdb/griffin/RecordToRowCopier.java,0,0,0,0,State,0,2
+io/questdb/cutlass/text/SerialCsvFileImporter.java,0,0,0,0,State,64,16
+io/questdb/mp/Worker.java,0,0,0,0,State,45,7
+io/questdb/griffin/engine/functions/date/OffsetTimestampFunctionFromRules.java,0,0,0,0,State,6,4
+io/questdb/griffin/engine/functions/eq/UuidEqUtils.java,0,0,0,0,State,6,4
+io/questdb/griffin/engine/functions/conditional/CaseFunctionPicker.java,0,0,0,0,State,0,19
+io/questdb/cairo/VacuumColumnVersions.java,0,0,0,0,State,30,2
+io/questdb/griffin/DatabaseSnapshotAgent.java,0,0,0,0,State,30,11
+io/questdb/cairo/ColumnPurgeOperator.java,0,0,0,0,State,45,7
+io/questdb/cutlass/text/CopyTask.java,0,0,0,0,State,91,39
+io/questdb/cutlass/pgwire/PGConnectionContext.java,0,0,0,0,State;Proxy,812,210
+io/questdb/jit/CompiledFilterIRSerializer.java,0,0,0,0,State,72,10
+io/questdb/griffin/engine/join/HashJoinRecordCursorFactory.java,0,0,0,0,State,16,8
+io/questdb/griffin/engine/join/HashOuterJoinFilteredRecordCursorFactory.java,0,0,0,0,State,16,8
+io/questdb/griffin/engine/join/HashOuterJoinRecordCursorFactory.java,0,0,0,0,State,16,8
+io/questdb/griffin/engine/join/HashJoinLightRecordCursorFactory.java,0,0,0,0,State,18,8
+io/questdb/griffin/engine/join/HashOuterJoinFilteredLightRecordCursorFactory.java,0,0,0,0,State,18,8
+io/questdb/griffin/engine/join/HashOuterJoinLightRecordCursorFactory.java,0,0,0,0,State,18,8
+io/questdb/griffin/engine/groupby/SampleByFillNoneRecordCursor.java,0,0,0,0,State,18,10
+io/questdb/griffin/engine/join/AsOfJoinRecordCursorFactory.java,0,0,0,0,State,24,7
+io/questdb/griffin/engine/join/LtJoinRecordCursorFactory.java,0,0,0,0,State,24,7
+io/questdb/griffin/engine/union/UnionRecordCursor.java,0,0,0,0,State,14,8
+io/questdb/griffin/engine/orderby/LimitedSizeSortedLightRecordCursorFactory.java,0,0,0,0,State,21,18
+io/questdb/griffin/engine/groupby/GroupByRecordCursorFactory.java,0,0,0,0,State,15,6
+io/questdb/griffin/engine/groupby/SampleByInterpolateRecordCursorFactory.java,0,0,0,0,State,24,8
+io/questdb/griffin/engine/groupby/GroupByFunctionsUpdater.java,0,0,0,0,State;Bridge,0,12
+io/questdb/griffin/engine/groupby/CountRecordCursorFactory.java,0,0,0,0,State,10,8
+io/questdb/griffin/engine/groupby/GroupByNotKeyedRecordCursorFactory.java,0,0,0,0,State,24,18
+io/questdb/griffin/engine/groupby/SampleByFillPrevRecordCursor.java,0,0,0,0,State,14,9
+io/questdb/griffin/engine/groupby/SampleByFillValueRecordCursor.java,0,0,0,0,State,16,9
+io/questdb/cutlass/line/tcp/TableUpdateDetails.java,0,0,0,0,State,62,38
+io/questdb/cairo/TableStructure.java,0,0,0,0,State,0,30
+io/questdb/cutlass/line/tcp/LineTcpMeasurementEvent.java,0,0,0,0,State,22,16
+io/questdb/Telemetry.java,0,0,0,0,State,18,10
+io/questdb/Bootstrap.java,0,0,0,0,State,33,27
+io/questdb/TelemetryConfigLogger.java,0,0,0,0,State,16,2
+io/questdb/cutlass/http/processors/QueryCache.java,0,0,0,0,State,10,11
+io/questdb/test/cutlass/http/SendAndReceiveRequestBuilder.java,0,0,0,0,State,0,0
+io/questdb/network/IODispatcher.java,0,0,0,0,State,36,12
+io/questdb/test/griffin/engine/AbstractFunctionFactoryTest.java,0,0,0,0,State;Template Method,0,0
+io/questdb/cairo/map/RecordValueSink.java,0,0,0,0,State,0,2
+io/questdb/cairo/TableReaderMetadata.java,0,0,0,0,State,28,28
+io/questdb/cairo/TxnScoreboard.java,0,0,0,0,State,12,18
+io/questdb/test/mp/ConcurrentTest.java,0,0,0,0,State,0,0
+io/questdb/cutlass/http/WaitProcessor.java,0,0,0,0,State;Template Method,30,10
+io/questdb/cutlass/line/tcp/LineTcpWriterJob.java,0,0,0,0,State,33,5
+io/questdb/cairo/DynamicTableReaderMetadata.java,0,0,0,0,State,18,24
+io/questdb/cutlass/text/TextLoader.java,0,0,0,0,State;Proxy,120,143
+io/questdb/griffin/FunctionParser.java,0,0,0,0,State,36,18
+io/questdb/std/ObjectPool.java,0,0,0,0,State,10,4
+io/questdb/std/MemoryPages.java,0,0,0,0,State;Proxy,16,16
+io/questdb/cutlass/line/tcp/LineTcpConnectionContext.java,0,0,0,0,State,125,34
+io/questdb/griffin/engine/table/ShowPartitionsRecordCursorFactory.java,0,0,0,0,State,18,4
+io/questdb/cairo/O3CopyJob.java,0,0,0,0,State;Template Method,2,2
+io/questdb/cairo/O3OpenColumnJob.java,0,0,0,0,State;Template Method,12,8
+io/questdb/cairo/O3PartitionJob.java,0,0,0,0,State;Template Method,2,2
+io/questdb/griffin/engine/table/LatestByValueFilteredRecordCursor.java,0,0,0,0,State,14,12
+io/questdb/griffin/engine/table/LatestByValuesIndexedFilteredRecordCursor.java,0,0,0,0,State,22,10
+io/questdb/cairo/wal/seq/TableSequencerAPI.java,0,0,0,0,State,16,39
+io/questdb/griffin/engine/groupby/vect/GroupByNotKeyedVectorRecordCursorFactory.java,0,0,0,0,State,18,18
+io/questdb/cairo/vm/MemoryPMARImpl.java,0,0,0,0,State,14,19
+io/questdb/griffin/engine/table/LatestByAllIndexedRecordCursor.java,0,0,0,0,State,28,10
+io/questdb/cutlass/http/processors/JsonQueryProcessor.java,0,0,0,0,State,36,17
+io/questdb/cutlass/http/processors/JsonQueryProcessorConfiguration.java,0,0,0,0,State,0,16
+io/questdb/cutlass/http/processors/TextQueryProcessor.java,0,0,0,0,State,30,15
+io/questdb/cutlass/line/tcp/LineTcpReceiverConfiguration.java,0,0,0,0,State;Bridge,0,96
+io/questdb/cairo/wal/WalMetrics.java,0,0,0,0,State,12,1
+io/questdb/cutlass/http/processors/StaticContentProcessor.java,0,0,0,0,State,18,4
+io/questdb/griffin/engine/groupby/SampleByFirstLastRecordCursorFactory.java,0,0,0,0,State,103,30
+io/questdb/std/ObjectFactory.java,0,0,0,0,State,0,4
+io/questdb/cutlass/line/udp/LineUdpReceiverConfiguration.java,0,0,0,0,State;Bridge,0,60
+io/questdb/std/WeakSelfReturningObjectPool.java,0,0,0,0,State;Template Method,2,0
+io/questdb/metrics/Scrapable.java,0,0,0,0,State;Proxy,0,2
+io/questdb/cairo/sql/ExecutionCircuitBreaker.java,0,0,0,0,State,0,2
+io/questdb/griffin/PlanSink.java,0,0,0,0,State,0,74
+io/questdb/std/WeakClosableObjectPool.java,0,0,0,0,State;Template Method,2,4
+io/questdb/std/WeakMutableObjectPool.java,0,0,0,0,State;Template Method,2,4
+io/questdb/cairo/pool/ReaderPool.java,0,0,0,0,State;Template Method,6,7
+io/questdb/std/NanosecondClock.java,0,0,0,0,State,0,2
+io/questdb/network/IODispatcherWindows.java,0,0,0,0,State;Template Method,12,2
+io/questdb/griffin/engine/functions/date/TimestampFloorFunctions.java,0,0,0,0,Template Method;Bridge,10,16
+io/questdb/griffin/engine/groupby/AbstractNoRecordSampleByCursor.java,0,0,0,0,Bridge,42,16
+io/questdb/cutlass/line/udp/AbstractLineProtoUdpReceiver.java,0,0,0,0,Template Method;Bridge,44,5
+io/questdb/test/AbstractCairoTest.java,0,0,0,0,Bridge,0,0
+io/questdb/griffin/engine/table/AbstractDataFrameRecordCursorFactory.java,0,0,0,0,Template Method;Bridge,2,2
+io/questdb/cairo/pool/AbstractPool.java,0,0,0,0,Template Method;Bridge,20,11
+io/questdb/std/AbstractLowerCaseCharSequenceHashMap.java,0,0,0,0,Template Method,2,10
+io/questdb/griffin/model/InsertModel.java,0,0,0,0,Proxy,33,63
+io/questdb/std/Mutable.java,0,0,0,0,Proxy,0,23
+io/questdb/griffin/model/CreateTableModel.java,0,0,0,0,Proxy,51,124
+io/questdb/griffin/WhereClauseParser.java,0,0,0,0,Proxy,68,4
+io/questdb/griffin/model/JoinContext.java,0,0,0,0,Proxy,22,4
+io/questdb/cairo/vm/api/MemoryCR.java,0,0,0,0,Proxy,4,9
+io/questdb/cairo/vm/AbstractMemoryCR.java,0,0,0,0,Proxy,20,28
+io/questdb/std/Sinkable.java,0,0,0,0,Proxy,0,2

@@ -1,0 +1,410 @@
+Class,RuleId,RuleName,Severity,Line,Message
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPathIterator.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,41
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPathIterator.java",S1068,"Unused "private" fields should be removed",MAJOR,41
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,569
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,500
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S2293,"The diamond operator ("<>") should be used",MINOR,61
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,153
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,414
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,612
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4165,"Assignments should not be redundant",MAJOR,685
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4165,"Assignments should not be redundant",MAJOR,719
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4165,"Assignments should not be redundant",MAJOR,748
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,917
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,553
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,553
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1659,"Multiple variables should not be declared on the same line",MINOR,553
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,555
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,555
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,555
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1659,"Multiple variables should not be declared on the same line",MINOR,555
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,605
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S1186,"Methods should not be empty",CRITICAL,160
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S1186,"Methods should not be empty",CRITICAL,237
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S1186,"Methods should not be empty",CRITICAL,286
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S1186,"Methods should not be empty",CRITICAL,293
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1119,"Labels should not be used",MAJOR,571
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1065,"Unused labels should be removed",MAJOR,571
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1119,"Labels should not be used",MAJOR,608
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/UndoRedoManager.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,191
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/UndoRedoManager.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,226
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1172,"Unused method parameters should be removed",MAJOR,35
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S2065,"Fields in non-serializable classes should not be "transient"",MINOR,37
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/QuadTree.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,32
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,330
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPathIterator.java",S125,"Sections of code should not be commented out",MAJOR,124
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1186,"Methods should not be empty",CRITICAL,37
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S112,"Generic exceptions should never be thrown",MAJOR,41
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1186,"Methods should not be empty",CRITICAL,41
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S112,"Generic exceptions should never be thrown",MAJOR,45
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1186,"Methods should not be empty",CRITICAL,45
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S112,"Generic exceptions should never be thrown",MAJOR,49
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1186,"Methods should not be empty",CRITICAL,49
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S112,"Generic exceptions should never be thrown",MAJOR,53
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1186,"Methods should not be empty",CRITICAL,53
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1125,"Boolean literals should not be redundant",MINOR,67
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1125,"Boolean literals should not be redundant",MINOR,107
+"jhotdraw-utils:src/test/java/org/jhotdraw/geom/BezierPathNGTest.java",S1125,"Boolean literals should not be redundant",MINOR,128
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Images.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,34
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Images.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,42
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Images.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,59
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Images.java",S125,"Sections of code should not be commented out",MAJOR,110
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Images.java",S125,"Sections of code should not be commented out",MAJOR,142
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Images.java",S1659,"Multiple variables should not be declared on the same line",MINOR,195
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/LocaleUtil.java",S1186,"Methods should not be empty",CRITICAL,27
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/LocaleUtil.java",S1118,"Utility classes should not have public constructors",MAJOR,27
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,40
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,41
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,41
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S1192,"String literals should not be duplicated",CRITICAL,44
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,63
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,64
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,64
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,85
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,86
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,86
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,142
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,202
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,203
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,220
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,221
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,238
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,239
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,256
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,257
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,257
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,274
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,275
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,291
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,292
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,310
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,311
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,329
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,348
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/Methods.java",S3878,"Arrays should not be created for varargs parameters",MINOR,349
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S3878,"Arrays should not be created for varargs parameters",MINOR,62
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S2293,"The diamond operator ("<>") should be used",MINOR,90
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,134
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,135
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,138
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S1192,"String literals should not be duplicated",CRITICAL,140
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S1192,"String literals should not be duplicated",CRITICAL,140
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,140
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,141
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,246
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,263
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,264
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,312
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,317
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,318
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,351
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,352
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,368
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,372
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,373
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,388
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,392
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,393
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S1905,"Redundant casts should not be used",MINOR,411
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S1905,"Redundant casts should not be used",MINOR,431
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,434
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,435
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ResourceBundleUtil.java",S125,"Sections of code should not be commented out",MAJOR,483
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ReversedList.java",S2160,"Subclasses that add fields should override "equals"",MINOR,17
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1192,"String literals should not be duplicated",CRITICAL,152
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1186,"Methods should not be empty",CRITICAL,176
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1186,"Methods should not be empty",CRITICAL,180
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1186,"Methods should not be empty",CRITICAL,184
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1186,"Methods should not be empty",CRITICAL,188
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1186,"Methods should not be empty",CRITICAL,192
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1186,"Methods should not be empty",CRITICAL,196
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1186,"Methods should not be empty",CRITICAL,200
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1181,"Throwable and Error should not be caught",MAJOR,218
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S2589,"Boolean expressions should not be gratuitous",MAJOR,219
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1181,"Throwable and Error should not be caught",MAJOR,241
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S2589,"Boolean expressions should not be gratuitous",MAJOR,242
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1192,"String literals should not be duplicated",CRITICAL,311
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1192,"String literals should not be duplicated",CRITICAL,312
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,322
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S125,"Sections of code should not be commented out",MAJOR,382
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,429
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/PreferencesUtil.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,475
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S1192,"String literals should not be duplicated",CRITICAL,33
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,34
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,34
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S1192,"String literals should not be duplicated",CRITICAL,37
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S125,"Sections of code should not be commented out",MAJOR,39
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S125,"Sections of code should not be commented out",MAJOR,48
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,73
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S1134,"Track uses of "FIXME" tags",MAJOR,74
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,89
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,91
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,102
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,104
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S1066,"Collapsible "if" statements should be merged",MAJOR,129
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/prefs/ToolBarPrefsHandler.java",S1066,"Collapsible "if" statements should be merged",MAJOR,138
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/AbstractBean.java",S125,"Sections of code should not be commented out",MAJOR,57
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/AbstractBean.java",S135,"Loops should not contain more than a single "break" or "continue" statement",MINOR,58
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/AbstractBean.java",S125,"Sections of code should not be commented out",MAJOR,85
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/AbstractBean.java",S135,"Loops should not contain more than a single "break" or "continue" statement",MINOR,86
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/AbstractBean.java",S2975,""clone" should not be overridden",BLOCKER,115
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/BeansBinding.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,42
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/BeansBinding.java",S1066,"Collapsible "if" statements should be merged",MAJOR,45
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/BeansBinding.java",S1066,"Collapsible "if" statements should be merged",MAJOR,56
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/BeansBinding.java",S1066,"Collapsible "if" statements should be merged",MAJOR,57
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/BeansBinding.java",S3398,""private" methods called only by inner classes should be moved to those classes",MINOR,174
+"jhotdraw-utils:src/main/java/org/jhotdraw/beans/WeakPropertyChangeListener.java",S3878,"Arrays should not be created for varargs parameters",MINOR,79
+"jhotdraw-utils:src/main/java/org/jhotdraw/formatter/JavaNumberFormatter.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,35
+"jhotdraw-utils:src/main/java/org/jhotdraw/formatter/JavaNumberFormatter.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,37
+"jhotdraw-utils:src/main/java/org/jhotdraw/formatter/JavaNumberFormatter.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,205
+"jhotdraw-utils:src/main/java/org/jhotdraw/formatter/JavaNumberFormatter.java",S125,"Sections of code should not be commented out",MAJOR,225
+"jhotdraw-utils:src/main/java/org/jhotdraw/formatter/JavaNumberFormatter.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,269
+"jhotdraw-utils:src/main/java/org/jhotdraw/formatter/JavaNumberFormatter.java",S1905,"Redundant casts should not be used",MINOR,337
+"jhotdraw-utils:src/main/java/org/jhotdraw/formatter/JavaNumberFormatter.java",S1905,"Redundant casts should not be used",MINOR,347
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,72
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S4165,"Assignments should not be redundant",MAJOR,89
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S2589,"Boolean expressions should not be gratuitous",MAJOR,93
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,162
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,168
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,200
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,226
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,229
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,250
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,250
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1481,"Unused local variables should be removed",MINOR,254
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S135,"Loops should not contain more than a single "break" or "continue" statement",MINOR,255
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1854,"Unused assignments should be removed",MAJOR,291
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,312
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,314
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,347
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S125,"Sections of code should not be commented out",MAJOR,423
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S125,"Sections of code should not be commented out",MAJOR,430
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S4165,"Assignments should not be redundant",MAJOR,464
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S4165,"Assignments should not be redundant",MAJOR,477
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,488
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,488
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1659,"Multiple variables should not be declared on the same line",MINOR,488
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S4165,"Assignments should not be redundant",MAJOR,494
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,551
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,551
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1659,"Multiple variables should not be declared on the same line",MINOR,552
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1172,"Unused method parameters should be removed",MAJOR,634
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,656
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1659,"Multiple variables should not be declared on the same line",MINOR,657
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1144,"Unused "private" methods should be removed",MAJOR,720
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1144,"Unused "private" methods should be removed",MAJOR,755
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1144,"Unused "private" methods should be removed",MAJOR,774
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1144,"Unused "private" methods should be removed",MAJOR,808
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1144,"Unused "private" methods should be removed",MAJOR,813
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1144,"Unused "private" methods should be removed",MAJOR,818
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Bezier.java",S1144,"Unused "private" methods should be removed",MAJOR,823
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S2160,"Subclasses that add fields should override "equals"",MINOR,27
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,70
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1104,"Class variable fields should not have public accessibility",MINOR,90
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1104,"Class variable fields should not have public accessibility",MINOR,94
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1104,"Class variable fields should not have public accessibility",MINOR,98
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1104,"Class variable fields should not have public accessibility",MINOR,104
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S2975,""clone" should not be overridden",BLOCKER,193
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1186,"Methods should not be empty",CRITICAL,254
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,352
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1854,"Unused assignments should be removed",MAJOR,365
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1116,"Empty statements should be removed",MINOR,430
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,471
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1659,"Multiple variables should not be declared on the same line",MINOR,473
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1659,"Multiple variables should not be declared on the same line",MINOR,478
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S2975,""clone" should not be overridden",BLOCKER,651
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S125,"Sections of code should not be commented out",MAJOR,773
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,821
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1659,"Multiple variables should not be declared on the same line",MINOR,825
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1659,"Multiple variables should not be declared on the same line",MINOR,827
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,828
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,829
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,879
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1659,"Multiple variables should not be declared on the same line",MINOR,881
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1659,"Multiple variables should not be declared on the same line",MINOR,883
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,884
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,885
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,1077
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,1108
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,1109
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,1110
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,1111
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1659,"Multiple variables should not be declared on the same line",MINOR,1137
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S131,""switch" statements should have "default" clauses",CRITICAL,1170
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1854,"Unused assignments should be removed",MAJOR,1216
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPath.java",S1481,"Unused local variables should be removed",MINOR,1216
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/BezierPathIterator.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,243
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S1118,"Utility classes should not have public constructors",MAJOR,27
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S131,""switch" statements should have "default" clauses",CRITICAL,74
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,139
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,198
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,205
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S3358,"Ternary operators should not be nested",MAJOR,212
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,252
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,252
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/ConvexHull.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,252
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Dimension2DDouble.java",S1104,"Class variable fields should not have public accessibility",MINOR,28
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Dimension2DDouble.java",S1104,"Class variable fields should not have public accessibility",MINOR,36
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1068,"Unused "private" fields should be removed",MAJOR,26
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1068,"Unused "private" fields should be removed",MAJOR,28
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1068,"Unused "private" fields should be removed",MAJOR,29
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S125,"Sections of code should not be commented out",MAJOR,39
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1134,"Track uses of "FIXME" tags",MAJOR,49
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S131,""switch" statements should have "default" clauses",CRITICAL,52
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,54
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,78
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,87
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S127,""for" loop stop conditions should be invariant",MAJOR,99
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S127,""for" loop stop conditions should be invariant",MAJOR,109
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,189
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,229
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1144,"Unused "private" methods should be removed",MAJOR,229
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,233
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/DoubleStroke.java",S125,"Sections of code should not be commented out",MAJOR,243
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1659,"Multiple variables should not be declared on the same line",MINOR,47
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1905,"Redundant casts should not be used",MINOR,55
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1905,"Redundant casts should not be used",MINOR,55
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1659,"Multiple variables should not be declared on the same line",MINOR,79
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1301,""switch" statements should have at least 3 "case" clauses",MINOR,249
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S131,""switch" statements should have "default" clauses",CRITICAL,249
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S125,"Sections of code should not be commented out",MAJOR,276
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,407
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1659,"Multiple variables should not be declared on the same line",MINOR,445
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S1659,"Multiple variables should not be declared on the same line",MINOR,468
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S107,"Methods should not have too many parameters",MAJOR,525
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S107,"Methods should not have too many parameters",MAJOR,576
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S107,"Methods should not have too many parameters",MAJOR,620
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,620
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Geom.java",S125,"Sections of code should not be commented out",MAJOR,727
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/GrowStroke.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,35
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/GrowStroke.java",S1134,"Track uses of "FIXME" tags",MAJOR,47
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/GrowStroke.java",S131,""switch" statements should have "default" clauses",CRITICAL,50
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/GrowStroke.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,52
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S2975,""clone" should not be overridden",BLOCKER,211
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S2160,"Subclasses that add fields should override "equals"",MINOR,238
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,241
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,242
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,243
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,244
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S2160,"Subclasses that add fields should override "equals"",MINOR,309
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,312
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,313
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,314
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Insets2D.java",S1104,"Class variable fields should not have public accessibility",MINOR,315
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/QuadTree.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,133
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/QuadTree.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,225
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/QuadTree.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,241
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/QuadTree.java",S1319,"Declarations should use Java collection interfaces such as "List" rather than specific implementation classes such as "LinkedList"",MINOR,257
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Shapes.java",S1659,"Multiple variables should not be declared on the same line",MINOR,39
+"jhotdraw-utils:src/main/java/org/jhotdraw/geom/Shapes.java",S1659,"Multiple variables should not be declared on the same line",MINOR,40
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,111
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4719,""StandardCharsets" constants should be preferred",MINOR,113
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S3398,""private" methods called only by inner classes should be moved to those classes",MINOR,183
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S125,"Sections of code should not be commented out",MAJOR,215
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,297
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4719,""StandardCharsets" constants should be preferred",MINOR,336
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,423
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4719,""StandardCharsets" constants should be preferred",MINOR,452
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4719,""StandardCharsets" constants should be preferred",MINOR,482
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S125,"Sections of code should not be commented out",MAJOR,517
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S125,"Sections of code should not be commented out",MAJOR,526
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S125,"Sections of code should not be commented out",MAJOR,539
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S1110,"Redundant pairs of parentheses should be removed",MAJOR,543
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,549
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,550
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,551
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,552
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S1845,"Methods and field names should not be the same or differ only by capitalization",BLOCKER,569
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,595
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S1168,"Empty arrays and collections should be returned instead of null",MAJOR,596
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S1845,"Methods and field names should not be the same or differ only by capitalization",BLOCKER,612
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4719,""StandardCharsets" constants should be preferred",MINOR,615
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S1905,"Redundant casts should not be used",MINOR,625
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,632
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,679
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,713
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,742
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4719,""StandardCharsets" constants should be preferred",MINOR,745
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,771
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,779
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S1168,"Empty arrays and collections should be returned instead of null",MAJOR,780
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,795
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S2093,"Try-with-resources should be used",CRITICAL,820
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S4719,""StandardCharsets" constants should be preferred",MINOR,835
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,837
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S125,"Sections of code should not be commented out",MAJOR,1014
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/Base64.java",S125,"Sections of code should not be commented out",MAJOR,1129
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S125,"Sections of code should not be commented out",MAJOR,8
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,74
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/BoundedRangeInputStream.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,86
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1659,"Multiple variables should not be declared on the same line",MINOR,36
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,38
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,62
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1104,"Class variable fields should not have public accessibility",MINOR,95
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1134,"Track uses of "FIXME" tags",MAJOR,113
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1104,"Class variable fields should not have public accessibility",MINOR,132
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1104,"Class variable fields should not have public accessibility",MINOR,141
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,462
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,505
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,516
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,527
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1117,"Local variables should not shadow class fields",MAJOR,536
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,544
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,556
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,564
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,591
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1905,"Redundant casts should not be used",MINOR,593
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,595
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1905,"Redundant casts should not be used",MINOR,600
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,602
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,623
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,638
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,684
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1066,"Collapsible "if" statements should be merged",MAJOR,688
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,697
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1854,"Unused assignments should be removed",MAJOR,702
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,716
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,723
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S3358,"Ternary operators should not be nested",MAJOR,729
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,738
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S131,""switch" statements should have "default" clauses",CRITICAL,769
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,799
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S125,"Sections of code should not be commented out",MAJOR,817
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,879
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,912
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,935
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1121,"Assignments should not be made from within sub-expressions",MAJOR,950
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1130,""throws" declarations should not be superfluous",MINOR,973
+"jhotdraw-utils:src/main/java/org/jhotdraw/io/StreamPosTokenizer.java",S1197,"Array designators "[]" should be on the type, not the variable",MINOR,1113
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S4719,""StandardCharsets" constants should be preferred",MINOR,52
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S1130,""throws" declarations should not be superfluous",MINOR,85
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S1149,"Synchronized classes Vector, Hashtable, Stack and StringBuffer should not be used",MAJOR,114
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S1130,""throws" declarations should not be superfluous",MINOR,133
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S1130,""throws" declarations should not be superfluous",MINOR,145
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S1130,""throws" declarations should not be superfluous",MINOR,155
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S1481,"Unused local variables should be removed",MINOR,209
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S1854,"Unused assignments should be removed",MAJOR,217
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S117,"Local variable and method parameter names should comply with a naming convention",MINOR,398
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S107,"Methods should not have too many parameters",MAJOR,493
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/ClientHttpRequest.java",S107,"Methods should not have too many parameters",MAJOR,620
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/URIUtil.java",S1223,"Non-constructor methods should not have the same name as the enclosing class",MAJOR,25
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/URIUtil.java",S1186,"Methods should not be empty",CRITICAL,25
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/URIUtil.java",S100,"Method names should comply with a naming convention",MINOR,25
+"jhotdraw-utils:src/main/java/org/jhotdraw/net/URIUtil.java",S1144,"Unused "private" methods should be removed",MAJOR,25
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/CompositeEdit.java",S1450,"Private fields only used as local variables in methods should become local variables",MINOR,40
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/CompositeEdit.java",S1068,"Unused "private" fields should be removed",MAJOR,40
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/CompositeEdit.java",S1125,"Boolean literals should not be redundant",MINOR,164
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/CompositeEdit.java",S125,"Sections of code should not be commented out",MAJOR,165
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/NonUndoableEdit.java",S1186,"Methods should not be empty",CRITICAL,25
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/PropertyChangeEdit.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,29
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/PropertyChangeEdit.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,37
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/PropertyChangeEdit.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,41
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/PropertyChangeEdit.java",S1068,"Unused "private" fields should be removed",MAJOR,45
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/PropertyChangeEdit.java",S1192,"String literals should not be duplicated",CRITICAL,76
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/UndoRedoManager.java",S125,"Sections of code should not be commented out",MAJOR,24
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/UndoRedoManager.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,86
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/UndoRedoManager.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,113
+"jhotdraw-utils:src/main/java/org/jhotdraw/undo/UndoRedoManager.java",S2696,"Instance methods should not write to "static" fields",CRITICAL,143
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ActionUtil.java",S125,"Sections of code should not be commented out",MAJOR,55
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ActionUtil.java",S1172,"Unused method parameters should be removed",MAJOR,72
+"jhotdraw-utils:src/main/java/org/jhotdraw/util/ActionUtil.java",S125,"Sections of code should not be commented out",MAJOR,73

@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-external-blockcache",
+    "name": "hbase/hbase-external-blockcache",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "8",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "0.0",
+        "bestValue": true
+      },
+      {
+        "metric": "bugs",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "critical_violations",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "128"
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "complexity",
+        "value": "58"
+      },
+      {
+        "metric": "classes",
+        "value": "4"
+      },
+      {
+        "metric": "development_cost",
+        "value": "19470",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "811"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-logging",
+    "name": "hbase/hbase-logging",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "development_cost",
+        "value": "14370",
+        "bestValue": false
+      },
+      {
+        "metric": "critical_violations",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "bugs",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "statements",
+        "value": "144"
+      },
+      {
+        "metric": "code_smells",
+        "value": "5",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "0.0",
+        "bestValue": true
+      },
+      {
+        "metric": "classes",
+        "value": "10"
+      },
+      {
+        "metric": "complexity",
+        "value": "67"
+      },
+      {
+        "metric": "lines",
+        "value": "880"
+      }
+    ]
+  }
+}

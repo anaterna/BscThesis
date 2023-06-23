@@ -1,0 +1,162 @@
+Class,cg-na,cg-npm,Pattern,count
+org.jhotdraw.api.app.ApplicationModel,0,51,Factory Method;Bridge;(Object)Adapter,3
+org.jhotdraw.api.gui.URIChooser,50,85,Factory Method;Bridge;(Object)Adapter,3
+org.jhotdraw.samples.svg.io.SVGFigureFactory,0,14,Factory Method;State,2
+org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory,0,13,Factory Method,1
+org.jhotdraw.draw.figure.Figure,132,1351,Composite;State;Bridge;Factory Method;Decorator;(Object)Adapter;Prototype,25
+org.jhotdraw.draw.figure.CompositeFigure,5,100,Factory Method;State;Prototype,5
+org.jhotdraw.samples.svg.Gradient,0,10,Factory Method,1
+org.jhotdraw.samples.odg.figures.ODGFigure,0,1,Factory Method,1
+org.jhotdraw.samples.svg.figures.SVGFigure,0,1,Factory Method,1
+org.jhotdraw.draw.connector.Connector,0,70,Factory Method;State;Prototype;(Object)Adapter,6
+org.jhotdraw.draw.figure.TextHolderFigure,0,139,Factory Method;State;Prototype;(Object)Adapter,10
+org.jhotdraw.samples.svg.figures.SVGTextAreaFigure,70,280,Composite;Factory Method;Prototype;Decorator,10
+org.jhotdraw.samples.svg.figures.SVGTextFigure,70,320,Composite;Factory Method;Prototype;Decorator,10
+org.jhotdraw.geom.Insets2D,6,10,Template Method;Factory Method,2
+org.jhotdraw.samples.odg.figures.ODGPathFigure,18,189,Template Method;Composite;Prototype;Decorator,9
+org.jhotdraw.samples.odg.figures.ODGGroupFigure,16,48,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.odg.figures.ODGRectFigure,32,176,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.odg.figures.ODGEllipseFigure,24,136,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.odg.figures.ODGAttributedFigure,9,27,Template Method;Composite;Prototype;Decorator,9
+org.jhotdraw.samples.svg.figures.SVGEllipseFigure,32,120,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.svg.figures.SVGGroupFigure,16,48,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.svg.figures.SVGRectFigure,56,160,Composite;Prototype;Decorator,8
+org.jhotdraw.samples.svg.figures.SVGImageFigure,54,216,Composite;Prototype;Decorator,9
+org.jhotdraw.samples.svg.figures.SVGPathFigure,27,162,Template Method;Composite;Prototype;Decorator,9
+org.jhotdraw.draw.figure.AbstractAttributedDecoratedFigure,6,14,Template Method;Prototype;Decorator,3
+org.jhotdraw.draw.tool.CreationTool,16,15,State;Prototype,2
+org.jhotdraw.samples.svg.SVGCreateFromFileTool,6,2,Prototype,1
+org.jhotdraw.draw.tool.ConnectionTool,44,35,State;Prototype,4
+org.jhotdraw.draw.figure.ConnectionFigure,0,84,State;Prototype,4
+org.jhotdraw.draw.figure.LineConnectionFigure,36,152,State;Prototype;(Object)Adapter,6
+org.jhotdraw.draw.handle.ConnectorHandle,24,32,State;Prototype,4
+org.jhotdraw.draw.action.GroupAction,4,2,Prototype,1
+org.jhotdraw.samples.svg.action.CombineAction,10,8,State;Prototype,2
+org.jhotdraw.draw.Drawing,0,400,State;Bridge;Prototype;(Object)Adapter,8
+org.jhotdraw.draw.liner.Liner,0,9,State;Prototype;(Object)Adapter,3
+org.jhotdraw.draw.figure.ImageHolderFigure,0,18,State;Prototype;(Object)Adapter,3
+org.jhotdraw.gui.ActivityManager,3,6,Singleton,1
+org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel,3,19,Singleton,1
+org.jhotdraw.gui.plaf.palette.PaletteButtonUI,1,2,Singleton,1
+org.jhotdraw.gui.plaf.palette.PaletteLabelUI,5,3,Singleton,1
+org.jhotdraw.gui.JActivityWindow,19,9,Singleton,1
+org.jhotdraw.color.HSVPhysiologicColorSpace,2,9,Singleton,1
+org.jhotdraw.color.HSVColorSpace,2,9,Singleton,1
+org.jhotdraw.color.HSBColorSpace,2,9,Singleton,1
+org.jhotdraw.color.CMYKGenericColorSpace,2,1,Singleton,1
+org.jhotdraw.color.HSLColorSpace,2,9,Singleton,1
+org.jhotdraw.color.CMYKNominalColorSpace,2,9,Singleton,1
+org.jhotdraw.color.HSLPhysiologicColorSpace,2,9,Singleton,1
+org.jhotdraw.draw.handle.AbstractHandle,24,96,Template Method;Bridge;(Object)Adapter,4
+org.jhotdraw.draw.tool.Tool,0,36,State;Decorator;(Object)Adapter,3
+org.jhotdraw.draw.DrawingView,110,605,State;Bridge;(Object)Adapter,11
+org.jhotdraw.samples.svg.SVGDrawingPanel,46,30,State;(Object)Adapter,2
+org.jhotdraw.draw.DefaultDrawingView,180,334,State;(Object)Adapter,6
+org.jhotdraw.samples.odg.io.ODGStylesReader,4,3,(Object)Adapter,1
+org.jhotdraw.samples.odg.io.ODGInputFormat,4,5,(Object)Adapter,1
+org.jhotdraw.xml.css.StyleManager,1,3,(Object)Adapter,1
+org.jhotdraw.samples.svg.io.SVGInputFormat,24,16,State;(Object)Adapter,2
+org.jhotdraw.app.AbstractApplication,96,180,Template Method;Bridge;(Object)Adapter,6
+org.jhotdraw.draw.handle.Handle,0,95,State;Bridge;(Object)Adapter,5
+org.jhotdraw.draw.AbstractDrawingView,132,319,Template Method;Bridge;(Object)Adapter,6
+org.jhotdraw.api.app.View,42,198,State;Bridge;(Object)Adapter,6
+org.jhotdraw.app.OSXApplication,4,9,State;(Object)Adapter,2
+org.jhotdraw.draw.DrawingEditor,140,644,State;Bridge;Decorator;(Object)Adapter,28
+org.jhotdraw.draw.tool.AbstractTool,18,54,Bridge;(Object)Adapter,2
+org.jhotdraw.draw.event.DrawingComponentRepainter,4,4,State;(Object)Adapter,2
+org.jhotdraw.draw.event.SelectionComponentRepainter,4,6,State;(Object)Adapter,2
+org.jhotdraw.xml.DOMFactory,0,24,State;(Object)Adapter,6
+org.jhotdraw.xml.JavaxDOMOutput,12,34,State;(Object)Adapter,2
+org.jhotdraw.xml.JavaxDOMInput,10,28,State;(Object)Adapter,2
+org.jhotdraw.color.ColorSliderModel,0,126,State;(Object)Adapter,9
+org.jhotdraw.color.DefaultHarmonicColorModel,24,56,State;(Object)Adapter;Observer,3
+org.jhotdraw.draw.QuadTreeDrawing,3,22,Composite,1
+org.jhotdraw.draw.figure.LabeledLineConnectionFigure,5,24,Composite,1
+org.jhotdraw.draw.figure.QuadTreeCompositeFigure,5,20,Composite,1
+org.jhotdraw.draw.decoration.LineDecoration,0,3,Composite,1
+org.jhotdraw.draw.decoration.CompositeLineDecoration,2,1,Composite,1
+org.jhotdraw.draw.DrawingEditorProxy,3,7,Decorator,1
+org.jhotdraw.draw.tool.SelectionTool,27,54,State;Decorator,3
+org.jhotdraw.api.gui.ActivityModel,14,40,State;Observer,2
+org.jhotdraw.gui.JActivityIndicator,7,7,Observer,1
+org.jhotdraw.color.HarmonicRule,0,6,Observer,1
+org.jhotdraw.draw.tool.DefaultDragTracker,9,4,State,1
+org.jhotdraw.draw.tool.DefaultHandleTracker,14,26,State,2
+org.jhotdraw.draw.tool.DefaultSelectAreaTracker,6,8,State,1
+org.jhotdraw.draw.tool.DnDTracker,8,4,State,1
+org.jhotdraw.draw.event.AttributeChangeEdit,5,1,State,1
+org.jhotdraw.draw.event.TransformRestoreEdit,4,1,State,1
+org.jhotdraw.draw.handle.BezierControlPointHandle,5,8,State,1
+org.jhotdraw.draw.handle.BezierNodeHandle,4,10,State,1
+org.jhotdraw.action.window.FocusWindowAction,4,2,State,1
+org.jhotdraw.gui.action.EditCanvasPanel,13,3,State,1
+org.jhotdraw.draw.text.FloatingTextArea,10,10,State,2
+org.jhotdraw.draw.text.FloatingTextField,8,13,State,2
+org.jhotdraw.draw.tool.BezierTool,11,6,State,1
+org.jhotdraw.api.app.Application,6,129,State;Bridge,3
+org.jhotdraw.samples.teddy.FindDialog,21,0,State,1
+org.jhotdraw.samples.svg.gui.ViewToolBar,2,0,State,1
+org.jhotdraw.app.AppletApplication,3,9,State,1
+org.jhotdraw.draw.tool.TextAreaCreationTool,4,5,State,1
+org.jhotdraw.draw.tool.TextAreaEditingTool,3,5,State,1
+org.jhotdraw.draw.tool.TextCreationTool,3,8,State,1
+org.jhotdraw.draw.tool.TextEditingTool,3,8,State,1
+org.jhotdraw.draw.action.AttributeToggler,6,2,State,1
+org.jhotdraw.draw.action.DrawingColorIcon,4,0,State,1
+org.jhotdraw.draw.action.SelectionColorIcon,4,0,State,1
+org.jhotdraw.samples.svg.gui.DrawingOpacityIcon,7,0,State,1
+org.jhotdraw.samples.svg.gui.SelectionOpacityIcon,7,0,State,1
+org.jhotdraw.gui.action.ButtonFactory,2,0,State,1
+org.jhotdraw.samples.net.NetApplicationModel,2,0,State,1
+org.jhotdraw.samples.pert.PertApplicationModel,2,0,State,1
+org.jhotdraw.samples.svg.gui.ToolsToolBar,2,1,State,1
+org.jhotdraw.color.ColorTrackImageProducer,8,9,State,1
+org.jhotdraw.color.ColorWheelChooser,5,4,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.ColorSliderTextFieldHandler,3,3,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser,25,4,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser,20,4,State,1
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser,14,4,State,1
+org.jhotdraw.app.action.app.ExitAction,4,0,State,1
+org.jhotdraw.gui.JActivityView,13,1,State,1
+org.jhotdraw.draw.locator.Locator,0,4,State;Bridge,2
+org.jhotdraw.draw.connector.LocatorConnector,3,3,State,1
+org.jhotdraw.draw.event.SelectionComponentDisplayer,10,8,State,2
+org.jhotdraw.color.JColorWheel,28,27,State,2
+org.jhotdraw.color.AbstractColorWheelImageProducer,20,19,Template Method;State,2
+org.jhotdraw.samples.draw.DrawView,6,6,State,1
+org.jhotdraw.samples.net.NetView,7,10,State,1
+org.jhotdraw.samples.odg.ODGView,10,14,State,1
+org.jhotdraw.samples.pert.PertView,6,10,State,1
+org.jhotdraw.color.JHarmonicColorWheel,8,5,State,1
+org.jhotdraw.color.HarmonicColorModel,1,17,State,1
+org.jhotdraw.action.window.ArrangeWindowsAction,6,0,State,1
+org.jhotdraw.api.gui.Arrangeable,0,4,State,1
+org.jhotdraw.draw.tool.DragTracker,0,1,State,1
+org.jhotdraw.draw.tool.HandleTracker,0,1,State,1
+org.jhotdraw.draw.event.CompositeFigureEdit,2,0,State,1
+org.jhotdraw.draw.handle.AbstractConnectionHandle,8,12,Template Method;Bridge,2
+org.jhotdraw.draw.action.AbstractDrawingViewAction,10,6,Bridge,2
+org.jhotdraw.draw.action.AbstractSelectedAction,8,10,Bridge,2
+org.jhotdraw.draw.event.AbstractAttributeEditorHandler,44,42,Template Method;Bridge,4
+org.jhotdraw.action.AbstractApplicationAction,4,2,Bridge,1
+org.jhotdraw.api.gui.AttributeEditor,2,8,Bridge,1
+org.jhotdraw.action.AbstractViewAction,10,3,Bridge,1
+org.jhotdraw.draw.handle.LocatorHandle,1,1,Bridge,1
+org.jhotdraw.draw.layouter.Layouter,0,2,Bridge,1
+org.jhotdraw.draw.action.AbstractDrawingEditorAction,3,4,Bridge,1
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction,2,0,Template Method,1
+org.jhotdraw.gui.plaf.palette.MultiIcon,4,2,Template Method,1
+org.jhotdraw.draw.decoration.AbstractLineDecoration,4,8,Template Method,1
+org.jhotdraw.draw.handle.AbstractRotateHandle,6,5,Template Method,1
+org.jhotdraw.samples.svg.figures.SVGPathOutlineHandle,1,6,Template Method,1
+org.jhotdraw.samples.svg.figures.LinkHandle,0,6,Template Method,1
+org.jhotdraw.samples.svg.figures.SVGRectRadiusHandle,3,6,Template Method,1
+org.jhotdraw.samples.svg.figures.ConvexHullOutlineHandle,9,6,Template Method,1
+org.jhotdraw.samples.odg.figures.ODGPathOutlineHandle,2,6,Template Method,1
+org.jhotdraw.samples.odg.figures.ODGRectRadiusHandle,4,5,Template Method,1
+org.jhotdraw.draw.action.AlignAction,2,1,Template Method,1
+org.jhotdraw.draw.figure.AbstractAttributedCompositeFigure,7,50,Template Method,1
+org.jhotdraw.draw.figure.AbstractAttributedFigure,10,45,Template Method,1
+org.jhotdraw.samples.mini.StraightLineFigure,2,7,Template Method,1
+org.jhotdraw.samples.svg.figures.SVGAttributedFigure,1,3,Template Method,1
+org.jhotdraw.samples.mini.MovableChildFiguresSampleWithAbstractDrawingView,1,23,Template Method,1

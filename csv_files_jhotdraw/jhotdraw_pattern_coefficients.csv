@@ -1,0 +1,17 @@
+Pattern,mg-ca,mg-ce
+Factory Method,537,144
+Prototype,1032,856
+Singleton,65,149
+(Object)Adapter,1564,1127
+Command,0,0
+Composite,888,664
+Decorator,401,204
+Observer,10,32
+State,7338,2858
+Strategy,0,0
+Bridge,2255,880
+Template Method,178,589
+Visitor,0,0
+Proxy,0,0
+Proxy2,0,0
+Chain of Responsibility,0,0

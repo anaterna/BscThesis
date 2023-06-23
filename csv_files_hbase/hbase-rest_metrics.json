@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-rest",
+    "name": "hbase/hbase-rest",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "vulnerabilities",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "3.8",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "8173"
+      },
+      {
+        "metric": "development_cost",
+        "value": "529050",
+        "bestValue": false
+      },
+      {
+        "metric": "classes",
+        "value": "143"
+      },
+      {
+        "metric": "code_smells",
+        "value": "506",
+        "bestValue": false
+      },
+      {
+        "metric": "bugs",
+        "value": "29",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "2149"
+      },
+      {
+        "metric": "critical_violations",
+        "value": "155",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "24349"
+      }
+    ]
+  }
+}

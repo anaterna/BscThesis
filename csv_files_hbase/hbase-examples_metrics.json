@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-examples",
+    "name": "hbase/hbase-examples",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "critical_violations",
+        "value": "436",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "34.6",
+        "bestValue": false
+      },
+      {
+        "metric": "code_smells",
+        "value": "3866",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "29378"
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "classes",
+        "value": "478"
+      },
+      {
+        "metric": "bugs",
+        "value": "8",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "52936"
+      },
+      {
+        "metric": "development_cost",
+        "value": "1222140",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "8989"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-testing-util",
+    "name": "hbase/hbase-testing-util",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "statements",
+        "value": "2071"
+      },
+      {
+        "metric": "classes",
+        "value": "25"
+      },
+      {
+        "metric": "critical_violations",
+        "value": "17",
+        "bestValue": false
+      },
+      {
+        "metric": "bugs",
+        "value": "6",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "development_cost",
+        "value": "142950",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "1.1",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "890"
+      },
+      {
+        "metric": "lines",
+        "value": "7894"
+      },
+      {
+        "metric": "code_smells",
+        "value": "137",
+        "bestValue": false
+      }
+    ]
+  }
+}

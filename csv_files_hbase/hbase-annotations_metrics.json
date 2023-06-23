@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-annotations",
+    "name": "hbase/hbase-annotations",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "bugs",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "classes",
+        "value": "22"
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "0.0",
+        "bestValue": true
+      },
+      {
+        "metric": "code_smells",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "development_cost",
+        "value": "3030",
+        "bestValue": false
+      },
+      {
+        "metric": "statements",
+        "value": "0"
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "lines",
+        "value": "867"
+      },
+      {
+        "metric": "complexity",
+        "value": "0"
+      },
+      {
+        "metric": "critical_violations",
+        "value": "0",
+        "bestValue": true
+      }
+    ]
+  }
+}

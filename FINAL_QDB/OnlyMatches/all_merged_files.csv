@@ -1,0 +1,89 @@
+Class,TotalBrokenRules,Minor,Major,Critical,Pattern,cg-na,cg-npm
+core:src/main/java/io/questdb/Bootstrap.java,6,0.0,1.0,5.0,State,33,27
+core:src/main/java/io/questdb/PropServerConfiguration.java,4,1.0,0.0,3.0,Decorator;Factory Method;State,783,222
+core:src/main/java/io/questdb/ServerMain.java,1,0.0,0.0,1.0,State,8,10
+core:src/main/java/io/questdb/TelemetryConfigLogger.java,1,0.0,1.0,0.0,State,16,2
+core:src/main/java/io/questdb/cairo/AbstractIntervalDataFrameCursor.java,4,0.0,2.0,2.0,(Object)Adapter;Bridge,36,17
+core:src/main/java/io/questdb/cairo/BitmapIndexBwdNullReader.java,1,0.0,0.0,1.0,Decorator,3,6
+core:src/main/java/io/questdb/cairo/BitmapIndexFwdNullReader.java,1,0.0,0.0,1.0,Decorator,6,6
+core:src/main/java/io/questdb/cairo/CairoEngine.java,2,0.0,1.0,0.0,Template Method;(Object)Adapter;Proxy;State,237,819
+core:src/main/java/io/questdb/cairo/ColumnPurgeOperator.java,2,1.0,0.0,1.0,State,45,7
+core:src/main/java/io/questdb/cairo/ColumnVersionReader.java,1,0.0,1.0,0.0,(Object)Adapter;State,57,52
+core:src/main/java/io/questdb/cairo/ColumnVersionWriter.java,1,0.0,1.0,0.0,(Object)Adapter;State,10,30
+core:src/main/java/io/questdb/cairo/DebugUtils.java,1,0.0,1.0,0.0,State,1,1
+core:src/main/java/io/questdb/cairo/O3CopyJob.java,1,0.0,1.0,0.0,Template Method;State,2,2
+core:src/main/java/io/questdb/cairo/O3OpenColumnJob.java,2,0.0,0.0,2.0,Template Method;State,12,8
+core:src/main/java/io/questdb/cairo/O3PartitionJob.java,1,0.0,0.0,1.0,Template Method;State,2,2
+core:src/main/java/io/questdb/cairo/O3PartitionPurgeJob.java,1,0.0,0.0,1.0,Template Method;(Object)Adapter;State,35,5
+core:src/main/java/io/questdb/cairo/TableConverter.java,4,0.0,1.0,3.0,(Object)Adapter;State,7,5
+core:src/main/java/io/questdb/cairo/TableNameRegistryFileStore.java,1,0.0,0.0,1.0,(Object)Adapter;State,30,18
+core:src/main/java/io/questdb/cairo/TableReader.java,10,0.0,5.0,5.0,(Object)Adapter;Factory Method;State,444,526
+core:src/main/java/io/questdb/cairo/TableUtils.java,6,0.0,2.0,4.0,State,82,77
+core:src/main/java/io/questdb/cairo/TableWriter.java,28,0.0,10.0,18.0,(Object)Adapter;Factory Method;State,3525,2360
+core:src/main/java/io/questdb/cairo/TxReader.java,1,0.0,1.0,0.0,State,39,55
+core:src/main/java/io/questdb/cairo/frm/file/ContiguousFileColumnPool.java,2,0.0,0.0,1.0,(Object)Adapter,1,3
+core:src/main/java/io/questdb/cairo/frm/file/ContiguousFileFixFrameColumn.java,6,0.0,6.0,0.0,(Object)Adapter;State,40,44
+core:src/main/java/io/questdb/cairo/frm/file/ContiguousFileVarFrameColumn.java,5,0.0,5.0,0.0,(Object)Adapter;State,48,44
+core:src/main/java/io/questdb/cairo/pool/AbstractMultiTenantPool.java,1,0.0,0.0,1.0,Template Method;(Object)Adapter;Bridge,60,26
+core:src/main/java/io/questdb/cairo/pool/WriterPool.java,1,0.0,0.0,1.0,Template Method;(Object)Adapter;State,84,43
+core:src/main/java/io/questdb/cairo/security/AllowAllSecurityContext.java,1,0.0,1.0,0.0,Singleton,1,0
+core:src/main/java/io/questdb/cairo/security/ReadOnlySecurityContext.java,1,0.0,0.0,1.0,Singleton,1,33
+core:src/main/java/io/questdb/cairo/sql/SqlExecutionCircuitBreaker.java,1,0.0,0.0,1.0,(Object)Adapter;State;Singleton;Bridge,68,374
+core:src/main/java/io/questdb/cairo/vm/MemoryCMARWImpl.java,1,0.0,0.0,1.0,State,7,20
+core:src/main/java/io/questdb/cairo/wal/ApplyWal2TableJob.java,4,0.0,2.0,2.0,Template Method;(Object)Adapter;State,136,10
+core:src/main/java/io/questdb/cairo/wal/WalPurgeJob.java,1,0.0,0.0,1.0,Template Method;(Object)Adapter;State,133,20
+core:src/main/java/io/questdb/cairo/wal/WalWriter.java,1,0.0,0.0,1.0,(Object)Adapter;State,626,431
+core:src/main/java/io/questdb/cairo/wal/seq/TableSequencerAPI.java,1,0.0,0.0,1.0,State,16,39
+core:src/main/java/io/questdb/cutlass/auth/AnonymousAuthenticator.java,1,0.0,0.0,1.0,Singleton,1,6
+core:src/main/java/io/questdb/cutlass/http/DefaultHttpServerConfiguration.java,1,0.0,1.0,0.0,Factory Method,5,11
+core:src/main/java/io/questdb/cutlass/http/HttpConnectionContext.java,1,0.0,0.0,1.0,(Object)Adapter;State,120,108
+core:src/main/java/io/questdb/cutlass/http/processors/JsonQueryProcessor.java,2,0.0,0.0,2.0,State,36,17
+core:src/main/java/io/questdb/cutlass/http/processors/TextImportProcessor.java,1,0.0,0.0,1.0,(Object)Adapter;State,69,20
+core:src/main/java/io/questdb/cutlass/http/processors/TextQueryProcessor.java,2,0.0,0.0,2.0,State,30,15
+core:src/main/java/io/questdb/cutlass/line/tcp/LineTcpConnectionContext.java,1,0.0,0.0,1.0,State,125,34
+core:src/main/java/io/questdb/cutlass/line/tcp/LineTcpMeasurementScheduler.java,1,0.0,0.0,1.0,(Object)Adapter;State,126,27
+core:src/main/java/io/questdb/cutlass/line/tcp/StaticPublicKeyRepo.java,2,1.0,0.0,1.0,(Object)Adapter,2,0
+core:src/main/java/io/questdb/cutlass/line/tcp/SymbolCache.java,1,0.0,1.0,0.0,(Object)Adapter;State,50,21
+core:src/main/java/io/questdb/cutlass/line/udp/LineUdpParserImpl.java,1,0.0,1.0,0.0,(Object)Adapter;State,651,95
+core:src/main/java/io/questdb/cutlass/pgwire/ClearTextPgWireAuthenticator.java,1,0.0,1.0,0.0,(Object)Adapter;State,0,0
+core:src/main/java/io/questdb/cutlass/pgwire/PGConnectionContext.java,5,0.0,2.0,3.0,Proxy;State,812,210
+core:src/main/java/io/questdb/cutlass/text/CairoTextWriter.java,4,0.0,2.0,2.0,(Object)Adapter;Proxy;State,114,80
+core:src/main/java/io/questdb/cutlass/text/CopyRequestTask.java,1,0.0,1.0,0.0,(Object)Adapter,10,12
+core:src/main/java/io/questdb/cutlass/text/CopyTask.java,2,0.0,2.0,0.0,State,91,39
+core:src/main/java/io/questdb/cutlass/text/ParallelCsvFileImporter.java,13,0.0,9.0,4.0,(Object)Adapter;Proxy;State,608,180
+core:src/main/java/io/questdb/griffin/PurgingOperator.java,1,0.0,0.0,1.0,(Object)Adapter;State,28,10
+core:src/main/java/io/questdb/griffin/SqlCodeGenerator.java,2,0.0,0.0,2.0,Decorator;State,134,62
+core:src/main/java/io/questdb/griffin/SqlCompiler.java,15,5.0,1.0,9.0,(Object)Adapter;Proxy;State,133,63
+core:src/main/java/io/questdb/griffin/SqlOptimiser.java,11,0.0,0.0,10.0,(Object)Adapter;Singleton,13,0
+core:src/main/java/io/questdb/griffin/SqlUtil.java,1,0.0,0.0,1.0,State,6,40
+core:src/main/java/io/questdb/griffin/WhereClauseParser.java,2,0.0,1.0,1.0,Proxy,68,4
+core:src/main/java/io/questdb/griffin/engine/functions/date/DateTruncFunctionFactory.java,2,0.0,0.0,2.0,Decorator;Factory Method,0,6
+core:src/main/java/io/questdb/griffin/engine/join/AsOfJoinRecordCursorFactory.java,1,0.0,1.0,0.0,State,24,7
+core:src/main/java/io/questdb/griffin/engine/join/LtJoinRecordCursorFactory.java,1,0.0,1.0,0.0,State,24,7
+core:src/main/java/io/questdb/griffin/engine/ops/CopyFactory.java,1,0.0,1.0,0.0,State,14,2
+core:src/main/java/io/questdb/griffin/engine/table/ShowPartitionsRecordCursorFactory.java,3,0.0,0.0,3.0,State,18,4
+core:src/main/java/io/questdb/griffin/model/RuntimeIntervalModel.java,1,0.0,1.0,0.0,(Object)Adapter;Factory Method;State,16,13
+core:src/main/java/io/questdb/log/LogAlertSocket.java,3,1.0,0.0,2.0,(Object)Adapter;State,78,39
+core:src/main/java/io/questdb/log/LogFactory.java,1,0.0,0.0,1.0,Decorator;Singleton,31,24
+core:src/main/java/io/questdb/std/WeakObjectPoolBase.java,1,0.0,1.0,0.0,Template Method,3,2
+core:src/main/java/io/questdb/std/str/Path.java,2,0.0,2.0,0.0,(Object)Adapter,45,200
+core:src/test/java/io/questdb/test/AbstractCairoTest.java,25,14.0,8.0,3.0,Bridge,0,0
+core:src/test/java/io/questdb/test/AbstractGriffinTest.java,22,1.0,15.0,5.0,Bridge,0,0
+core:src/test/java/io/questdb/test/AbstractTest.java,1,1.0,0.0,0.0,State,0,0
+core:src/test/java/io/questdb/test/MetricsTest.java,2,2.0,0.0,0.0,Decorator;Proxy2,0,0
+core:src/test/java/io/questdb/test/TestListener.java,3,1.0,2.0,0.0,State,0,0
+core:src/test/java/io/questdb/test/cairo/TableModel.java,2,0.0,2.0,0.0,(Object)Adapter;State,0,0
+core:src/test/java/io/questdb/test/cairo/map/CompactMapTest.java,21,12.0,8.0,1.0,(Object)Adapter;State,0,0
+core:src/test/java/io/questdb/test/cairo/pool/ReaderPoolTest.java,23,4.0,14.0,5.0,(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/cutlass/http/MetricsIODispatcherTest.java,1,0.0,0.0,1.0,(Object)Adapter;State,0,0
+core:src/test/java/io/questdb/test/cutlass/http/SendAndReceiveRequestBuilder.java,16,7.0,4.0,5.0,State,0,0
+core:src/test/java/io/questdb/test/cutlass/line/interop/TestInterop.java,18,1.0,13.0,4.0,(Object)Adapter;State,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/AbstractLineTcpReceiverFuzzTest.java,9,1.0,4.0,4.0,Template Method,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/AbstractLineTcpReceiverTest.java,10,5.0,5.0,0.0,State,0,0
+core:src/test/java/io/questdb/test/cutlass/line/tcp/BaseLineTcpContextTest.java,4,0.0,1.0,3.0,(Object)Adapter;Bridge,0,0
+core:src/test/java/io/questdb/test/cutlass/pgwire/PGQuerySuspendabilityTest.java,1,0.0,0.0,1.0,(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/cutlass/text/SqlExecutionContextStub.java,11,0.0,0.0,11.0,(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/fuzz/FuzzInsertOperation.java,6,2.0,3.0,1.0,(Object)Adapter,0,0
+core:src/test/java/io/questdb/test/griffin/AbstractO3Test.java,11,0.0,3.0,8.0,State,0,0
+core:src/test/java/io/questdb/test/griffin/CompiledFilterRegressionTest.java,25,1.0,1.0,23.0,Decorator,0,0
+core:src/test/java/io/questdb/test/griffin/engine/AbstractFunctionFactoryTest.java,16,0.0,6.0,10.0,Template Method;State,0,0

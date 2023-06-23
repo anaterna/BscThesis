@@ -1,0 +1,198 @@
+Class,RuleId,RuleName,Severity,Line,Message
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S3740,"Raw types should not be used",MAJOR,128
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S3740,"Raw types should not be used",MAJOR,149
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/AbstractSaveUnsavedChangesAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,61
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/AbstractSaveUnsavedChangesAction.java",S3740,"Raw types should not be used",MAJOR,153
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,64
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,98
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,102
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,103
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,104
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S3740,"Raw types should not be used",MAJOR,282
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S3740,"Raw types should not be used",MAJOR,316
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/OpenApplicationFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,115
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/OpenApplicationFileAction.java",S3740,"Raw types should not be used",MAJOR,131
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/PrintApplicationFileAction.java",S3740,"Raw types should not be used",MAJOR,68
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ClearFileAction.java",S3740,"Raw types should not be used",MAJOR,52
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ExportFileAction.java",S3740,"Raw types should not be used",MAJOR,183
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/LoadFileAction.java",S3740,"Raw types should not be used",MAJOR,127
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/LoadRecentFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,79
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/LoadRecentFileAction.java",S3740,"Raw types should not be used",MAJOR,121
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,146
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S3740,"Raw types should not be used",MAJOR,162
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenRecentFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,103
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenRecentFileAction.java",S3740,"Raw types should not be used",MAJOR,118
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S3740,"Raw types should not be used",MAJOR,176
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/SaveFileAction.java",S3740,"Raw types should not be used",MAJOR,139
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,275
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,561
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractView.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,35
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,239
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,330
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,337
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,344
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,351
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,358
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,27
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,31
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,35
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,39
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,43
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,47
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,51
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,55
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,59
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,63
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,67
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,71
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,75
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,79
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,83
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,87
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,91
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,95
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,99
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,103
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,107
+"jhotdraw-app:src/main/java/org/jhotdraw/app/EmptyMenuBuilder.java",S1186,"Methods should not be empty",CRITICAL,111
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,415
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,355
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/AbstractSaveUnsavedChangesAction.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,56
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1149,"Synchronized classes Vector, Hashtable, Stack and StringBuffer should not be used",MAJOR,257
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,148
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,170
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,332
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,92
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1192,"String literals should not be duplicated",CRITICAL,101
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,326
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S127,""for" loop stop conditions should be invariant",MAJOR,365
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S127,""for" loop stop conditions should be invariant",MAJOR,365
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1192,"String literals should not be duplicated",CRITICAL,428
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1481,"Unused local variables should be removed",MINOR,516
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,589
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,622
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1192,"String literals should not be duplicated",CRITICAL,626
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,628
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplication.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,645
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplicationModel.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,46
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplicationModel.java",S1066,"Collapsible "if" statements should be merged",MAJOR,106
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplicationModel.java",S1874,""@Deprecated" code should not be used",MINOR,122
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplicationModel.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,166
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractApplicationModel.java",S1488,"Local variables should not be declared and then immediately returned or thrown",MINOR,179
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractView.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,43
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractView.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,71
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AbstractView.java",S1144,"Unused "private" methods should be removed",MAJOR,162
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AppletApplication.java",S1134,"Track uses of "FIXME" tags",MAJOR,18
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AppletApplication.java",S1874,""@Deprecated" code should not be used",MINOR,26
+"jhotdraw-app:src/main/java/org/jhotdraw/app/AppletApplication.java",S1874,""@Deprecated" code should not be used",MINOR,32
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultApplicationModel.java",S1186,"Methods should not be empty",CRITICAL,72
+"jhotdraw-app:src/main/java/org/jhotdraw/app/DefaultMenuBuilder.java",S1104,"Class variable fields should not have public accessibility",MINOR,56
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1450,"Private fields only used as local variables in methods should become local variables",MINOR,179
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1186,"Methods should not be empty",CRITICAL,187
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,197
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1192,"String literals should not be duplicated",CRITICAL,251
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,279
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S125,"Sections of code should not be commented out",MAJOR,304
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,318
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,328
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S125,"Sections of code should not be commented out",MAJOR,343
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S135,"Loops should not contain more than a single "break" or "continue" statement",MINOR,430
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1481,"Unused local variables should be removed",MINOR,548
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1481,"Unused local variables should be removed",MINOR,556
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,559
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1481,"Unused local variables should be removed",MINOR,576
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1481,"Unused local variables should be removed",MINOR,577
+"jhotdraw-app:src/main/java/org/jhotdraw/app/MDIApplication.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,641
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1186,"Methods should not be empty",CRITICAL,177
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S125,"Sections of code should not be commented out",MAJOR,247
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,253
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,285
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S135,"Loops should not contain more than a single "break" or "continue" statement",MINOR,370
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1481,"Unused local variables should be removed",MINOR,439
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1481,"Unused local variables should be removed",MINOR,479
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1481,"Unused local variables should be removed",MINOR,480
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,542
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,588
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1134,"Track uses of "FIXME" tags",MAJOR,664
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1854,"Unused assignments should be removed",MAJOR,673
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,676
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S1186,"Methods should not be empty",CRITICAL,731
+"jhotdraw-app:src/main/java/org/jhotdraw/app/OSXApplication.java",S3985,"Unused "private" classes should be removed",MAJOR,759
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1186,"Methods should not be empty",CRITICAL,143
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1192,"String literals should not be duplicated",CRITICAL,148
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,200
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,242
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,307
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S135,"Loops should not contain more than a single "break" or "continue" statement",MINOR,322
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S108,"Nested blocks of code should not be left empty",MAJOR,324
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1481,"Unused local variables should be removed",MINOR,408
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1481,"Unused local variables should be removed",MINOR,409
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1659,"Multiple variables should not be declared on the same line",MINOR,480
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1481,"Unused local variables should be removed",MINOR,481
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1155,"Collection.isEmpty() should be used to test for emptiness",MINOR,485
+"jhotdraw-app:src/main/java/org/jhotdraw/app/SDIApplication.java",S1481,"Unused local variables should be removed",MINOR,504
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/AbstractSaveUnsavedChangesAction.java",S125,"Sections of code should not be commented out",MAJOR,133
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/AbstractPreferencesAction.java",S5993,"Constructors of an "abstract" class should not be declared "public"",MAJOR,36
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,59
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,95
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,95
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S1192,"String literals should not be duplicated",CRITICAL,108
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S125,"Sections of code should not be commented out",MAJOR,177
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ExitAction.java",S125,"Sections of code should not be commented out",MAJOR,276
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/OpenApplicationAction.java",S1186,"Methods should not be empty",CRITICAL,43
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/OpenApplicationFileAction.java",S1068,"Unused "private" fields should be removed",MAJOR,63
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/OpenApplicationFileAction.java",S1068,"Unused "private" fields should be removed",MAJOR,64
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/OpenApplicationFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,81
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/PrintApplicationFileAction.java",S1068,"Unused "private" fields should be removed",MAJOR,45
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/PrintApplicationFileAction.java",S1068,"Unused "private" fields should be removed",MAJOR,46
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/PrintApplicationFileAction.java",S125,"Sections of code should not be commented out",MAJOR,67
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ReOpenApplicationAction.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,55
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/app/ReOpenApplicationAction.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,56
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ClearFileAction.java",S1192,"String literals should not be duplicated",CRITICAL,46
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ClearRecentFilesMenuAction.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,58
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ExportFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,108
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ExportFileAction.java",S1141,"Try-catch blocks should not be nested",MAJOR,120
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ExportFileAction.java",S1141,"Try-catch blocks should not be nested",MAJOR,125
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ExportFileAction.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,196
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/ExportFileAction.java",S1134,"Track uses of "FIXME" tags",MAJOR,198
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/LoadFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,95
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/LoadRecentFileAction.java",S125,"Sections of code should not be commented out",MAJOR,171
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/NewFileAction.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,64
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S1192,"String literals should not be duplicated",CRITICAL,87
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,97
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,230
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S125,"Sections of code should not be commented out",MAJOR,245
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S125,"Sections of code should not be commented out",MAJOR,274
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenFileAction.java",S125,"Sections of code should not be commented out",MAJOR,278
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/OpenRecentFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,71
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S1192,"String literals should not be duplicated",CRITICAL,78
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S1134,"Track uses of "FIXME" tags",MAJOR,104
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,106
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S1141,"Try-catch blocks should not be nested",MAJOR,109
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,121
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S3252,""static" base class members should not be accessed via derived types",CRITICAL,139
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S1141,"Try-catch blocks should not be nested",MAJOR,142
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,150
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S1134,"Track uses of "FIXME" tags",MAJOR,166
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/PrintFileAction.java",S1854,"Unused assignments should be removed",MAJOR,190
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/SaveFileAction.java",S1192,"String literals should not be duplicated",CRITICAL,82
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/file/SaveFileAction.java",S3776,"Cognitive Complexity of methods should not be too high",CRITICAL,96
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/window/TogglePaletteAction.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,26
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/window/TogglePaletteAction.java",S1948,"Fields in a "Serializable" class should either be transient or serializable",CRITICAL,27
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/window/TogglePaletteAction.java",S1185,"Overriding methods should do more than simply call the same method in the super class",MINOR,46
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/window/TogglePaletteAction.java",S125,"Sections of code should not be commented out",MAJOR,49
+"jhotdraw-app:src/main/java/org/jhotdraw/app/action/window/TogglePaletteAction.java",S125,"Sections of code should not be commented out",MAJOR,83
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,147
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,150
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,169
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,172
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,245
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,248
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,250
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,252
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S1172,"Unused method parameters should be removed",MAJOR,283
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S125,"Sections of code should not be commented out",MAJOR,307
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S3878,"Arrays should not be created for varargs parameters",MINOR,330
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXAdapter.java",S106,"Standard outputs should not be used directly to log anything",MAJOR,334
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXPaletteHandler.java",S1604,"Anonymous inner classes containing only one method should become lambdas",MAJOR,60
+"jhotdraw-app:src/main/java/org/jhotdraw/app/osx/OSXPaletteHandler.java",S3398,""private" methods called only by inner classes should be moved to those classes",MINOR,93

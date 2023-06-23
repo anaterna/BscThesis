@@ -1,0 +1,14 @@
+Pattern,mg-ca,mg-ce,cg-na,cg-npm,TotalBrokenRules,Minor,Major,Critical,Instance Count,Class Count
+Factory Method,537,144,90,618,17,12,1,1,4,14
+Prototype,1032,856,233,1122,66,18,25,16,13,32
+Singleton,65,149,45,94,55,11,34,10,13,12
+(Object)Adapter,1564,1127,308,1017,168,42,59,59,25,37
+
+Composite,888,664,223,1082,23,8,6,5,5,19
+Decorator,401,204,71,315,6,0,0,4,3,18
+Observer,10,32,22,53,12,2,4,5,2,4
+State,7338,2858,845,2643,433,72,209,144,81,91
+
+Bridge,2255,880,309,1072,113,30,43,35,22,25
+Template Method,178,589,136,355,112,31,48,25,15,27
+

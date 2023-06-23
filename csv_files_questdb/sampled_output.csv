@@ -1,0 +1,181 @@
+Class,Patterns,cg-na,cg-npm
+io.questdb.griffin.engine.functions.date.MonthOfYearFunctionFactory,Factory Method,1,8
+io.questdb.cairo.sql.AnalyticSPI,Factory Method,0,1
+io.questdb.griffin.engine.functions.str.RPadStrFunctionFactory,Factory Method,9,10
+io.questdb.griffin.engine.functions.cast.CastLongToSymbolFunctionFactory,Factory Method,10,24
+io.questdb.griffin.engine.functions.cast.CastDoubleToTimestampFunctionFactory,Factory Method,0,6
+io.questdb.griffin.engine.functions.catalogue.DumpThreadStacksFunctionFactory,Factory Method,8,11
+io.questdb.griffin.engine.functions.date.TimestampCeilFunctionFactory,Factory Method,4,18
+io.questdb.griffin.engine.functions.cast.CastLongToStrFunctionFactory,Factory Method,0,6
+io.questdb.griffin.engine.functions.groupby.MinTimestampGroupByFunctionFactory,Factory Method,0,9
+io.questdb.griffin.engine.functions.cast.CastBooleanToShortFunctionFactory,Factory Method,1,7
+io.questdb.griffin.engine.functions.cast.CastStrToRegProcedureFunctionFactory,Factory Method,3,6
+io.questdb.griffin.engine.functions.date.YearFunctionFactory,Factory Method,1,8
+io.questdb.griffin.engine.functions.catalogue.PrefixedAgeFunctionFactory,Factory Method,3,6
+io.questdb.griffin.engine.functions.cast.CastBooleanToStrFunctionFactory,Factory Method,0,6
+io.questdb.griffin.engine.functions.math.AddLongFunctionFactory,Factory Method,2,9
+io.questdb.cairo.sql.RecordCursor,Factory Method,0,307
+io.questdb.griffin.engine.functions.eq.EqShortFunctionFactory,Factory Method,0,9
+io.questdb.griffin.engine.functions.catalogue.FormatTypeFunctionFactory,Factory Method,0,6
+io.questdb.griffin.engine.functions.rnd.RndShortCCFunctionFactory,Factory Method,3,9
+io.questdb.griffin.engine.functions.date.DayOfMonthFunctionFactory,Factory Method,1,8
+io.questdb.griffin.engine.functions.cast.CastCharToTimestampFunctionFactory,Factory Method,0,6
+io.questdb.griffin.engine.table.LatestByLightRecordCursorFactory,Factory Method,159,185
+io.questdb.griffin.engine.functions.cast.CastLongToByteFunctionFactory,State,1,7
+io.questdb.griffin.engine.functions.cast.CastLongToFloatFunctionFactory,State,1,7
+io.questdb.cutlass.line.tcp.LineTcpMeasurementEvent,State,22,16
+io.questdb.griffin.SqlCodeGenerator,State,134,62
+io.questdb.std.WeakSelfReturningObjectPool,State,2,0
+io.questdb.test.TestListener,State,0,0
+io.questdb.griffin.engine.functions.cast.CastTimestampToDoubleFunctionFactory,State,1,7
+io.questdb.cutlass.line.udp.LineUdpLexer,State,17,4
+io.questdb.griffin.engine.functions.cast.CastTimestampToByteFunctionFactory,State,1,7
+io.questdb.griffin.engine.join.AsOfJoinLightRecordCursorFactory,State,11,3
+io.questdb.griffin.engine.functions.math.AtanDoubleFunctionFactory,State,4,8
+io.questdb.griffin.engine.functions.groupby.FirstUuidGroupByFunction,State,6,22
+io.questdb.griffin.engine.functions.cast.CastSymbolToCharFunctionFactory,State,1,7
+io.questdb.griffin.SqlParser,State,32,1
+io.questdb.griffin.engine.functions.math.AcosDoubleFunctionFactory,State,4,8
+io.questdb.cairo.O3CopyJob,State,2,2
+io.questdb.griffin.engine.functions.conditional.DoubleCaseFunction,State,2,1
+io.questdb.griffin.engine.functions.math.AbsIntFunctionFactory,State,1,8
+io.questdb.griffin.engine.functions.math.BitwiseAndIntFunctionFactory,State,2,9
+io.questdb.griffin.engine.table.DataFrameRecordCursorImpl,State,25,37
+io.questdb.cairo.O3PartitionJob,State,2,2
+io.questdb.griffin.engine.table.LatestByValuesIndexedFilteredRecordCursor,State,22,10
+io.questdb.griffin.CompiledQueryImpl,(Object)Adapter,84,228
+io.questdb.test.cutlass.pgwire.PGQuerySuspendabilityTest,(Object)Adapter,0,0
+io.questdb.griffin.engine.functions.groupby.MinIntGroupByFunction,(Object)Adapter,6,23
+io.questdb.griffin.engine.table.SortedSymbolIndexRowCursorFactory,(Object)Adapter,23,11
+io.questdb.std.LongLongHashSet,(Object)Adapter,20,14
+io.questdb.griffin.engine.table.LatestByAllRecordCursor,(Object)Adapter,6,8
+io.questdb.network.IODispatcherLinux,(Object)Adapter,12,2
+io.questdb.std.LowerCaseCharSequenceObjHashMap,(Object)Adapter,3,36
+io.questdb.std.datetime.microtime.MicrosecondClock,(Object)Adapter,0,26
+io.questdb.std.IOURingFacade,(Object)Adapter,0,20
+io.questdb.griffin.engine.functions.rnd.RndSymbolListFunctionFactory,(Object)Adapter,6,21
+io.questdb.cutlass.text.CopyRequestTask,(Object)Adapter,10,12
+io.questdb.griffin.engine.table.FilterOnSubQueryRecordCursorFactory,(Object)Adapter,88,199
+io.questdb.griffin.PurgingOperator,(Object)Adapter,28,10
+io.questdb.cairo.vm.api.MemoryARW,(Object)Adapter,0,4
+io.questdb.griffin.engine.functions.groupby.SumFloatGroupByFunction,(Object)Adapter,6,23
+io.questdb.cairo.TableWriterMetadata,(Object)Adapter,8,15
+io.questdb.griffin.engine.join.LongChain,(Object)Adapter,2,4
+io.questdb.cairo.RebuildColumnBase,(Object)Adapter,50,45
+io.questdb.cairo.wal.seq.SequencerMetadata,(Object)Adapter,8,17
+io.questdb.cairo.RecoverVarIndex,(Object)Adapter,3,0
+io.questdb.cutlass.http.processors.TextImportProcessor,(Object)Adapter,69,20
+io.questdb.griffin.engine.functions.constants.ByteTypeConstant,Singleton,1,1
+io.questdb.griffin.engine.functions.constants.CharTypeConstant,Singleton,1,1
+io.questdb.NullIndexFrameCursor,Singleton,1,1
+io.questdb.griffin.engine.functions.test.TestNPEFactory,Singleton,4,9
+io.questdb.cutlass.text.types.ShortAdapter,Singleton,1,3
+io.questdb.griffin.engine.functions.constants.ShortConstant,Singleton,2,3
+io.questdb.cairo.security.DenyAllSecurityContext,Singleton,1,2
+io.questdb.std.IOURingFacadeImpl,Singleton,4,16
+io.questdb.griffin.engine.functions.constants.StrTypeConstant,Singleton,1,4
+io.questdb.griffin.engine.functions.constants.DateTypeConstant,Singleton,1,1
+io.questdb.cutlass.text.types.ByteAdapter,Singleton,1,3
+io.questdb.griffin.engine.functions.constants.TimestampConstant,Singleton,2,3
+io.questdb.cutlass.line.udp.LineUdpParserSupport,Singleton,2,0
+io.questdb.test.std.TestFilesFacadeImpl,Singleton,0,0
+io.questdb.cutlass.line.LineProtoSecondTimestampAdapter,Singleton,1,2
+io.questdb.std.datetime.DateLocaleFactory,Singleton,5,2
+io.questdb.cutlass.pgwire.BadProtocolException,Singleton,1,0
+io.questdb.griffin.engine.functions.constants.Long256NullConstant,Singleton,1,2
+io.questdb.griffin.engine.functions.constants.DateConstant,Singleton,2,3
+io.questdb.griffin.engine.functions.constants.RegClassTypeConstant,Singleton,1,1
+io.questdb.mp.AlertedException,Singleton,1,0
+io.questdb.network.NoSpaceLeftInResponseBufferException,Singleton,1,0
+io.questdb.griffin.engine.functions.cast.CastBooleanToDateFunctionFactory,Decorator,1,7
+io.questdb.griffin.engine.functions.groupby.MaxDateGroupByFunctionFactory,Decorator,0,9
+io.questdb.griffin.engine.functions.groupby.MinFloatGroupByFunctionFactory,Decorator,0,9
+io.questdb.griffin.engine.functions.groupby.FirstTimestampGroupByFunction,Decorator,6,19
+io.questdb.griffin.engine.functions.rnd.RndLogFunctionFactory,Decorator,3,6
+io.questdb.griffin.engine.functions.groupby.CountLongConstGroupByFunction,Decorator,1,9
+io.questdb.griffin.engine.functions.eq.EqByteFunctionFactory,Decorator,0,9
+io.questdb.cairo.sql.VirtualRecord,Decorator,12,140
+io.questdb.griffin.engine.functions.cast.CastCharToSymbolFunctionFactory,Decorator,0,10
+io.questdb.griffin.engine.functions.math.AddLongFunctionFactory,Decorator,2,9
+io.questdb.griffin.engine.functions.table.MemoryMetricsFunctionFactory,Decorator,0,6
+io.questdb.griffin.engine.functions.groupby.MaxDoubleGroupByFunction,Decorator,6,20
+io.questdb.griffin.engine.functions.cast.CastLongToBooleanFunctionFactory,Decorator,0,6
+io.questdb.griffin.engine.groupby.DistinctSymbolRecordCursorFactory,Decorator,91,157
+io.questdb.griffin.engine.functions.math.RadiansDoubleFunctionFactory,Decorator,4,8
+io.questdb.griffin.engine.functions.catalogue.SimulateCrashFunctionFactory,Decorator,15,6
+io.questdb.griffin.engine.functions.groupby.CountSymbolGroupByFunctionFactory,Decorator,0,9
+io.questdb.cairo.SingleColumnType,Decorator,2,6
+io.questdb.griffin.engine.functions.cast.CastByteToDoubleFunctionFactory,Decorator,1,7
+io.questdb.cairo.ConcurrentBitmapIndexFwdReader,Decorator,26,8
+io.questdb.griffin.engine.functions.table.ReaderPoolFunctionFactory,Decorator,0,6
+io.questdb.griffin.engine.functions.conditional.CaseFunctionFactory,Decorator,0,6
+io.questdb.cairo.vm.AbstractMemoryCR,Proxy,20,28
+io.questdb.cairo.RecordChain,Proxy,230,651
+io.questdb.std.MemoryPages,Proxy,16,16
+io.questdb.griffin.model.QueryModel,Proxy,510,773
+io.questdb.griffin.engine.groupby.vect.GroupByRecordCursorFactory,Proxy,315,221
+io.questdb.griffin.WhereClauseParser,Proxy,68,4
+io.questdb.std.Sinkable,Proxy,0,2
+io.questdb.cairo.BitmapIndexWriter,Proxy,90,101
+io.questdb.cutlass.text.ParallelCsvFileImporter,Proxy,608,180
+io.questdb.cairo.SymbolColumnIndexer,Proxy,18,40
+io.questdb.std.IntList,Proxy,64,480
+io.questdb.std.Long256Impl,Proxy,18,39
+io.questdb.cairo.CairoEngine,Proxy,237,819
+io.questdb.griffin.model.CreateTableModel,Proxy,51,124
+io.questdb.griffin.engine.groupby.DistinctKeyRecordCursorFactory,Proxy,2,3
+io.questdb.griffin.model.InsertModel,Proxy,33,63
+io.questdb.cutlass.text.TextLoader,Proxy,120,143
+io.questdb.cairo.sql.RecordCursor,Proxy,0,307
+io.questdb.cutlass.http.processors.TextImportProcessorState,Proxy,14,2
+io.questdb.cairo.vm.api.MemoryCR,Proxy,4,9
+io.questdb.griffin.model.JoinContext,Proxy,22,4
+io.questdb.griffin.SqlCompiler,Proxy,133,63
+io.questdb.log.Log,Bridge,0,2516
+io.questdb.griffin.engine.functions.date.TimestampCeilFunctionFactory,Bridge,4,18
+io.questdb.cairo.sql.DataFrameCursor,Bridge,0,70
+io.questdb.griffin.engine.table.DataFrameRecordCursor,Bridge,0,52
+io.questdb.test.AbstractGriffinTest,Bridge,0,0
+io.questdb.mp.Sequence,Bridge,0,56
+io.questdb.cutlass.text.AbstractTextLexer,Bridge,79,35
+io.questdb.griffin.engine.functions.str.SplitPartFunctionFactory,Bridge,13,21
+io.questdb.network.NetworkFacade,Bridge,0,672
+io.questdb.network.IODispatcherConfiguration,Bridge,2,22
+io.questdb.cairo.pool.AbstractPool,Bridge,20,11
+io.questdb.std.datetime.microtime.MicrosecondClock,Bridge,0,26
+io.questdb.test.cutlass.line.tcp.BaseLineTcpContextTest,Bridge,0,0
+io.questdb.cairo.sql.Function,Bridge,0,20961
+io.questdb.cairo.sql.SqlExecutionCircuitBreaker,Bridge,68,374
+io.questdb.griffin.engine.groupby.AbstractSampleByCursor,Bridge,11,1
+io.questdb.test.AbstractCairoTest,Bridge,0,0
+io.questdb.cutlass.line.LineChannel,Bridge,0,8
+io.questdb.griffin.model.RuntimeIntrinsicIntervalModel,Bridge,0,3
+io.questdb.test.cutlass.line.udp.LineUdpInsertTest,Bridge,0,0
+io.questdb.griffin.engine.table.AbstractDataFrameRecordCursor,Bridge,16,28
+io.questdb.mp.AbstractQueueConsumerJob,Bridge,6,0
+io.questdb.griffin.engine.functions.regex.AbstractLikeStrFunctionFactory,Template Method,5,11
+io.questdb.std.LowerCaseAsciiCharSequenceObjHashMap,Template Method,2,8
+io.questdb.std.LongHashSet,Template Method,2,12
+io.questdb.cairo.pool.MetadataPool,Template Method,1,0
+io.questdb.griffin.engine.functions.str.SplitPartCharFunctionFactory,Template Method,16,21
+io.questdb.griffin.engine.groupby.SampleByFillNoneRecordCursorFactory,Template Method,1,3
+io.questdb.cairo.pool.AbstractPool,Template Method,20,11
+io.questdb.griffin.engine.groupby.vect.GroupByJob,Template Method,0,0
+io.questdb.griffin.engine.functions.cast.CastGeoHashToGeoHashFunctionFactory,Template Method,24,32
+io.questdb.griffin.engine.table.LatestByAllRecordCursor,Template Method,6,8
+io.questdb.cutlass.line.udp.AbstractLineProtoUdpReceiver,Template Method,44,5
+io.questdb.std.LowerCaseCharSequenceObjHashMap,Template Method,3,36
+io.questdb.cairo.O3PartitionJob,Template Method,2,2
+io.questdb.griffin.engine.table.AbstractDescendingRecordListCursor,Template Method,5,5
+io.questdb.griffin.engine.ops.OperationDispatcher,Template Method,8,1
+io.questdb.cairo.CairoEngine,Template Method,237,819
+io.questdb.std.LongObjHashMap,Template Method,1,7
+io.questdb.griffin.engine.functions.cast.CastIntToSymbolFunctionFactory,Template Method,0,10
+io.questdb.log.LogAlertSocketWriter,Template Method,192,115
+io.questdb.std.AbstractLongHashSet,Template Method,8,5
+io.questdb.std.datetime.millitime.TimeZoneRulesMillis,Template Method,0,1
+io.questdb.std.AbstractLowerCaseCharSequenceHashMap,Template Method,2,10
+io.questdb.metrics.MetricsRegistry,Proxy2,0,33
+io.questdb.metrics.NullMetricsRegistry,Proxy2,0,27
+io.questdb.test.MetricsTest,Proxy2,0,0
+io.questdb.std.LongLongHashSet,Strategy,20,14

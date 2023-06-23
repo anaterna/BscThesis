@@ -1,0 +1,55 @@
+{
+  "component": {
+    "key": "hbase-protocol-shaded",
+    "name": "hbase/hbase-protocol-shaded",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "complexity",
+        "value": "19"
+      },
+      {
+        "metric": "code_smells",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "development_cost",
+        "value": "10110",
+        "bestValue": false
+      },
+      {
+        "metric": "duplicated_lines_density",
+        "value": "0.0",
+        "bestValue": true
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "lines",
+        "value": "436"
+      },
+      {
+        "metric": "statements",
+        "value": "54"
+      },
+      {
+        "metric": "critical_violations",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "bugs",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "classes",
+        "value": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+jhotdraw-app jhotdraw-xml jhotdraw-datatransfer jhotdraw-actions jhotdraw-api jhotdraw-utils jhotdraw-gui jhotdraw-core
