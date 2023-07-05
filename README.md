@@ -1,11 +1,14 @@
-# Retrieve Technical Debt analysis from GitHub repositories
+# BSc Thesis - Is degin pattern grime related to technical debt?
+***
+
+# 1. Retrieve Technical Debt analysis from GitHub repositories
 
 ## The script file ``sconar.sh``: 
 - will be used to get multiple public GitHub repositories and run SonarQube analysis on them.
 - The SonarQube instance is available locally, and running on port 9000 within a Docker container.
 - The script will be run from the command line, and will take in a list of GitHub repositories as arguments, as well
  as the SonarQube token to use for the analysis.
-- The script will then run the SonarQube analysis on each repository, and output all the classes that contain instances of Technical Debt and the number of Technical Debt items detected per project
+- The script will then run the SonarQube analysis on each repository, and output all the classes that contain instances of Technical Debt and the number of Technical Debt items detected per project which are retrived from SonarQube API
 
 ## Prerequisites
 - This script requires the following to be installed:
@@ -56,4 +59,14 @@ The script needs the following arguments to be passed in:
 
 ### Output
 - A folder with .csv files containing TD Java classes per project will be created in the workdir directory.
-- A folder with .csv files containing the amount of TD per project will be created in the workdir directory.
+
+***
+
+# 2. Python scripts utilized in this BSc thesis analysis
+
+### This reposository also contains Python scripts utilized in this reserch for the following purposes:
+- Parse XML file (that contains grime instances) to csv file with all grime metrics per class or with all the grime instances and its share of class and modular grime metrics
+- Merge TD and grime classes together
+- Perform stratifies sampling 
+- Perfom TD analysis on the dataset
+- Statistical analysis (e.g., t-test, chi-square, linear regrression, spearman correlation)
