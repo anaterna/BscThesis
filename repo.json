@@ -1,3 +1,4 @@
 [
-  "https://github.com/apache/hbase.git"
+  "https://github.com/questdb/questdb.git",
+  "https://github.com/wumpz/jhotdraw.git"
 ]

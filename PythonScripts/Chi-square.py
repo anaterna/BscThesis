@@ -20,7 +20,6 @@ data = pd.read_csv('./instance_grime.csv')
 # Create a new column "hasTD" based on "TD"
 
 def chi_square(df):
-    print(df)
     df['TD'] = pd.to_numeric(df['TD'])
     df['hasTD'] = df['TD'].apply(lambda x: 1 if x > 0 else 0)
 
@@ -89,10 +88,6 @@ def chi_square(df):
     print('cg-npm')
     print('Chi-square statistic:', chi2)
     print('P-value:', p_value)
-
-
-
-
 
 
 

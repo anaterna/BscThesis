@@ -68,7 +68,7 @@ def merge_csv_files(csv_file1, csv_file2, merged_csv_file):
 
 
 # Example usage
-merge_csv_files('./csv_files_jhotdraw/aggregated_file.csv', './FINAL_JHOT/all_grime_classes.csv', './FINAL_JHOT/all_merged_files.csv')
+merge_csv_files('./csv_files_hbase/aggregated_TD.csv', './FINAL_HB/all_grime_classes.csv', './FINAL_HB/all_merged_files.csv')
 
 # Remove a colomn in a CSV file
 def remove_column(csv_file, column_index):

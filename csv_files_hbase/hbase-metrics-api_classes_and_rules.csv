@@ -1,4 +1,0 @@
-Class,RuleId,RuleName,Severity,Line
-"hbase-metrics-api:src/main/java/org/apache/hadoop/hbase/metrics/MetricRegistriesLoader.java",S115,CRITICAL,32
-"hbase-metrics-api:src/main/java/org/apache/hadoop/hbase/metrics/MetricRegistriesLoader.java",S112,MAJOR,66
-"hbase-metrics-api:src/main/java/org/apache/hadoop/hbase/metrics/Snapshot.java",S1135,INFO,120

@@ -1,6 +1,0 @@
-Class,RuleId,RuleName,Severity,Line
-"hbase-logging:src/test/java/org/apache/hadoop/hbase/logging/Target.java",S106,MAJOR,23
-"hbase-logging:src/test/java/org/apache/hadoop/hbase/logging/Target.java",S106,MAJOR,24
-"hbase-logging:src/main/java/org/apache/hadoop/hbase/logging/JulToSlf4jInitializer.java",S1118,MAJOR,38
-"hbase-logging:src/test/java/org/apache/log4j/FileAppender.java",S1193,MAJOR,157
-"hbase-logging:src/main/java/org/apache/hadoop/hbase/logging/Log4jUtils.java",S1192,CRITICAL,48

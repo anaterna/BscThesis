@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the CSV file into a pandas DataFrame
-df = pd.read_csv('csv_files/rule_occurrences.csv')
+df = pd.read_csv('csv_files_jhotdraw/rule_occurrences.csv')
 
 # Group the data by TDType and sum the occurrences
 grouped_df = df.groupby('TDType')['Occurrences'].sum().reset_index()
@@ -19,7 +19,7 @@ plt.title('Distribution of Technical Debt Types')
 
 plt.tight_layout()  # Add this line to prevent cropping of titles
 # Save the figure (optional)
-plt.savefig(f'charts/td_distribution.png')
+plt.savefig(f'charts/td_distribution_jhot.png')
 
 # Display the graph
 plt.show()

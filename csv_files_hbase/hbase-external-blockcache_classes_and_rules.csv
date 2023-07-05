@@ -1,9 +1,0 @@
-Class,RuleId,RuleName,Severity,Line
-"hbase-external-blockcache:src/main/java/org/apache/hadoop/hbase/io/hfile/MemcachedBlockCache.java",S1124,MINOR,93
-"hbase-external-blockcache:src/main/java/org/apache/hadoop/hbase/io/hfile/MemcachedBlockCache.java",S2438,MAJOR,126
-"hbase-external-blockcache:src/main/java/org/apache/hadoop/hbase/io/hfile/MemcachedBlockCache.java",S3776,CRITICAL,160
-"hbase-external-blockcache:src/test/java/org/apache/hadoop/hbase/io/hfile/TestMemcachedBlockCache.java",S3008,MINOR,52
-"hbase-external-blockcache:src/test/java/org/apache/hadoop/hbase/io/hfile/TestMemcachedBlockCache.java",S3008,MINOR,53
-"hbase-external-blockcache:src/test/java/org/apache/hadoop/hbase/io/hfile/TestMemcachedBlockCache.java",S2293,MINOR,107
-"hbase-external-blockcache:src/main/java/org/apache/hadoop/hbase/io/hfile/MemcachedBlockCache.java",S4165,MAJOR,184
-"hbase-external-blockcache:src/main/java/org/apache/hadoop/hbase/io/hfile/MemcachedBlockCache.java",S1186,CRITICAL,297

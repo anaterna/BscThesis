@@ -6,7 +6,7 @@ from collections import defaultdict
 # The output will contain classes that participate in unique and multiple instance of grime
 
 # Parse the XML file
-tree = ET.parse('./jhotdraw_patterns.ssap.pttgrime.xml')
+tree = ET.parse('./hbase_other.ssap.pttgrime.xml')
 root = tree.getroot()
 
 # Dictionary to store class details
@@ -57,7 +57,7 @@ for pattern in root.findall('pattern'):
 #class_dict = {class_name: class_details for class_name, class_details in class_dict.items() if class_details['count'] == 1}
 
 # Example usage
-with open('./FINAL_JHOT/all_grime_classes.csv', 'w', newline='') as csvfile: 
+with open('./FINAL_HB/all_grime_classes2.csv', 'w', newline='') as csvfile: 
     fieldnames = ['Class', 'cg-na', 'cg-npm', 'Pattern Name', 'count']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()

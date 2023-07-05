@@ -147,63 +147,64 @@ else
 
       echo "Cloning is done successful!"
 
-    #   # Create the binaries for each repository before running the analysis
-    #   cd "$WORKDIR"/"$REPO_NAME" || exit 1
+      # Create the binaries for each repository before running the analysis
+      cd "$WORKDIR"/"$REPO_NAME" || exit 1
 
-    #   echo "INFO: Creating the binaries for the repository $REPO_NAME"
+      echo "INFO: Creating the binaries for the repository $REPO_NAME"
 
-    #   mvn clean package -DskipTests > /dev/null 2>&1
+      mvn clean package -DskipTests > /dev/null 2>&1
 
-    #   if [ $? -ne 0 ]; then
-    #     echo "ERROR: Failed to create the binaries for the repository $REPO_NAME"
-    #     exit 1
-    #   fi
+      if [ $? -ne 0 ]; then
+        echo "ERROR: Failed to create the binaries for the repository $REPO_NAME"
+        exit 1
+      fi
 
-    #   echo "INFO: Successfully created the binaries for the repository $REPO_NAME"
+      echo "INFO: Successfully created the binaries for the repository $REPO_NAME"
 
-    #   cd - || exit 1
+      cd - || exit 1
 
-    #   # Find all the projects that contain the subdirectory "target/classes" and create there a sonar-project.properties file.
-    #   # Set the project as value to the sonar binaries
-    #   for PACKAGE in $(find "$WORKDIR/$REPO_NAME" -type d -name "classes"); do
-    #       # Remove the first directory from the path
-    #       PACKAGE=$(echo "$PACKAGE" | cut -d'/' -f2-)
-    #       echo "Found the package $PACKAGE"
+      # Find all the projects that contain the subdirectory "target/classes" and create there a sonar-project.properties file.
+      # Set the project as value to the sonar binaries
+      for PACKAGE in $(find "$WORKDIR/$REPO_NAME" -type d -name "classes"); do
+          # Remove the first directory from the path
+          PACKAGE=$(echo "$PACKAGE" | cut -d'/' -f2-)
+          echo "Found the package $PACKAGE"
 
-    #       # Get the second directory from the PACKAGE path
-    #       CURRENT_DIR=$(echo "$PACKAGE" | cut -d'/' -f2)
-    #       echo "Found directory is $CURRENT_DIR"
+          # Get the second directory from the PACKAGE path
+          CURRENT_DIR=$(echo "$PACKAGE" | cut -d'/' -f2)
+          echo "Found directory is $CURRENT_DIR"
 
-    #       # Create the sonar-project.properties file in the repository that we cloned
-    #       # Check if a file named sonar-project.properties already exists at the root of the repository that we cloned
-    #       if [ -f "$REPO_NAME/$CURRENT_DIR/sonar-project.properties" ]; then
-    #           echo "WARNING: A sonar-project.properties file already exists in the repository $REPO_NAME/$CURRENT_DIR"
-    #           echo "WARNING: Deleting the sonar-project.properties file and recreating it"
-    #           rm -rf "$REPO_NAME/$CURRENT_DIR/sonar-project.properties"
-    #       fi
+          # Create the sonar-project.properties file in the repository that we cloned
+          # Check if a file named sonar-project.properties already exists at the root of the repository that we cloned
+          if [ -f "$REPO_NAME/$CURRENT_DIR/sonar-project.properties" ]; then
+              echo "WARNING: A sonar-project.properties file already exists in the repository $REPO_NAME/$CURRENT_DIR"
+              echo "WARNING: Deleting the sonar-project.properties file and recreating it"
+              rm -rf "$REPO_NAME/$CURRENT_DIR/sonar-project.properties"
+          fi
 
-    #       SONAR_PROPERTIES_FILE=$REPO_NAME/$CURRENT_DIR/sonar-project.properties
-    #       touch "$SONAR_PROPERTIES_FILE"
+          SONAR_PROPERTIES_FILE=$REPO_NAME/$CURRENT_DIR/sonar-project.properties
+          touch "$SONAR_PROPERTIES_FILE"
 
-    #       # Configure SonarQube server URL and authentication token
-    #       echo "sonar.host.url=$SONAR_URL" >> "$SONAR_PROPERTIES_FILE"
-    #       echo "sonar.token=$SONAR_TOKEN" >> "$SONAR_PROPERTIES_FILE"
+          # Configure SonarQube server URL and authentication token
+          echo "sonar.host.url=$SONAR_URL" >> "$SONAR_PROPERTIES_FILE"
+          echo "sonar.token=$SONAR_TOKEN" >> "$SONAR_PROPERTIES_FILE"
 
-    #       echo "$PACKAGE"
-    #       echo "sonar.java.binaries=target/classes" >> "$SONAR_PROPERTIES_FILE"
+          echo "$PACKAGE"
+          echo "sonar.java.binaries=target/classes" >> "$SONAR_PROPERTIES_FILE"
 
-    #       # Run the SonarQube analysis
-    #       sonar-scanner \
-    #         -Dsonar.projectKey="$CURRENT_DIR" \
-    #         -Dsonar.projectName="$REPO_NAME/$CURRENT_DIR" \
-    #         -Dsonar.projectVersion=1.0 \
-    #         -Dsonar.sources=. \
-    #         -Dsonar.host.url="$SONAR_URL" \
-    #         -Dsonar.token="$SONAR_TOKEN" \
-    #         -Dsonar.projectBaseDir="$WORKDIR"/"$REPO_NAME"/$CURRENT_DIR
-    #   done
+          # Run the SonarQube analysis
+          sonar-scanner \
+            -Dsonar.projectKey="$CURRENT_DIR" \
+            -Dsonar.projectName="$REPO_NAME/$CURRENT_DIR" \
+            -Dsonar.projectVersion=1.0 \
+            -Dsonar.sources=. \
+            -Dsonar.host.url="$SONAR_URL" \
+            -Dsonar.token="$SONAR_TOKEN" \
+            -Dsonar.projectBaseDir="$WORKDIR"/"$REPO_NAME"/$CURRENT_DIR
+      done
 
     done
+    exit 0
 
     # Retrieve all the active project-keys and find Java classes that contain Code Smells per project with the given key
     API_URL="${SONAR_URL}/api/components/search"
